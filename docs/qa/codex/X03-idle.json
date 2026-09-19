@@ -1,0 +1,36 @@
+{
+  "before": {
+    "motion": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "2",
+      "sceneSoundsPlayed": "1"
+    },
+    "render": {
+      "engine": "three.js r186",
+      "sceneDrawCalls": "223",
+      "sceneFrames": "381",
+      "sceneGeometries": "143",
+      "sceneTextures": "48",
+      "sceneTriangles": "104556"
+    }
+  },
+  "after": {
+    "motion": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "2",
+      "sceneSoundsPlayed": "1"
+    },
+    "render": {
+      "engine": "three.js r186",
+      "sceneDrawCalls": "223",
+      "sceneFrames": "381",
+      "sceneGeometries": "143",
+      "sceneTextures": "48",
+      "sceneTriangles": "104556"
+    }
+  }
+}

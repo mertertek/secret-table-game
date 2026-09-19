@@ -1,0 +1,16 @@
+{
+  "dedupBefore": {
+    "sceneAudioState": "running",
+    "sceneAudioVoices": "0",
+    "sceneCuesActive": "0",
+    "sceneCuesPlayed": "1",
+    "sceneSoundsPlayed": "1"
+  },
+  "dedupAfter": {
+    "sceneAudioState": "running",
+    "sceneAudioVoices": "0",
+    "sceneCuesActive": "0",
+    "sceneCuesPlayed": "1",
+    "sceneSoundsPlayed": "1"
+  }
+}

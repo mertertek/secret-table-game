@@ -1,0 +1,209 @@
+{
+  "at": "2026-09-10T20:03:41.196Z",
+  "viewport": "1440x900",
+  "dpr": 2,
+  "cpuThrottle": 4,
+  "runs": [
+    {
+      "fixture": "president-discard",
+      "quality": "standard",
+      "cameraMode": "overview",
+      "firstFrameMs": 1923,
+      "canvas": [
+        2160,
+        1350
+      ],
+      "calls": 220,
+      "tris": 86668,
+      "tex": 42,
+      "geo": 141,
+      "idleWindowMs": 2000,
+      "idleFrames": 0,
+      "fps": {
+        "mode": "flight",
+        "seconds": 5.06,
+        "sceneFrames": 146,
+        "sceneFps": 28.9,
+        "rafFps": 37.8,
+        "longTasks": 23,
+        "maxTaskMs": 146
+      }
+    },
+    {
+      "fixture": "president-discard",
+      "quality": "standard",
+      "cameraMode": "seat",
+      "firstFrameMs": 1571,
+      "canvas": [
+        2160,
+        1350
+      ],
+      "calls": 223,
+      "tris": 86704,
+      "tex": 42,
+      "geo": 144,
+      "idleWindowMs": 2000,
+      "idleFrames": 0,
+      "fps": {
+        "mode": "drag",
+        "seconds": 5.01,
+        "sceneFrames": 158,
+        "sceneFps": 31.5,
+        "rafFps": 32.1,
+        "longTasks": 26,
+        "maxTaskMs": 127
+      }
+    },
+    {
+      "fixture": "president-discard",
+      "quality": "low",
+      "cameraMode": "overview",
+      "firstFrameMs": 1506,
+      "canvas": [
+        1440,
+        900
+      ],
+      "calls": 119,
+      "tris": 39660,
+      "tex": 40,
+      "geo": 124,
+      "idleWindowMs": 2000,
+      "idleFrames": 0,
+      "fps": {
+        "mode": "flight",
+        "seconds": 5.04,
+        "sceneFrames": 152,
+        "sceneFps": 30.2,
+        "rafFps": 38.9,
+        "longTasks": 22,
+        "maxTaskMs": 142
+      }
+    },
+    {
+      "fixture": "president-discard",
+      "quality": "low",
+      "cameraMode": "seat",
+      "firstFrameMs": 1550,
+      "canvas": [
+        1440,
+        900
+      ],
+      "calls": 120,
+      "tris": 39298,
+      "tex": 40,
+      "geo": 127,
+      "idleWindowMs": 2000,
+      "idleFrames": 0,
+      "fps": {
+        "mode": "drag",
+        "seconds": 5,
+        "sceneFrames": 197,
+        "sceneFps": 39.4,
+        "rafFps": 40,
+        "longTasks": 29,
+        "maxTaskMs": 80
+      }
+    },
+    {
+      "fixture": "table-size-10",
+      "quality": "standard",
+      "cameraMode": "overview",
+      "firstFrameMs": 1507,
+      "canvas": [
+        2160,
+        1350
+      ],
+      "calls": 235,
+      "tris": 100686,
+      "tex": 35,
+      "geo": 149,
+      "idleWindowMs": 2000,
+      "idleFrames": 0,
+      "fps": {
+        "mode": "flight",
+        "seconds": 5.15,
+        "sceneFrames": 184,
+        "sceneFps": 35.7,
+        "rafFps": 44.5,
+        "longTasks": 13,
+        "maxTaskMs": 131
+      }
+    },
+    {
+      "fixture": "table-size-10",
+      "quality": "standard",
+      "cameraMode": "seat",
+      "firstFrameMs": 1646,
+      "canvas": [
+        2160,
+        1350
+      ],
+      "calls": 235,
+      "tris": 100686,
+      "tex": 35,
+      "geo": 149,
+      "idleWindowMs": 2000,
+      "idleFrames": 0,
+      "fps": {
+        "mode": "drag",
+        "seconds": 5.01,
+        "sceneFrames": 167,
+        "sceneFps": 33.4,
+        "rafFps": 34,
+        "longTasks": 26,
+        "maxTaskMs": 89
+      }
+    },
+    {
+      "fixture": "table-size-10",
+      "quality": "low",
+      "cameraMode": "overview",
+      "firstFrameMs": 1465,
+      "canvas": [
+        1440,
+        900
+      ],
+      "calls": 120,
+      "tris": 43196,
+      "tex": 33,
+      "geo": 132,
+      "idleWindowMs": 2000,
+      "idleFrames": 0,
+      "fps": {
+        "mode": "flight",
+        "seconds": 5.13,
+        "sceneFrames": 194,
+        "sceneFps": 37.8,
+        "rafFps": 46.6,
+        "longTasks": 12,
+        "maxTaskMs": 109
+      }
+    },
+    {
+      "fixture": "table-size-10",
+      "quality": "low",
+      "cameraMode": "seat",
+      "firstFrameMs": 1538,
+      "canvas": [
+        1440,
+        900
+      ],
+      "calls": 120,
+      "tris": 43196,
+      "tex": 33,
+      "geo": 132,
+      "idleWindowMs": 2000,
+      "idleFrames": 0,
+      "fps": {
+        "mode": "drag",
+        "seconds": 5.01,
+        "sceneFrames": 201,
+        "sceneFps": 40.1,
+        "rafFps": 40.7,
+        "longTasks": 28,
+        "maxTaskMs": 88
+      }
+    }
+  ],
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)"
+}

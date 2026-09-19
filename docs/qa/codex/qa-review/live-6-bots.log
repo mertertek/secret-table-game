@@ -1,0 +1,75 @@
+[14:15:56] oda 31c767e1… — şu an 2 üye, hedef 6
+[14:15:58]   Bot-Bora katıldı (3 üye)
+[14:16:01]   Bot-Cem katıldı (4 üye)
+[14:16:03]   Bot-Derya katıldı (5 üye)
+[14:16:06]   Bot-Efe katıldı (6 üye)
+[14:16:08] 5 bot hazır. Sen "Hazır" olup "Başlat" dediğinde oyun başlar.
+[14:16:09]   senin "Hazır" olman bekleniyor (1 kişi hazır değil)…
+[14:16:32] oyun başladı — botlar yalnız kendi sıralarını oynuyor.
+
+[14:16:33] faz=role_reveal rev=0 L0/F0 tracker=0
+[14:16:40] faz=role_reveal rev=5 L0/F0 tracker=0
+[14:16:40]   (senin rol onayın bekleniyor — tarayıcıda "Hazır")
+[14:17:30] faz=nomination rev=6 L0/F0 tracker=0
+[14:17:33]   Bot-Cem nominate → ok
+[14:17:37] faz=voting rev=7 L0/F0 tracker=0
+[14:17:45] faz=voting rev=12 L0/F0 tracker=0
+[14:17:45]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:18:02] faz=president_discard rev=13 L0/F0 tracker=0
+[14:18:06]   Bot-Cem discard_policy → ok
+[14:18:10] faz=chancellor_choice rev=14 L0/F0 tracker=0
+[14:18:10]   >>> SIRA SENDE (chancellor_choice) — tarayıcıda hamleni yap
+[14:18:50] faz=nomination rev=15 L1/F0 tracker=0
+[14:18:53]   Bot-Derya nominate → ok
+[14:18:57] faz=voting rev=16 L1/F0 tracker=0
+[14:19:05] faz=voting rev=21 L1/F0 tracker=0
+[14:19:05]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:19:17] faz=president_discard rev=22 L1/F0 tracker=0
+[14:19:21]   Bot-Derya discard_policy → ok
+[14:19:25] faz=chancellor_choice rev=23 L1/F0 tracker=0
+[14:19:29]   Bot-Ada enact_policy → ok
+[14:19:33] faz=nomination rev=24 L1/F1 tracker=0
+[14:19:36]   Bot-Efe nominate → ok
+[14:19:40] faz=voting rev=25 L1/F1 tracker=0
+[14:19:48] faz=voting rev=30 L1/F1 tracker=0
+[14:19:48]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:20:02] faz=president_discard rev=31 L1/F1 tracker=0
+[14:20:06]   Bot-Efe discard_policy → ok
+[14:20:10] faz=chancellor_choice rev=32 L1/F1 tracker=0
+[14:20:10]   >>> SIRA SENDE (chancellor_choice) — tarayıcıda hamleni yap
+[14:20:50] faz=nomination rev=33 L2/F1 tracker=0
+[14:20:50]   >>> SIRA SENDE (nomination) — tarayıcıda hamleni yap
+[14:21:50] faz=voting rev=34 L2/F1 tracker=0
+[14:21:58] faz=voting rev=39 L2/F1 tracker=0
+[14:21:58]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:22:44] faz=president_discard rev=40 L2/F1 tracker=0
+[14:22:44]   >>> SIRA SENDE (president_discard) — tarayıcıda hamleni yap
+[14:23:40] faz=chancellor_choice rev=41 L2/F1 tracker=0
+[14:23:43]   Bot-Ada enact_policy → ok
+[14:23:47] faz=nomination rev=42 L3/F1 tracker=0
+[14:23:51]   Bot-Ada nominate → ok
+[14:23:55] faz=voting rev=43 L3/F1 tracker=0
+[14:24:06] faz=voting rev=48 L3/F1 tracker=0
+[14:24:06]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:24:11] faz=nomination rev=49 L3/F1 tracker=1
+[14:24:15]   Bot-Bora nominate → ok
+[14:24:20] faz=voting rev=50 L3/F1 tracker=1
+[14:24:29] faz=voting rev=55 L3/F1 tracker=1
+[14:24:29]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:25:10] faz=president_discard rev=56 L3/F1 tracker=1
+[14:25:13]   Bot-Bora discard_policy → ok
+[14:25:18] faz=chancellor_choice rev=57 L3/F1 tracker=1
+[14:25:21]   Bot-Cem enact_policy → ok
+[14:25:25] faz=nomination rev=58 L4/F1 tracker=0
+[14:25:29]   Bot-Cem nominate → ok
+[14:25:33] faz=voting rev=59 L4/F1 tracker=0
+[14:25:40] faz=voting rev=64 L4/F1 tracker=0
+[14:25:40]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:25:58] faz=president_discard rev=65 L4/F1 tracker=0
+[14:26:01]   Bot-Cem discard_policy → ok
+[14:26:05] faz=chancellor_choice rev=66 L4/F1 tracker=0
+[14:26:05]   >>> SIRA SENDE (chancellor_choice) — tarayıcıda hamleni yap
+[14:26:57] faz=game_over rev=67 L5/F1 tracker=0
+[14:26:57] 
+>>> game_over  winner=liberal reason=liberal_policies_enacted
+[14:26:57] party yardımcısı bitti.

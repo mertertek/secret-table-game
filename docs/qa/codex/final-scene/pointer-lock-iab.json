@@ -1,0 +1,91 @@
+{
+  "state": {
+    "canvas": {
+      "bottom": 1000,
+      "height": 1000,
+      "left": 0,
+      "right": 1165,
+      "top": 0,
+      "width": 1165,
+      "x": 0,
+      "y": 0
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.600",
+      "fpCameraZ": "2.035",
+      "fpFov": "64.00",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpMotion": "settled",
+      "fpMotionProgress": "1",
+      "fpPrivateFaces": "3",
+      "sceneDrawCalls": "122",
+      "sceneFrames": "296",
+      "sceneGeometries": "142",
+      "sceneTextures": "41",
+      "sceneTriangles": "66398"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "0",
+      "qaIntents": "[{\"type\":\"inspect_own_role\",\"open\":true},{\"type\":\"inspect_own_role\",\"open\":false}]",
+      "qaLook": "{\"yaw\":-1.4,\"pitch\":-0.596}",
+      "qaSelection": "null",
+      "qaTargets": "{\"slots\":[null,null,null],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "1",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "snapshot": "- main:\n  - region \"Üretim sahnesi\":\n    - navigation \"Masa inceleme\":\n      - button \"Genel masa\" [pressed]\n      - button \"Özel alanı incele\"\n      - button \"Tahtayı incele\"\n  - complementary:\n    - heading \"Son sahne kontrolü\" [level=1]\n    - generic: Üretim TableScene · Sentetik yetkili görünüm · Ağ ve hamle gönderimi yok.\n    - text: Senaryo\n    - combobox \"Senaryo\":\n      - option \"Lobi — 7 kişi\"\n      - option \"Rol tanışması — faşist\"\n      - option \"Rol tanışması — liberal\"\n      - option \"Adaylık — başkan seçiyor\"\n      - option \"Oylama — oy bekleniyor\"\n      - option \"Oylama — oy verildi\"\n      - option \"Seçim sonucu — hükümet kuruldu\"\n      - option \"Yasama — başkan kart atıyor\" [selected]\n      - option \"Yasama — şansölye yürürlüğe koyuyor\"\n      - option \"Yasama — veto hakkı açık\"\n      - option \"Yasama — başkan vetoyu yanıtlıyor\"\n      - option \"Sonuç — politika tahtaya yerleşti\"\n      - option \"Yetki — sadakat incelemesi hedefi\"\n      - option \"Yetki — parti incelemesi sonucu\"\n      - option \"Yetki — deste bakma sonucu\"\n      - option \"Oyun sonu — liberaller kazandı\"\n      - option \"Oyun sonu — faşistler kazandı\"\n      - option \"Duraklama — başka oyuncu çevrimdışı\"\n      - option \"Bağlantı — kendim yeniden bağlanıyorum\"\n      - option \"Uzun isimler — kısaltma / hover\"\n      - option \"Masa — 5 kişi (small)\"\n      - option \"Masa — 6 kişi (small)\"\n      - option \"Masa — 7 kişi (medium)\"\n      - option \"Masa — 8 kişi (medium)\"\n      - option \"Masa — 9 kişi (large)\"\n      - option \"Masa — 10 kişi (large)\"\n    - text: Koltuk sayısı\n    - combobox \"Koltuk sayısı\":\n      - option \"5\"\n      - option \"6\"\n      - option \"7\" [selected]\n      - option \"8\"\n      - option \"9\"\n      - option \"10\"\n    - text: Yerel koltuk\n    - combobox \"Yerel koltuk\":\n      - option \"1\" [selected]\n      - option \"2\"\n      - option \"3\"\n      - option \"4\"\n      - option \"5\"\n      - option \"6\"\n      - option \"7\"\n    - text: Yetkili kart sayısı\n    - combobox \"Yetkili kart sayısı\":\n      - option \"3\" [selected]\n      - option \"2\"\n      - option \"1\"\n    - button \"Kamera değiştir\"\n    - button \"Yakın inceleme\"\n    - button \"Kimliği aç/kapat\"\n    - button \"Kart 1\" [active]\n    - button \"Kart 2\"\n    - button \"Kart 3\"\n    - button \"Seçimi iptal et\"\n    - button \"Önceki inceleme\"\n    - button \"Sonraki inceleme\"\n    - button \"Merkez hedefi seç\"\n    - button \"Gerçek fare kilidi iste\"\n    - generic: \"Gerçek pointerlockerror: istek reddedildi\"\n    - button \"Kilidi bırak\"\n    - text: Hassasiyet\n    - combobox \"Hassasiyet\":\n      - option \"0.5\"\n      - option \"1\" [selected]\n      - option \"2\"\n    - checkbox \"Sentetik doğrulanmış başlar\"\n    - text: Sentetik doğrulanmış başlar\n    - checkbox \"Düşük grafik\"\n    - text: Düşük grafik\n    - checkbox \"Hareketi azalt\"\n    - text: Hareketi azalt\n    - checkbox \"Sunumu duraklat\"\n    - text: Sunumu duraklat\n    - checkbox \"Özel veriyi kaldır\"\n    - text: Özel veriyi kaldır\n    - checkbox \"Olay kuyruğunu göster\" [checked]\n    - text: Olay kuyruğunu göster\n    - checkbox \"Sahne bağlı\" [checked]\n    - text: Sahne bağlı\n    - button \"Aynı revision resync\"\n    - button \"Yeni olay grubu\"\n    - status:\n      - text: \"Seçim: null\"\n      - text: \"İnceleme: 1\"\n      - text: \"Yerel niyet: 2 · Sunucu hamlesi: 0\"",
+  "logs": [
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-09-09T16:29:55.954Z",
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+    },
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-09-09T16:33:41.486Z",
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+    },
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-09-09T16:33:43.121Z",
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+    },
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-09-09T16:36:10.709Z",
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+    }
+  ]
+}

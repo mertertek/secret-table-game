@@ -1,0 +1,49 @@
+[
+  {
+    "name": "browser_fixture_prepared",
+    "value": true
+  },
+  {
+    "name": "actual_browser_A_to_B_authorized_actor",
+    "value": true
+  },
+  {
+    "name": "actual_browser_B_to_A_delivery",
+    "value": true
+  },
+  {
+    "name": "browser_token_refresh_reauth",
+    "value": true
+  },
+  {
+    "name": "browser_delivery_after_refresh",
+    "value": true
+  },
+  {
+    "name": "browser_offline_send_suppressed",
+    "value": true
+  },
+  {
+    "name": "browser_network_return_delivery",
+    "value": true
+  },
+  {
+    "name": "browser_errors",
+    "value": [
+      0,
+      0
+    ]
+  },
+  {
+    "name": "browser_stop_suppresses_send",
+    "value": true
+  },
+  {
+    "name": "fixture",
+    "value": {
+      "roomId": "c09462cf-52a5-4c82-a118-1d73f9cb3cc6",
+      "gameId": "7de2b3fc-b7e0-45ed-bd51-f97ec4246f7f",
+      "kind": "isolated browser transport fixture"
+    }
+  }
+]

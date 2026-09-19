@@ -1,0 +1,330 @@
+{
+  "started": "2026-09-09T09:41:20.325Z",
+  "smoke": [
+    {
+      "id": "lobby",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "130",
+        "sceneFrames": "6",
+        "sceneGeometries": "126",
+        "sceneTextures": "23",
+        "sceneTriangles": "65314"
+      }
+    },
+    {
+      "id": "role-reveal-fascist",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "160",
+        "sceneFrames": "10",
+        "sceneGeometries": "107",
+        "sceneTextures": "31",
+        "sceneTriangles": "71446"
+      }
+    },
+    {
+      "id": "role-reveal-liberal",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "160",
+        "sceneFrames": "14",
+        "sceneGeometries": "110",
+        "sceneTextures": "31",
+        "sceneTriangles": "71446"
+      }
+    },
+    {
+      "id": "nomination",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "171",
+        "sceneFrames": "19",
+        "sceneGeometries": "119",
+        "sceneTextures": "34",
+        "sceneTriangles": "74748"
+      }
+    },
+    {
+      "id": "voting",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "176",
+        "sceneFrames": "24",
+        "sceneGeometries": "129",
+        "sceneTextures": "37",
+        "sceneTriangles": "76042"
+      }
+    },
+    {
+      "id": "voting-submitted",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "177",
+        "sceneFrames": "50",
+        "sceneGeometries": "117",
+        "sceneTextures": "37",
+        "sceneTriangles": "76890"
+      }
+    },
+    {
+      "id": "election-result",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "167",
+        "sceneFrames": "56",
+        "sceneGeometries": "127",
+        "sceneTextures": "35",
+        "sceneTriangles": "74982"
+      }
+    },
+    {
+      "id": "president-discard",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "195",
+        "sceneFrames": "61",
+        "sceneGeometries": "145",
+        "sceneTextures": "42",
+        "sceneTriangles": "80264"
+      }
+    },
+    {
+      "id": "chancellor-choice",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "197",
+        "sceneFrames": "66",
+        "sceneGeometries": "144",
+        "sceneTextures": "43",
+        "sceneTriangles": "81046"
+      }
+    },
+    {
+      "id": "chancellor-choice-veto",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "209",
+        "sceneFrames": "71",
+        "sceneGeometries": "140",
+        "sceneTextures": "47",
+        "sceneTriangles": "84222"
+      }
+    },
+    {
+      "id": "veto-response",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "204",
+        "sceneFrames": "75",
+        "sceneGeometries": "143",
+        "sceneTextures": "45",
+        "sceneTriangles": "83482"
+      }
+    },
+    {
+      "id": "policy-result",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "198",
+        "sceneFrames": "79",
+        "sceneGeometries": "136",
+        "sceneTextures": "43",
+        "sceneTriangles": "81894"
+      }
+    },
+    {
+      "id": "executive-action",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "221",
+        "sceneFrames": "83",
+        "sceneGeometries": "150",
+        "sceneTextures": "46",
+        "sceneTriangles": "97364"
+      }
+    },
+    {
+      "id": "inspection-result",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "221",
+        "sceneFrames": "87",
+        "sceneGeometries": "146",
+        "sceneTextures": "47",
+        "sceneTriangles": "97286"
+      }
+    },
+    {
+      "id": "policy-peek",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "230",
+        "sceneFrames": "91",
+        "sceneGeometries": "154",
+        "sceneTextures": "50",
+        "sceneTriangles": "99668"
+      }
+    },
+    {
+      "id": "game-over-liberal",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "187",
+        "sceneFrames": "95",
+        "sceneGeometries": "168",
+        "sceneTextures": "42",
+        "sceneTriangles": "80400"
+      }
+    },
+    {
+      "id": "game-over-fascist",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "181",
+        "sceneFrames": "99",
+        "sceneGeometries": "124",
+        "sceneTextures": "40",
+        "sceneTriangles": "78812"
+      }
+    },
+    {
+      "id": "disconnected-peer",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "182",
+        "sceneFrames": "104",
+        "sceneGeometries": "149",
+        "sceneTextures": "39",
+        "sceneTriangles": "77706"
+      }
+    },
+    {
+      "id": "reconnecting-self",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "183",
+        "sceneFrames": "108",
+        "sceneGeometries": "127",
+        "sceneTextures": "38",
+        "sceneTriangles": "77924"
+      }
+    },
+    {
+      "id": "table-size-5",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "136",
+        "sceneFrames": "110",
+        "sceneGeometries": "118",
+        "sceneTextures": "27",
+        "sceneTriangles": "56102"
+      }
+    },
+    {
+      "id": "table-size-6",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "149",
+        "sceneFrames": "114",
+        "sceneGeometries": "100",
+        "sceneTextures": "29",
+        "sceneTriangles": "64234"
+      }
+    },
+    {
+      "id": "table-size-7",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "162",
+        "sceneFrames": "118",
+        "sceneGeometries": "108",
+        "sceneTextures": "31",
+        "sceneTriangles": "72366"
+      }
+    },
+    {
+      "id": "table-size-8",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "175",
+        "sceneFrames": "122",
+        "sceneGeometries": "116",
+        "sceneTextures": "33",
+        "sceneTriangles": "80498"
+      }
+    },
+    {
+      "id": "table-size-9",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "188",
+        "sceneFrames": "126",
+        "sceneGeometries": "124",
+        "sceneTextures": "35",
+        "sceneTriangles": "88630"
+      }
+    },
+    {
+      "id": "table-size-10",
+      "canvas": true,
+      "error": false,
+      "metrics": {
+        "engine": "three.js r186",
+        "sceneDrawCalls": "201",
+        "sceneFrames": "130",
+        "sceneGeometries": "132",
+        "sceneTextures": "37",
+        "sceneTriangles": "96762"
+      }
+    }
+  ]
+}

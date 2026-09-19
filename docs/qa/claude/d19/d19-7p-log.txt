@@ -1,0 +1,64 @@
+17:44:45.278 A(Mert) oda açtı: kod=3DUAWK roomId=a8cf1f95-f0ed-450b-9e90-d93ce130262e
+17:44:45.373 6 bot eklendi (hedef 7)
+17:44:46.403 oyun başladı
+17:44:53.371 GEÇTİ — 7 kişilik masa kurulur (1 insan + 6 bot) (7 oyuncu, rol=liberal)
+17:44:53.400 kare 01-oyun-basladi.jpg
+17:44:55.461 senaryo uygulandı: Kaos turu (sayaç 2)
+17:44:55.461 GEÇTİ — chaos_round kabul edilir
+17:44:55.465 GEÇTİ — Kaos senaryosu: seçim sayacı 2, aday belirleme (sayaç=2)
+17:44:55.494 kare 07-kaos-sayac2.jpg
+17:44:57.135 kaos denemesi 1: seçim=rejected sayaç=0 tahta=0/1 (önce 0/0)
+17:44:57.135 GEÇTİ — Kaos: 3. başarısız seçimde deste tepesi kendiliğinden yürürlüğe girer (tahta 0/0 → 0/1, deste 17 → 16)
+17:44:57.135 GEÇTİ — Kaos sonrası sayaç sıfırlanır ve yetki AÇILMAZ (sayaç=0, yetki=null)
+17:44:57.165 kare 08-kaos-sonrasi.jpg
+17:44:58.355 senaryo uygulandı: Sadakat incelemesi (şimdi)
+17:44:58.355 GEÇTİ — investigate_now senaryosu kabul edilir (7 kişi)
+17:44:58.358 GEÇTİ — Yetki tablosu: 7 kişide 2. faşist yuva = sadakat incelemesi (faşist kanun=2, yetki=investigate_loyalty)
+17:44:58.359 GEÇTİ — İnceleme hedefleri: başkan hariç hayatta olanlar (6 hedef)
+17:44:58.377 kare 02-inceleme-hedefleri.jpg
+17:44:58.563 GEÇTİ — İnceleme sonucu yalnız başkana: parti zarfı elde (Bot-Ada → liberal)
+17:44:59.084 GEÇTİ — Kimlik katmanı (H) inceleme sonucunu gösterir (Özel bilginGizleRolün: LiberalBildiklerinBot-Ada — Liberal parti (Sadakat incelemesi)İnceleme: Bot-A)
+17:44:59.125 kare 03-inceleme-zarfi.jpg
+17:44:59.659 GEÇTİ — Özel sonucu onaylayınca tur kapanır (faz=nomination)
+17:45:00.761 senaryo uygulandı: Sadakat incelemesi (şimdi)
+17:45:00.778 GEÇTİ — Aynı oyuncu bir oyunda ikinci kez incelenemez (hedefler: Bot-Bora, Bot-Cem, Bot-Derya, Bot-Efe, Bot-Fikret)
+17:45:00.807 kare 04-ikinci-inceleme-hedefleri.jpg
+17:45:01.935 senaryo uygulandı: Özel seçim (şimdi)
+17:45:01.936 GEÇTİ — special_election_now kabul edilir (7 kişi)
+17:45:01.951 GEÇTİ — Yetki tablosu: 7 kişide 3. faşist yuva = özel seçim (faşist kanun=3)
+17:45:01.974 kare 05-ozel-secim-hedefleri.jpg
+17:45:02.101 GEÇTİ — Özel seçim: hedef SONRAKİ başkan olur (yeni başkan adayı=Bot-Cem)
+17:45:02.140 kare 06-ozel-secim-yeni-baskan.jpg
+17:45:02.249 GEÇTİ — Deste tepesi 7 kişilik düzende yok (anlaşılır ret) (devre dışı)
+17:45:03.368 senaryo uygulandı: İnfaza atla (şimdi)
+17:45:03.368 GEÇTİ — execution_now kabul edilir
+17:45:03.382 GEÇTİ — Yetki tablosu: 7 kişide 4. faşist yuva = infaz (faşist kanun=4)
+17:45:03.409 kare 13-infaz-hedefleri.jpg
+17:45:03.409 infaz: başkan koltuk 0, kurban Bot-Ada (koltuk 1), beklenen sonraki başkan Bot-Bora (koltuk 2)
+17:45:03.540 GEÇTİ — İnfaz: hedef oyundan elenir (Bot-Ada alive=false)
+17:45:06.362 kare 14-infaz-sonrasi.jpg
+17:45:06.363 GEÇTİ — Elenen oyuncu başkanlık sırasında ATLANIR (sonraki başkan adayı=Bot-Bora (beklenen Bot-Bora))
+17:45:06.363 GEÇTİ — Elenen oyuncu oy vermez (hayatta sayısı düşer) (hayatta=6)
+17:45:07.598 senaryo uygulandı: Veto turu (şansölye sen)
+17:45:07.598 GEÇTİ — veto_round kabul edilir
+17:45:07.602 GEÇTİ — Veto 5. faşist kanundan sonra açılır: şansölye elinde 2 kart + "Veto iste" (faşist kanun=5, el=2)
+17:45:07.624 kare 09-veto-oner.jpg
+17:45:53.072 KALDI — Şansölye veto önerir, BAŞKAN (bot) yanıtlar (bot başkan yanıt vermedi)
+17:45:54.305 senaryo uygulandı: Veto turu (başkan sen)
+17:45:54.305 GEÇTİ — veto_round_president kabul edilir
+17:45:54.322 GEÇTİ — Veto yanıtı başkanda: kabul/ret iki seçenek (seçenekler=["1Vetoyu kabul et","2Vetoyu reddet"])
+17:45:54.348 kare 10-veto-yaniti.jpg
+17:45:54.480 GEÇTİ — Veto KABUL: iki kart atılır, seçim sayacı +1 (sayaç 0 → 1, faz=nomination)
+17:45:54.514 kare 11-veto-kabul-sonrasi.jpg
+17:45:55.653 senaryo uygulandı: Veto turu (başkan sen)
+17:45:55.786 GEÇTİ — Veto RET: şansölye kanun koymak zorunda; sayaç artmaz (faz=chancellor_choice, sayaç=1)
+17:45:55.786 GEÇTİ — Aynı turda ikinci veto önerilemez (request_veto görünür=false)
+17:45:55.898 [A(Mert)] console.error: Failed to load resource: the server responded with a status of 409 (Conflict)
+17:45:56.923 oyun sonu gözlendi: fascist/fascist_policies_enacted
+17:45:57.763 yeniden oyna düğmesi bulunamadı
+17:46:39.030 yeni oyun: faz=game_over rol=liberal hayatta=6
+17:46:39.263 [A(Mert)] console.error: Failed to load resource: the server responded with a status of 409 (Conflict)
+17:46:40.247 KALDI — Kabul edilen veto da başarısız seçim sayılır (sayaç 2 → kaos) (Senaryo gönderilemedi: STALE_ACTION)
+17:46:40.251 oyun sonu gözlendi: fascist/fascist_policies_enacted
+17:46:40.254 yeniden oyna düğmesi bulunamadı
+17:46:51.715 HATA: Error: page.evaluate: Target page, context or browser has been closed

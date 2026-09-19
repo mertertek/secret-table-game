@@ -1,0 +1,11 @@
+{
+  "since": "2026-09-09T15:24:08.326Z",
+  "entries": [
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-09-09T15:24:14.193Z",
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+    }
+  ]
+}

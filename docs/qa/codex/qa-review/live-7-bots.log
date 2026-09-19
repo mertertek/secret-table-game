@@ -1,0 +1,85 @@
+[14:27:36] oda 8a8c80f2… — şu an 2 üye, hedef 7
+[14:27:38]   Bot-Bora katıldı (3 üye)
+[14:27:40]   Bot-Cem katıldı (4 üye)
+[14:27:43]   Bot-Derya katıldı (5 üye)
+[14:27:46]   Bot-Efe katıldı (6 üye)
+[14:27:49]   Bot-Gul katıldı (7 üye)
+[14:27:51] 6 bot hazır. Sen "Hazır" olup "Başlat" dediğinde oyun başlar.
+[14:28:39] oyun başladı — botlar yalnız kendi sıralarını oynuyor.
+
+[14:28:41] faz=role_reveal rev=0 L0/F0 tracker=0
+[14:28:49] faz=role_reveal rev=6 L0/F0 tracker=0
+[14:28:49]   (senin rol onayın bekleniyor — tarayıcıda "Hazır")
+[14:29:36] faz=nomination rev=7 L0/F0 tracker=0
+[14:29:39]   Bot-Ada nominate → ok
+[14:29:44] faz=voting rev=8 L0/F0 tracker=0
+[14:29:54] faz=voting rev=14 L0/F0 tracker=0
+[14:29:54]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:30:42] faz=president_discard rev=15 L0/F0 tracker=0
+[14:30:46]   Bot-Ada discard_policy → ok
+[14:30:51] faz=chancellor_choice rev=16 L0/F0 tracker=0
+[14:30:51]   >>> SIRA SENDE (chancellor_choice) — tarayıcıda hamleni yap
+[14:31:21] faz=nomination rev=17 L0/F1 tracker=0
+[14:31:27]   Bot-Bora nominate → ok
+[14:31:31] faz=voting rev=18 L0/F1 tracker=0
+[14:31:40] faz=voting rev=24 L0/F1 tracker=0
+[14:31:40]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:32:15] faz=president_discard rev=25 L0/F1 tracker=0
+[14:32:19]   Bot-Bora discard_policy → ok
+[14:32:24] faz=chancellor_choice rev=26 L0/F1 tracker=0
+[14:32:28]   Bot-Cem enact_policy → ok
+[14:32:33] faz=executive_action rev=27 L0/F2 tracker=0
+[14:32:36]   Bot-Bora use_power → ok
+[14:32:43] faz=nomination rev=29 L0/F2 tracker=0
+[14:32:47]   Bot-Cem nominate → ok
+[14:32:51] faz=voting rev=30 L0/F2 tracker=0
+[14:33:01] faz=voting rev=36 L0/F2 tracker=0
+[14:33:01]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:33:08] faz=president_discard rev=37 L0/F2 tracker=0
+[14:33:12]   Bot-Cem discard_policy → ok
+[14:33:17] faz=chancellor_choice rev=38 L0/F2 tracker=0
+[14:33:17]   >>> SIRA SENDE (chancellor_choice) — tarayıcıda hamleni yap
+[14:33:59] faz=nomination rev=39 L1/F2 tracker=0
+[14:34:03]   Bot-Derya nominate → ok
+[14:34:07] faz=voting rev=40 L1/F2 tracker=0
+[14:34:16] faz=voting rev=46 L1/F2 tracker=0
+[14:34:16]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:35:12] faz=president_discard rev=47 L1/F2 tracker=0
+[14:35:17]   Bot-Derya discard_policy → ok
+[14:35:23] faz=chancellor_choice rev=48 L1/F2 tracker=0
+[14:35:27]   Bot-Ada enact_policy → ok
+[14:35:32] faz=executive_action rev=49 L1/F3 tracker=0
+[14:35:35]   Bot-Derya use_power → ok
+[14:35:40] faz=nomination rev=50 L1/F3 tracker=0
+[14:35:40]   >>> SIRA SENDE (nomination) — tarayıcıda hamleni yap
+[14:36:17] faz=voting rev=51 L1/F3 tracker=0
+[14:36:27] faz=voting rev=57 L1/F3 tracker=0
+[14:36:27]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:37:11] faz=president_discard rev=58 L1/F3 tracker=0
+[14:37:11]   >>> SIRA SENDE (president_discard) — tarayıcıda hamleni yap
+[14:38:18] faz=chancellor_choice rev=59 L1/F3 tracker=0
+[14:38:21]   Bot-Bora enact_policy → ok
+[14:38:26] faz=executive_action rev=60 L1/F4 tracker=0
+[14:38:26]   >>> SIRA SENDE (executive_action) — tarayıcıda hamleni yap
+[14:39:32] faz=nomination rev=61 L1/F4 tracker=0
+[14:39:36]   Bot-Efe nominate → ok
+[14:39:40] faz=voting rev=62 L1/F4 tracker=0
+[14:39:50] faz=voting rev=67 L1/F4 tracker=0
+[14:39:50]   >>> SIRA SENDE — tarayıcıda oy ver
+[14:40:46] faz=president_discard rev=68 L1/F4 tracker=0
+[14:40:50]   Bot-Efe discard_policy → ok
+[14:40:54] faz=chancellor_choice rev=69 L1/F4 tracker=0
+[14:40:58]   Bot-Ada enact_policy → ok
+[14:41:03] faz=executive_action rev=70 L1/F5 tracker=0
+[14:41:06]   Bot-Efe use_power → ok
+[14:41:11] faz=nomination rev=71 L1/F5 tracker=0
+[14:41:14]   Bot-Ada nominate → ok
+[14:41:19] faz=voting rev=72 L1/F5 tracker=0
+[14:41:28] faz=president_discard rev=77 L1/F5 tracker=0
+[14:41:32]   Bot-Ada discard_policy → ok
+[14:41:37] faz=chancellor_choice rev=78 L1/F5 tracker=0
+[14:41:40]   Bot-Bora enact_policy → ok
+[14:41:45] faz=game_over rev=79 L1/F6 tracker=0
+[14:41:45] 
+>>> game_over  winner=fascist reason=fascist_policies_enacted
+[14:41:45] party yardımcısı bitti.

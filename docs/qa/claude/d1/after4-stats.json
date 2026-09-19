@@ -1,0 +1,77 @@
+{
+  "stats": [
+    {
+      "name": "place-before",
+      "motion": "settled",
+      "progress": "1",
+      "faces": "3",
+      "draws": 219,
+      "tris": 105728
+    },
+    {
+      "name": "place-mid",
+      "motion": "place",
+      "progress": "0.380",
+      "faces": "0",
+      "draws": 223,
+      "tris": 107360
+    },
+    {
+      "name": "place-end",
+      "motion": "settled",
+      "progress": "1",
+      "faces": "0",
+      "draws": 215,
+      "tris": 105768
+    },
+    {
+      "name": "ballot-before",
+      "motion": "settled",
+      "progress": "1",
+      "faces": "2",
+      "draws": 200,
+      "tris": 101960
+    },
+    {
+      "name": "ballot-mid",
+      "motion": "settled",
+      "progress": "1",
+      "faces": "0",
+      "draws": 196,
+      "tris": 101300
+    },
+    {
+      "name": "ballot-end",
+      "motion": "settled",
+      "progress": "1",
+      "faces": "0",
+      "draws": 196,
+      "tris": 101300
+    },
+    {
+      "name": "vote-reveal",
+      "motion": "vote",
+      "progress": "0.750",
+      "faces": "0",
+      "draws": 192,
+      "tris": 100980
+    },
+    {
+      "name": "vote-reveal-end",
+      "motion": "settled",
+      "progress": "1",
+      "faces": "0",
+      "draws": 192,
+      "tris": 100980
+    },
+    {
+      "name": "executive-hands",
+      "motion": "settled",
+      "progress": "1",
+      "faces": "0",
+      "draws": 247,
+      "tris": 123332
+    }
+  ],
+  "errors": []
+}

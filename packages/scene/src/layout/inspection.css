@@ -1,0 +1,41 @@
+.st-inspection-nav{position:absolute;top:10px;left:10px;right:10px;display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;pointer-events:none}
+.st-inspection-nav button,.st-inspection-detail button{pointer-events:auto;font:12px 'Table Sans',sans-serif;color:#eee1c7;background:#20342ff5;border:1px solid #8c7953;border-radius:6px;padding:8px 11px;min-height:40px;cursor:pointer}
+.st-inspection-nav button[aria-pressed=true],.st-inspection-detail button[aria-pressed=true]{border-color:#eed397;background:#485039}
+.st-inspection-nav button:focus-visible,.st-inspection-detail button:focus-visible{outline:2px solid #eed397;outline-offset:2px}
+.st-inspection-detail{position:absolute;bottom:10px;left:10px;right:10px;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:6px;pointer-events:none;font:12px 'Table Sans',sans-serif;color:#eee1c7}
+.st-inspection-caption{background:#162b26f5;border:1px solid #65745a;border-radius:6px;padding:10px 12px;max-width:100%;line-height:1.5;text-align:center;box-sizing:border-box}
+.st-inspection-caption small{display:block;color:#bac8b6;font-size:10px}
+@media(max-width:480px){.st-inspection-nav{justify-content:center}.st-inspection-nav button,.st-inspection-detail button{min-height:44px;font-size:11px;padding:7px 9px}}
+
+.st-inspection-detail[data-private=true]{display:grid;grid-template-columns:40px minmax(0,1fr) 40px;max-width:440px;margin:auto}
+.st-inspection-detail[data-private=true] .st-inspection-caption:only-child{grid-column:1 / -1}
+
+/* Dar ekran (≤767px): bu şerit sağ üstte uygulamanın bilgi/menü şeridiyle
+   çakışıyordu. Alt çubuğun hemen üstüne, tek satır yatay kaydırılabilir küçük
+   düğmelere iner. Alt çubuğun yüksekliği bu paketten bilinemez; uygulama
+   `--st-nav-bottom` verir (yoksa 96px). Masaüstü konumu DEĞİŞMEZ.
+   ROADMAP §C / C2-b/6. */
+@media(max-width:767px){
+  .st-inspection-nav{
+    top:auto;bottom:var(--st-nav-bottom,96px);left:0;right:0;
+    flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;
+    justify-content:flex-start;gap:6px;padding:2px 8px;
+    /* Yatay kaydırma için şeridin kendisi dokunuşu almalı (ince bir bant). */
+    pointer-events:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+  }
+  .st-inspection-nav::-webkit-scrollbar{display:none}
+  .st-inspection-nav button{flex:0 0 auto;white-space:nowrap;min-height:40px;font-size:11px;padding:6px 10px}
+  /* İnceleme başlığı şeridin de üstünde kalsın; alt çubuğun arkasına düşmesin. */
+  .st-inspection-detail{bottom:calc(var(--st-nav-bottom,96px) + 48px)}
+}
+
+/* D11: üretimde sahne şeridi çizilmez (`data-scene-nav="false"`), tek sağ üst
+   araç çubuğu uygulamadadır. O hâlde inceleme açıklaması şeridin değil, alt
+   eylem çubuğunun hemen üstüne oturur; ölçüsü `--st-nav-bottom` ile gelir. */
+[data-scene-nav='false'] .st-inspection-detail{bottom:var(--st-nav-bottom,10px)}
+@media(max-width:767px){
+  [data-scene-nav='false'] .st-inspection-detail{bottom:var(--st-nav-bottom,96px)}
+}
+
+.st-reticle { position: absolute; z-index: 2; left: 50%; top: 50%; width: 5px; height: 5px; margin: -3px; border: 1px solid #14261e; background: #f4e7cd; border-radius: 50%; box-shadow: 0 0 0 1px #f4e7cd55; pointer-events: none; }
+.st-reticle[data-target="true"] { width: 12px; height: 12px; margin: -7px; background: transparent; border: 2px solid #eac87b; box-shadow: 0 0 0 1px #15221ccc; }

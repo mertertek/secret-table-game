@@ -1,0 +1,11 @@
+
+ RUN  v3.2.7 <proje-klasörü>/packages/scene
+
+ ✓ src/animation/cues.test.ts (12 tests) 3ms
+ ✓ src/prototype/prototype.test.ts (20 tests) 19ms
+
+ Test Files  2 passed (2)
+      Tests  32 passed (32)
+   Start at  17:24:22
+   Duration  728ms (transform 194ms, setup 0ms, collect 260ms, tests 22ms, environment 0ms, prepare 175ms)
+

@@ -1,0 +1,24 @@
+
+> secret-table@0.0.0 build <proje-klasörü>
+> pnpm --filter @secret-table/web build
+
+
+> @secret-table/web@0.0.0 build <proje-klasörü>/apps/web
+> tsc -p tsconfig.json && vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 731 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                         0.45 kB │ gzip:   0.28 kB
+dist/assets/NotoSerif-Bg4eO4Bt.ttf  1,887.19 kB
+dist/assets/NotoSans-D7-AVeX-.ttf   2,049.10 kB
+dist/assets/index-DurqAoU9.css          9.72 kB │ gzip:   2.66 kB
+dist/assets/index-DSr1LqIq.js       1,561.00 kB │ gzip: 440.93 kB │ map: 7,389.91 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.81s

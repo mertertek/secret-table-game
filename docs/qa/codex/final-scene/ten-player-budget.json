@@ -1,0 +1,138 @@
+{
+  "standard": {
+    "canvas": {
+      "bottom": 1000,
+      "height": 1000,
+      "left": 0,
+      "right": 1165,
+      "top": 0,
+      "width": 1165,
+      "x": 0,
+      "y": 0
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.600",
+      "fpCameraZ": "2.035",
+      "fpFov": "64.00",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadPitch7": "0.000",
+      "fpHeadPitch8": "0.000",
+      "fpHeadPitch9": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpHeadYaw7": "0.000",
+      "fpHeadYaw8": "0.000",
+      "fpHeadYaw9": "0.000",
+      "fpMotion": "settled",
+      "fpMotionProgress": "1",
+      "fpPrivateFaces": "3",
+      "sceneDrawCalls": "244",
+      "sceneFrames": "113",
+      "sceneGeometries": "168",
+      "sceneTextures": "48",
+      "sceneTriangles": "100222"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "1",
+      "qaIntents": "[]",
+      "qaLook": "null",
+      "qaSelection": "null",
+      "qaTargets": "{\"slots\":[{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"},{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_c\"}],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "locked",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "1",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "low": {
+    "canvas": {
+      "bottom": 1000,
+      "height": 1000,
+      "left": 0,
+      "right": 1165,
+      "top": 0,
+      "width": 1165,
+      "x": 0,
+      "y": 0
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.600",
+      "fpCameraZ": "2.035",
+      "fpFov": "64.00",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadPitch7": "0.000",
+      "fpHeadPitch8": "0.000",
+      "fpHeadPitch9": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpHeadYaw7": "0.000",
+      "fpHeadYaw8": "0.000",
+      "fpHeadYaw9": "0.000",
+      "fpMotion": "settled",
+      "fpMotionProgress": "1",
+      "fpPrivateFaces": "3",
+      "sceneDrawCalls": "119",
+      "sceneFrames": "115",
+      "sceneGeometries": "168",
+      "sceneTextures": "42",
+      "sceneTriangles": "38772"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "1",
+      "qaIntents": "[]",
+      "qaLook": "null",
+      "qaSelection": "null",
+      "qaTargets": "{\"slots\":[{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"},{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_c\"}],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "1",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  }
+}

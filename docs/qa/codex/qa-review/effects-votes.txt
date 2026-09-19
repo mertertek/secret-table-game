@@ -1,0 +1,37 @@
+- banner:
+  - strong: X03 · Hareket ve ses
+  - text: Örnek
+  - combobox "Örnek":
+    - option "Kart dağıtımı"
+    - option "Oyları aç" [selected]
+    - option "Politika yerleşimi"
+    - option "Görev işaretleri"
+    - option "Kapalı kart aktarımı"
+    - option "Elenme"
+    - option "Oyun sonu"
+    - option "Kimlik zarfı"
+    - option "Oy + el + görev"
+  - text: Kişi
+  - combobox "Kişi":
+    - option "5"
+    - option "6"
+    - option "7" [selected]
+    - option "8"
+    - option "9"
+    - option "10"
+  - button "Yeni olay" [active]
+  - button "Aynı olayı yinele"
+  - button "180 ms → eşitle"
+  - button "180 ms → kesinti"
+  - button "180 ms → yeni görünüm"
+  - checkbox "Ses" [checked]
+  - text: Ses
+  - checkbox "Hareket azalt"
+  - text: Hareket azalt
+  - checkbox "Düşük kalite"
+  - text: Düşük kalite
+  - generic "Ölçüm günlüğü"
+  - generic "Ölçüm günlüğü": "{\"scenario\":\"deal\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"1\",\"sceneCuesActive\":\"1\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"1\",\"sceneAudioVoices\":\"1\",\"frames\":\"25\"} {\"scenario\":\"deal\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"1\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"1\",\"sceneAudioVoices\":\"0\",\"frames\":\"78\"} {\"scenario\":\"deal\",\"count\":7,\"mode\":\"resync\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"2\",\"sceneCuesActive\":\"1\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"2\",\"sceneAudioVoices\":\"1\",\"frames\":\"158\"} {\"scenario\":\"deal\",\"count\":7,\"mode\":\"resync\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"2\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"2\",\"sceneAudioVoices\":\"0\",\"frames\":\"196\"} {\"scenario\":\"deal\",\"count\":7,\"mode\":\"interrupt\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"3\",\"sceneCuesActive\":\"1\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"3\",\"sceneAudioVoices\":\"1\",\"frames\":\"208\"} {\"scenario\":\"deal\",\"count\":7,\"mode\":\"interrupt\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"3\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"3\",\"sceneAudioVoices\":\"0\",\"frames\":\"214\"} {\"scenario\":\"deal\",\"count\":7,\"mode\":\"new-view\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"4\",\"sceneCuesActive\":\"1\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"4\",\"sceneAudioVoices\":\"1\",\"frames\":\"224\"} {\"scenario\":\"deal\",\"count\":7,\"mode\":\"new-view\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"4\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"4\",\"sceneAudioVoices\":\"0\",\"frames\":\"231\"} {\"scenario\":\"batch\",\"count\":7,\"mode\":\"play\",\"reduced\":true,\"at\":120,\"sceneCuesPlayed\":\"8\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"5\",\"sceneAudioVoices\":\"1\",\"frames\":\"247\"} {\"scenario\":\"batch\",\"count\":7,\"mode\":\"play\",\"reduced\":true,\"at\":1000,\"sceneCuesPlayed\":\"8\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"5\",\"sceneAudioVoices\":\"0\",\"frames\":\"252\"} {\"scenario\":\"votes\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"9\",\"sceneCuesActive\":\"1\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"6\",\"sceneAudioVoices\":\"1\",\"frames\":\"279\"} {\"scenario\":\"votes\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"9\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"6\",\"sceneAudioVoices\":\"0\",\"frames\":\"331\"}"
+  - status "Kesinti ölçümü": "Aktif: \"0\""
+  - status "Son seçim": —
+- main

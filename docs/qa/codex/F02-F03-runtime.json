@@ -1,0 +1,2534 @@
+{
+  "observations": [
+    {
+      "label": "inspect-envelope",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.560",
+        "fpCameraZ": "1.920",
+        "fpFov": "49.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "1",
+        "sceneDrawCalls": "238",
+        "sceneFrames": "682",
+        "sceneGeometries": "169",
+        "sceneTextures": "49",
+        "sceneTriangles": "72500"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "inspect",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "overview-transition-concealed",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "true",
+        "fpCameraX": "0.000",
+        "fpCameraY": "1.832",
+        "fpCameraZ": "2.667",
+        "fpFov": "46.87",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "254",
+        "sceneFrames": "706",
+        "sceneGeometries": "171",
+        "sceneTextures": "42",
+        "sceneTriangles": "85034"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "overview-5",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "218",
+        "sceneFrames": "2",
+        "sceneGeometries": "135",
+        "sceneTextures": "53",
+        "sceneTriangles": "67850"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "overview-6",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "233",
+        "sceneFrames": "2",
+        "sceneGeometries": "144",
+        "sceneTextures": "32",
+        "sceneTriangles": "76684"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "overview-7",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "248",
+        "sceneFrames": "2",
+        "sceneGeometries": "153",
+        "sceneTextures": "65",
+        "sceneTriangles": "85518"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "overview-8",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "263",
+        "sceneFrames": "2",
+        "sceneGeometries": "162",
+        "sceneTextures": "38",
+        "sceneTriangles": "94352"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "overview-9",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "278",
+        "sceneFrames": "1",
+        "sceneGeometries": "171",
+        "sceneTextures": "41",
+        "sceneTriangles": "103186"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "overview-10",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "293",
+        "sceneFrames": "2",
+        "sceneGeometries": "180",
+        "sceneTextures": "83",
+        "sceneTriangles": "112020"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "seat-10-local-10",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "295",
+        "sceneFrames": "4",
+        "sceneGeometries": "190",
+        "sceneTextures": "50",
+        "sceneTriangles": "102448"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "card-drag-no-selection",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "246",
+        "sceneFrames": "17",
+        "sceneGeometries": "190",
+        "sceneTextures": "46",
+        "sceneTriangles": "89820"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.310",
+        "fpYaw": "-0.816"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "inspect-after-drag",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.560",
+        "fpCameraZ": "1.920",
+        "fpFov": "49.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "285",
+        "sceneFrames": "19",
+        "sceneGeometries": "190",
+        "sceneTextures": "50",
+        "sceneTriangles": "95548"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "inspect",
+        "fpPitch": "-0.310",
+        "fpYaw": "-0.816"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "restored-look",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "233",
+        "sceneFrames": "20",
+        "sceneGeometries": "190",
+        "sceneTextures": "46",
+        "sceneTriangles": "87964"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.310",
+        "fpYaw": "-0.816"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "actual-card-click",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "296",
+        "sceneFrames": "22",
+        "sceneGeometries": "191",
+        "sceneTextures": "50",
+        "sceneTriangles": "102460"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "cancel",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "295",
+        "sceneFrames": "23",
+        "sceneGeometries": "191",
+        "sceneTextures": "50",
+        "sceneTriangles": "102448"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "keyboard-limits",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "200",
+        "sceneFrames": "63",
+        "sceneGeometries": "190",
+        "sceneTextures": "44",
+        "sceneTriangles": "78112"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.838",
+        "fpYaw": "-1.012"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "head-samples-active",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "-0.078",
+        "fpHeadPitch1": "-0.179",
+        "fpHeadPitch2": "-0.115",
+        "fpHeadPitch3": "0.054",
+        "fpHeadPitch4": "0.174",
+        "fpHeadPitch5": "0.134",
+        "fpHeadPitch6": "-0.029",
+        "fpHeadPitch7": "-0.165",
+        "fpHeadPitch8": "-0.149",
+        "fpHeadYaw0": "-0.485",
+        "fpHeadYaw1": "0.445",
+        "fpHeadYaw2": "0.371",
+        "fpHeadYaw3": "-0.541",
+        "fpHeadYaw4": "-0.231",
+        "fpHeadYaw5": "0.600",
+        "fpHeadYaw6": "0.077",
+        "fpHeadYaw7": "-0.620",
+        "fpHeadYaw8": "0.083",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "299",
+        "sceneFrames": "158",
+        "sceneGeometries": "194",
+        "sceneTextures": "50",
+        "sceneTriangles": "102880"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "heads-stale-neutral",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "299",
+        "sceneFrames": "160",
+        "sceneGeometries": "194",
+        "sceneTextures": "50",
+        "sceneTriangles": "102880"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "overview-9-ready",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "286",
+        "sceneFrames": "2",
+        "sceneGeometries": "175",
+        "sceneTextures": "77",
+        "sceneTriangles": "104050"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "mobile-inspect-6",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.560",
+        "fpCameraZ": "1.920",
+        "fpFov": "49.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "235",
+        "sceneFrames": "5",
+        "sceneGeometries": "158",
+        "sceneTextures": "38",
+        "sceneTriangles": "67096"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "inspect",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "mobile-viewport-request",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "301",
+        "sceneFrames": "2",
+        "sceneGeometries": "184",
+        "sceneTextures": "83",
+        "sceneTriangles": "112884"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "mobile-inspect-6-verified",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "6.721",
+        "fpCameraZ": "5.749",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "301",
+        "sceneFrames": "3",
+        "sceneGeometries": "184",
+        "sceneTextures": "44",
+        "sceneTriangles": "112884"
+      },
+      "counts": {
+        "fpDrags": "1",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1023,
+      "viewport": {
+        "height": 964,
+        "width": 1023
+      }
+    },
+    {
+      "label": "mobile-inspect-6-real",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.560",
+        "fpCameraZ": "1.920",
+        "fpFov": "55.11",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "192",
+        "sceneFrames": "7",
+        "sceneGeometries": "158",
+        "sceneTextures": "34",
+        "sceneTriangles": "55668"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "0"
+      },
+      "look": {
+        "fpMode": "inspect",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 375,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "label": "mobile-overview-10-long-names",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "8.471",
+        "fpCameraZ": "7.245",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "301",
+        "sceneFrames": "4",
+        "sceneGeometries": "184",
+        "sceneTextures": "44",
+        "sceneTriangles": "112884"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "0"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 375,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "label": "mobile-10-long-names-final",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "8.471",
+        "fpCameraZ": "7.245",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "301",
+        "sceneFrames": "4",
+        "sceneGeometries": "184",
+        "sceneTextures": "44",
+        "sceneTriangles": "112884"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "0"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 375,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "label": "rejected-local-selection",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "245",
+        "sceneFrames": "12",
+        "sceneGeometries": "194",
+        "sceneTextures": "44",
+        "sceneTriangles": "83512"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 375,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "label": "private-authority-removed",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "230",
+        "sceneFrames": "13",
+        "sceneGeometries": "194",
+        "sceneTextures": "38",
+        "sceneTriangles": "81088"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 375,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "label": "landscape-844x390-before-fit",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "70.18",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "231",
+        "sceneFrames": "22",
+        "sceneGeometries": "185",
+        "sceneTextures": "40",
+        "sceneTriangles": "81786"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 829,
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "label": "landscape-fixed-public-no",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.560",
+        "fpCameraZ": "1.920",
+        "fpFov": "49.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "288",
+        "sceneFrames": "25",
+        "sceneGeometries": "185",
+        "sceneTextures": "46",
+        "sceneTriangles": "101252"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "inspect",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 829,
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "label": "landscape-10-selected",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.560",
+        "fpCameraZ": "1.920",
+        "fpFov": "49.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "300",
+        "sceneFrames": "28",
+        "sceneGeometries": "198",
+        "sceneTextures": "51",
+        "sceneTriangles": "102892"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "inspect",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 844,
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "label": "draw-in-motion",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "draw",
+        "fpMotionProgress": "0.170",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "284",
+        "sceneFrames": "87",
+        "sceneGeometries": "194",
+        "sceneTextures": "48",
+        "sceneTriangles": "100456"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "draw-next-frame",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "draw",
+        "fpMotionProgress": "0.193",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "284",
+        "sceneFrames": "91",
+        "sceneGeometries": "194",
+        "sceneTextures": "48",
+        "sceneTriangles": "100456"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "draw-settled",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "299",
+        "sceneFrames": "234",
+        "sceneGeometries": "197",
+        "sceneTextures": "63",
+        "sceneTriangles": "102880"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "draw-late-motion",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "draw",
+        "fpMotionProgress": "0.471",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "299",
+        "sceneFrames": "440",
+        "sceneGeometries": "197",
+        "sceneTextures": "51",
+        "sceneTriangles": "102880"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "camera-going-overview",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "256",
+        "sceneFrames": "2",
+        "sceneGeometries": "157",
+        "sceneTextures": "65",
+        "sceneTriangles": "86382"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "0"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "camera-reversed-concealed",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "true",
+        "fpCameraX": "0.000",
+        "fpCameraY": "4.197",
+        "fpCameraZ": "4.084",
+        "fpFov": "47.80",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "252",
+        "sceneFrames": "30",
+        "sceneGeometries": "155",
+        "sceneTextures": "35",
+        "sceneTriangles": "83306"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "0"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "heads-smooth-holding",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "-0.180",
+        "fpHeadPitch2": "-0.096",
+        "fpHeadPitch3": "0.076",
+        "fpHeadPitch4": "0.178",
+        "fpHeadPitch5": "0.116",
+        "fpHeadPitch6": "-0.052",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "-0.588",
+        "fpHeadYaw2": "0.269",
+        "fpHeadYaw3": "0.519",
+        "fpHeadYaw4": "-0.403",
+        "fpHeadYaw5": "-0.415",
+        "fpHeadYaw6": "0.510",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "258",
+        "sceneFrames": "1576",
+        "sceneGeometries": "167",
+        "sceneTextures": "41",
+        "sceneTriangles": "80174"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "0"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "private-flight-out",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "5.928",
+        "fpCameraZ": "5.070",
+        "fpFov": "40.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "-0.180",
+        "fpHeadPitch2": "-0.096",
+        "fpHeadPitch3": "0.076",
+        "fpHeadPitch4": "0.178",
+        "fpHeadPitch5": "0.116",
+        "fpHeadPitch6": "-0.053",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "-0.588",
+        "fpHeadYaw2": "0.270",
+        "fpHeadYaw3": "0.519",
+        "fpHeadYaw4": "-0.404",
+        "fpHeadYaw5": "-0.415",
+        "fpHeadYaw6": "0.510",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "268",
+        "sceneFrames": "1579",
+        "sceneGeometries": "169",
+        "sceneTextures": "41",
+        "sceneTriangles": "88770"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "0"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "private-flight-reversed",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "-0.180",
+        "fpHeadPitch2": "-0.096",
+        "fpHeadPitch3": "0.076",
+        "fpHeadPitch4": "0.178",
+        "fpHeadPitch5": "0.116",
+        "fpHeadPitch6": "-0.053",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "-0.588",
+        "fpHeadYaw2": "0.270",
+        "fpHeadYaw3": "0.519",
+        "fpHeadYaw4": "-0.404",
+        "fpHeadYaw5": "-0.415",
+        "fpHeadYaw6": "0.510",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "255",
+        "sceneFrames": "1656",
+        "sceneGeometries": "164",
+        "sceneTextures": "41",
+        "sceneTriangles": "80138"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "0"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "camera-private-flight-out-final",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "true",
+        "fpCameraX": "0.000",
+        "fpCameraY": "1.986",
+        "fpCameraZ": "2.825",
+        "fpFov": "57.76",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "261",
+        "sceneFrames": "1745",
+        "sceneGeometries": "166",
+        "sceneTextures": "41",
+        "sceneTriangles": "85472"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "overview",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "camera-private-flight-reverse-final",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "true",
+        "fpCameraX": "0.000",
+        "fpCameraY": "1.892",
+        "fpCameraZ": "2.771",
+        "fpFov": "58.18",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "0",
+        "sceneDrawCalls": "259",
+        "sceneFrames": "1780",
+        "sceneGeometries": "164",
+        "sceneTextures": "41",
+        "sceneTriangles": "83934"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "camera-settled-after-reversal",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "258",
+        "sceneFrames": "1829",
+        "sceneGeometries": "167",
+        "sceneTextures": "50",
+        "sceneTriangles": "80174"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "1"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "select-in-motion",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "select",
+        "fpMotionProgress": "0.538",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "259",
+        "sceneFrames": "1854",
+        "sceneGeometries": "168",
+        "sceneTextures": "41",
+        "sceneTriangles": "80186"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "place-middle",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "place",
+        "fpMotionProgress": "0.965",
+        "fpPrivateFaces": "2",
+        "sceneDrawCalls": "255",
+        "sceneFrames": "2031",
+        "sceneGeometries": "170",
+        "sceneTextures": "44",
+        "sceneTriangles": "80138"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "envelope-in-motion",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "envelope",
+        "fpMotionProgress": "0.573",
+        "fpPrivateFaces": "1",
+        "sceneDrawCalls": "252",
+        "sceneFrames": "2139",
+        "sceneGeometries": "173",
+        "sceneTextures": "42",
+        "sceneTriangles": "80132"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "envelope-settled",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "1",
+        "sceneDrawCalls": "252",
+        "sceneFrames": "2226",
+        "sceneGeometries": "173",
+        "sceneTextures": "49",
+        "sceneTriangles": "80132"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "ten-seats-low-quality",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "164",
+        "sceneFrames": "5",
+        "sceneGeometries": "194",
+        "sceneTextures": "50",
+        "sceneTriangles": "47486"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "2"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "cancel-normal-motion",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "cancel",
+        "fpMotionProgress": "0.590",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "164",
+        "sceneFrames": "35",
+        "sceneGeometries": "177",
+        "sceneTextures": "50",
+        "sceneTriangles": "47486"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "3"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "idle-low-start",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadPitch7": "0.000",
+        "fpHeadPitch8": "0.000",
+        "fpHeadPitch9": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpHeadYaw7": "0.000",
+        "fpHeadYaw8": "0.000",
+        "fpHeadYaw9": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "164",
+        "sceneFrames": "58",
+        "sceneGeometries": "177",
+        "sceneTextures": "62",
+        "sceneTriangles": "47486"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "3"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "final-scene-idle-start",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "259",
+        "sceneFrames": "6",
+        "sceneGeometries": "168",
+        "sceneTextures": "41",
+        "sceneTriangles": "80186"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "4"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    },
+    {
+      "label": "final-scene-idle-end",
+      "canvas": {
+        "engine": "three.js r186",
+        "fpCameraMoving": "false",
+        "fpCameraX": "0.000",
+        "fpCameraY": "0.600",
+        "fpCameraZ": "2.035",
+        "fpFov": "64.00",
+        "fpHeadPitch0": "0.000",
+        "fpHeadPitch1": "0.000",
+        "fpHeadPitch2": "0.000",
+        "fpHeadPitch3": "0.000",
+        "fpHeadPitch4": "0.000",
+        "fpHeadPitch5": "0.000",
+        "fpHeadPitch6": "0.000",
+        "fpHeadYaw0": "0.000",
+        "fpHeadYaw1": "0.000",
+        "fpHeadYaw2": "0.000",
+        "fpHeadYaw3": "0.000",
+        "fpHeadYaw4": "0.000",
+        "fpHeadYaw5": "0.000",
+        "fpHeadYaw6": "0.000",
+        "fpMotion": "settled",
+        "fpMotionProgress": "1",
+        "fpPrivateFaces": "3",
+        "sceneDrawCalls": "259",
+        "sceneFrames": "6",
+        "sceneGeometries": "168",
+        "sceneTextures": "41",
+        "sceneTriangles": "80186"
+      },
+      "counts": {
+        "fpDrags": "0",
+        "fpSelections": "4"
+      },
+      "look": {
+        "fpMode": "seat",
+        "fpPitch": "-0.260",
+        "fpYaw": "0.000"
+      },
+      "pageWidth": 1280,
+      "viewport": {
+        "height": 720,
+        "width": 1280
+      }
+    }
+  ],
+  "voteFrames": [
+    {
+      "kind": "vote",
+      "progress": "0.211"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.240"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.348"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.363"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.443"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.515"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.544"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.609"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.696"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.711"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.783"
+    },
+    {
+      "kind": "vote",
+      "progress": "0.870"
+    }
+  ]
+}

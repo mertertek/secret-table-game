@@ -1,0 +1,37 @@
+18:04:34.608 A9 oda açtı: kod=XJSYP2 roomId=20c70bf4-cf9a-4fee-8d34-ce4a76057c18
+18:04:34.725 8 bot eklendi (hedef 9)
+18:04:36.173 oyun başladı
+18:04:42.814 GEÇTİ — 9 kişilik masa kurulur (1 insan + 8 bot) (9 oyuncu, yerel rol=liberal)
+18:04:42.852 kare 9p-01-masa.jpg
+18:04:44.896 senaryo uygulandı: İnfaza atla (şimdi)
+18:04:44.900 infaz denemesi 1: Bot-Ada
+18:04:48.142 GEÇTİ — Elenen oyuncu oy/sıra dışı: alive=false, hayatta sayısı düşer (Bot-Ada alive=false, hayatta=8)
+18:04:48.167 GEÇTİ — Elenen oyuncu sonraki turda başkan sırasında ATLANIR (sonraki aday=Bot-Bora (beklenen Bot-Bora), elenen aday değil)
+18:04:48.167 GEÇTİ — Oy sayımında elenen yok (hayatta = 8) (hayatta=8)
+18:04:48.201 kare 9p-06-elenen-atlandi.jpg
+18:04:49.487 senaryo uygulandı: İnfaza atla (şimdi)
+18:04:49.505 infaz denemesi 2: Bot-Bora
+18:04:53.884 senaryo uygulandı: İnfaza atla (şimdi)
+18:04:53.887 infaz denemesi 3: Bot-Cem
+18:04:58.444 senaryo uygulandı: İnfaza atla (şimdi)
+18:04:58.463 infaz denemesi 4: Bot-Derya
+18:05:02.811 senaryo uygulandı: İnfaza atla (şimdi)
+18:05:02.814 infaz denemesi 5: Bot-Efe
+18:05:07.119 senaryo uygulandı: İnfaza atla (şimdi)
+18:05:07.123 infaz denemesi 6: Bot-Fikret
+18:05:10.530 KALDI — İnfaz: Hitler vurulunca LİBERAL zafer (hedef=Bot-Fikret, sonuç=fascist/hitler_elected_chancellor, katman="")
+18:05:10.550 kare 9p-05-hitler-vuruldu.jpg
+18:05:11.842 B5 oda açtı: kod=6Z22ZC roomId=04cd2ffb-774f-4e3b-85b2-63aff27d7b41
+18:05:11.939 4 bot eklendi (hedef 5)
+18:05:13.390 oyun başladı
+18:05:19.699 GEÇTİ — 5 kişilik masa kurulur (5 oyuncu)
+18:05:21.721 senaryo uygulandı: Deste tepesi (şimdi)
+18:05:21.721 GEÇTİ — policy_peek_now (5 kişi) kabul edilir
+18:05:21.724 KALDI — Deste tepesi: 3 kart YALNIZ başkanda (el=0, faşist kanun=3)
+18:05:21.756 kare 9p-07-5kisi-peek.jpg
+18:05:24.386 senaryo uygulandı: Veto turu (başkan sen)
+18:05:24.386 GEÇTİ — veto_round_president (5 kişi) kabul edilir
+18:05:24.400 GEÇTİ — Veto yanıtı başkanda (kabul/ret) (sayaç=0, faşist=5)
+18:05:24.423 kare 9p-08-5kisi-veto-yaniti.jpg
+18:05:24.547 GEÇTİ — Veto KABUL → seçim sayacı +1 (sayaç 0 → 1, faz=nomination)
+18:05:24.573 kare 9p-09-5kisi-veto-kabul.jpg

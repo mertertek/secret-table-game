@@ -1,0 +1,10 @@
+{
+  "beforeDrag": {
+    "fpDrags": "4",
+    "fpSelections": "0"
+  },
+  "afterDrag": {
+    "fpDrags": "5",
+    "fpSelections": "0"
+  }
+}

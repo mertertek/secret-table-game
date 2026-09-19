@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2100" viewBox="0 0 2000 2100" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="a0" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto-start-reverse"><path d="M8,0 L0,4 L8,8 z" fill="#c0392b"/></marker><marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c0392b"/></marker></defs>
+<rect width="2000" height="2100" fill="#fbf7f0"/>
+<text x="40.0" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="start" fill="#222" font-weight="bold">D1 el model sayfası — sağ el şablonu (sol el = X aynası). Ölçek 1 m = 2000 px (1 mm = 2 px). Birim: metre / radyan.</text>
+<text x="40.0" y="80.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="start" fill="#555">El yerel ekseni: bilek orijin (0,0,0), parmaklar −Z, avuç içi −Y, baş parmak −X. Kaynak: docs/design/d1/poses.json ile aynı sayılar.</text>
+<text x="260.0" y="150.0" font-family="Helvetica, Arial, sans-serif" font-size="24" text-anchor="start" fill="#222" font-weight="bold">1) Üstten (el sırtı) — rest</text>
+<rect x="436.0" y="448.0" width="168.0" height="184.0" rx="24" fill="#e6c9ad" stroke="#7a5a45" stroke-width="2"/>
+<ellipse cx="460.0" cy="550.0" rx="44.0" ry="64.0" fill="#e6c9ad" stroke="#7a5a45" stroke-width="2"/>
+<ellipse cx="584.0" cy="540.0" rx="32.0" ry="72.0" fill="#e6c9ad" stroke="#7a5a45" stroke-width="2"/>
+<line x1="520.0" y1="664.0" x2="520.0" y2="600.0" stroke="#7a5a45" stroke-width="114.0" stroke-linecap="round" opacity="1"/>
+<line x1="520.0" y1="664.0" x2="520.0" y2="600.0" stroke="#e6c9ad" stroke-width="112.0" stroke-linecap="round" opacity="1"/>
+<line x1="454.0" y1="464.0" x2="447.6" y2="400.4" stroke="#7a5a45" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="454.0" y1="464.0" x2="447.6" y2="400.4" stroke="#e6c9ad" stroke-width="40.0" stroke-linecap="round" opacity="1"/>
+<line x1="447.6" y1="400.4" x2="444.2" y2="366.2" stroke="#7a5a45" stroke-width="38.6" stroke-linecap="round" opacity="1"/>
+<line x1="447.6" y1="400.4" x2="444.2" y2="366.2" stroke="#e6c9ad" stroke-width="36.6" stroke-linecap="round" opacity="1"/>
+<line x1="444.2" y1="366.2" x2="442.2" y2="346.7" stroke="#7a5a45" stroke-width="35.6" stroke-linecap="round" opacity="1"/>
+<line x1="444.2" y1="366.2" x2="442.2" y2="346.7" stroke="#e6c9ad" stroke-width="33.6" stroke-linecap="round" opacity="1"/>
+<line x1="498.0" y1="452.0" x2="495.9" y2="382.0" stroke="#7a5a45" stroke-width="44.0" stroke-linecap="round" opacity="1"/>
+<line x1="498.0" y1="452.0" x2="495.9" y2="382.0" stroke="#e6c9ad" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="495.9" y1="382.0" x2="494.9" y2="347.6" stroke="#7a5a45" stroke-width="40.4" stroke-linecap="round" opacity="1"/>
+<line x1="495.9" y1="382.0" x2="494.9" y2="347.6" stroke="#e6c9ad" stroke-width="38.4" stroke-linecap="round" opacity="1"/>
+<line x1="494.9" y1="347.6" x2="494.4" y2="333.2" stroke="#7a5a45" stroke-width="37.0" stroke-linecap="round" opacity="1"/>
+<line x1="494.9" y1="347.6" x2="494.4" y2="333.2" stroke="#e6c9ad" stroke-width="35.0" stroke-linecap="round" opacity="1"/>
+<line x1="542.0" y1="460.0" x2="545.2" y2="395.6" stroke="#7a5a45" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="542.0" y1="460.0" x2="545.2" y2="395.6" stroke="#e6c9ad" stroke-width="40.0" stroke-linecap="round" opacity="1"/>
+<line x1="545.2" y1="395.6" x2="546.6" y2="369.0" stroke="#7a5a45" stroke-width="38.6" stroke-linecap="round" opacity="1"/>
+<line x1="545.2" y1="395.6" x2="546.6" y2="369.0" stroke="#e6c9ad" stroke-width="36.6" stroke-linecap="round" opacity="1"/>
+<line x1="546.6" y1="369.0" x2="546.9" y2="362.2" stroke="#7a5a45" stroke-width="35.6" stroke-linecap="round" opacity="1"/>
+<line x1="546.6" y1="369.0" x2="546.9" y2="362.2" stroke="#e6c9ad" stroke-width="33.6" stroke-linecap="round" opacity="1"/>
+<line x1="586.0" y1="480.0" x2="592.7" y2="432.7" stroke="#7a5a45" stroke-width="37.2" stroke-linecap="round" opacity="1"/>
+<line x1="586.0" y1="480.0" x2="592.7" y2="432.7" stroke="#e6c9ad" stroke-width="35.2" stroke-linecap="round" opacity="1"/>
+<line x1="592.7" y1="432.7" x2="594.8" y2="417.3" stroke="#7a5a45" stroke-width="34.2" stroke-linecap="round" opacity="1"/>
+<line x1="592.7" y1="432.7" x2="594.8" y2="417.3" stroke="#e6c9ad" stroke-width="32.2" stroke-linecap="round" opacity="1"/>
+<line x1="594.8" y1="417.3" x2="594.7" y2="418.2" stroke="#7a5a45" stroke-width="31.4" stroke-linecap="round" opacity="1"/>
+<line x1="594.8" y1="417.3" x2="594.7" y2="418.2" stroke="#e6c9ad" stroke-width="29.4" stroke-linecap="round" opacity="1"/>
+<line x1="448.0" y1="588.0" x2="392.8" y2="510.8" stroke="#7a5a45" stroke-width="55.0" stroke-linecap="round" opacity="1"/>
+<line x1="448.0" y1="588.0" x2="392.8" y2="510.8" stroke="#e6c9ad" stroke-width="53.0" stroke-linecap="round" opacity="1"/>
+<line x1="392.8" y1="510.8" x2="361.1" y2="449.7" stroke="#7a5a45" stroke-width="49.0" stroke-linecap="round" opacity="1"/>
+<line x1="392.8" y1="510.8" x2="361.1" y2="449.7" stroke="#e6c9ad" stroke-width="47.0" stroke-linecap="round" opacity="1"/>
+<line x1="361.1" y1="449.7" x2="341.5" y2="398.1" stroke="#7a5a45" stroke-width="43.0" stroke-linecap="round" opacity="1"/>
+<line x1="361.1" y1="449.7" x2="341.5" y2="398.1" stroke="#e6c9ad" stroke-width="41.0" stroke-linecap="round" opacity="1"/>
+<circle cx="454.0" cy="464.0" r="5" fill="#1d3557"/>
+<circle cx="447.6" cy="400.4" r="5" fill="#1d3557"/>
+<circle cx="444.2" cy="366.2" r="5" fill="#1d3557"/>
+<text x="442.2" y="316.7" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1d3557">index</text>
+<circle cx="498.0" cy="452.0" r="5" fill="#1d3557"/>
+<circle cx="495.9" cy="382.0" r="5" fill="#1d3557"/>
+<circle cx="494.9" cy="347.6" r="5" fill="#1d3557"/>
+<text x="494.4" y="303.2" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1d3557">middle</text>
+<circle cx="542.0" cy="460.0" r="5" fill="#1d3557"/>
+<circle cx="545.2" cy="395.6" r="5" fill="#1d3557"/>
+<circle cx="546.6" cy="369.0" r="5" fill="#1d3557"/>
+<text x="546.9" y="332.2" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1d3557">ring</text>
+<circle cx="586.0" cy="480.0" r="5" fill="#1d3557"/>
+<circle cx="592.7" cy="432.7" r="5" fill="#1d3557"/>
+<circle cx="594.8" cy="417.3" r="5" fill="#1d3557"/>
+<text x="594.7" y="388.2" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1d3557">pinky</text>
+<circle cx="448.0" cy="588.0" r="5" fill="#8e44ad"/>
+<circle cx="392.8" cy="510.8" r="5" fill="#8e44ad"/>
+<circle cx="361.1" cy="449.7" r="5" fill="#8e44ad"/>
+<text x="331.5" y="428.1" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#8e44ad">thumb</text>
+<circle cx="520.0" cy="640.0" r="6" fill="#c0392b"/>
+<text x="532.0" y="662.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">bilek (0,0,0)</text>
+<line x1="432.0" y1="400.0" x2="608.0" y2="400.0" stroke="#c0392b" stroke-width="1.5" marker-start="url(#a0)" marker-end="url(#a1)"/>
+<text x="520.0" y="392.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#c0392b">avuç genişliği 0.088</text>
+<line x1="458.0" y1="700.0" x2="582.0" y2="700.0" stroke="#c0392b" stroke-width="1.5" marker-start="url(#a0)" marker-end="url(#a1)"/>
+<text x="520.0" y="724.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#c0392b">bilek 0.062</text>
+<line x1="670.0" y1="640.0" x2="670.0" y2="458.0" stroke="#c0392b" stroke-width="1.5" marker-start="url(#a0)" marker-end="url(#a1)"/>
+<text x="670.0" y="549.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#c0392b">avuç boyu 0.091</text>
+<text x="690.0" y="550.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#222"></text>
+<text x="454.0" y="482.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1d3557">z=-0.088</text>
+<text x="498.0" y="470.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1d3557">z=-0.094</text>
+<text x="542.0" y="478.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1d3557">z=-0.090</text>
+<text x="586.0" y="498.0" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1d3557">z=-0.080</text>
+<text x="60.0" y="820.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">MCP kökleri x: −0.033 / −0.011 / +0.011 / +0.033 (aralık 0.022, yay üzerinde)</text>
+<text x="60.0" y="860.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">Parmak boyu (prox/mid/dist): işaret .034/.024/.020 · orta .038/.027/.021 · yüzük .036/.025/.020 · serçe .028/.020/.016</text>
+<text x="60.0" y="900.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">Baş parmak CMC (−0.036,−0.010,−0.026); metakarp .048 · prox .036 · dist .030</text>
+<text x="1070.0" y="150.0" font-family="Helvetica, Arial, sans-serif" font-size="24" text-anchor="start" fill="#222" font-weight="bold">2) Yandan (−X tarafından, baş parmak önde) — rest</text>
+<rect x="1338.0" y="612.0" width="184.0" height="56.0" rx="18" fill="#e6c9ad" stroke="#7a5a45" stroke-width="2"/>
+<line x1="1306.0" y1="640.0" x2="1370.0" y2="640.0" stroke="#7a5a45" stroke-width="74.0" stroke-linecap="round" opacity="1"/>
+<line x1="1306.0" y1="640.0" x2="1370.0" y2="640.0" stroke="#e6c9ad" stroke-width="72.0" stroke-linecap="round" opacity="1"/>
+<line x1="1506.0" y1="640.0" x2="1569.6" y2="663.3" stroke="#7a5a45" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="1506.0" y1="640.0" x2="1569.6" y2="663.3" stroke="#e6c9ad" stroke-width="40.0" stroke-linecap="round" opacity="1"/>
+<line x1="1569.6" y1="663.3" x2="1603.8" y2="696.7" stroke="#7a5a45" stroke-width="38.6" stroke-linecap="round" opacity="1"/>
+<line x1="1569.6" y1="663.3" x2="1603.8" y2="696.7" stroke="#e6c9ad" stroke-width="36.6" stroke-linecap="round" opacity="1"/>
+<line x1="1603.8" y1="696.7" x2="1623.3" y2="731.6" stroke="#7a5a45" stroke-width="35.6" stroke-linecap="round" opacity="1"/>
+<line x1="1603.8" y1="696.7" x2="1623.3" y2="731.6" stroke="#e6c9ad" stroke-width="33.6" stroke-linecap="round" opacity="1"/>
+<line x1="1518.0" y1="638.0" x2="1588.0" y2="667.6" stroke="#7a5a45" stroke-width="44.0" stroke-linecap="round" opacity="1"/>
+<line x1="1518.0" y1="638.0" x2="1588.0" y2="667.6" stroke="#e6c9ad" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="1588.0" y1="667.6" x2="1622.4" y2="709.2" stroke="#7a5a45" stroke-width="40.4" stroke-linecap="round" opacity="1"/>
+<line x1="1588.0" y1="667.6" x2="1622.4" y2="709.2" stroke="#e6c9ad" stroke-width="38.4" stroke-linecap="round" opacity="1"/>
+<line x1="1622.4" y1="709.2" x2="1636.8" y2="748.7" stroke="#7a5a45" stroke-width="37.0" stroke-linecap="round" opacity="1"/>
+<line x1="1622.4" y1="709.2" x2="1636.8" y2="748.7" stroke="#e6c9ad" stroke-width="35.0" stroke-linecap="round" opacity="1"/>
+<line x1="1510.0" y1="638.0" x2="1574.4" y2="670.0" stroke="#7a5a45" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="1510.0" y1="638.0" x2="1574.4" y2="670.0" stroke="#e6c9ad" stroke-width="40.0" stroke-linecap="round" opacity="1"/>
+<line x1="1574.4" y1="670.0" x2="1601.0" y2="712.3" stroke="#7a5a45" stroke-width="38.6" stroke-linecap="round" opacity="1"/>
+<line x1="1574.4" y1="670.0" x2="1601.0" y2="712.3" stroke="#e6c9ad" stroke-width="36.6" stroke-linecap="round" opacity="1"/>
+<line x1="1601.0" y1="712.3" x2="1607.8" y2="751.7" stroke="#7a5a45" stroke-width="35.6" stroke-linecap="round" opacity="1"/>
+<line x1="1601.0" y1="712.3" x2="1607.8" y2="751.7" stroke="#e6c9ad" stroke-width="33.6" stroke-linecap="round" opacity="1"/>
+<line x1="1490.0" y1="642.0" x2="1537.3" y2="671.3" stroke="#7a5a45" stroke-width="37.2" stroke-linecap="round" opacity="1"/>
+<line x1="1490.0" y1="642.0" x2="1537.3" y2="671.3" stroke="#e6c9ad" stroke-width="35.2" stroke-linecap="round" opacity="1"/>
+<line x1="1537.3" y1="671.3" x2="1552.7" y2="708.1" stroke="#7a5a45" stroke-width="34.2" stroke-linecap="round" opacity="1"/>
+<line x1="1537.3" y1="671.3" x2="1552.7" y2="708.1" stroke="#e6c9ad" stroke-width="32.2" stroke-linecap="round" opacity="1"/>
+<line x1="1552.7" y1="708.1" x2="1551.8" y2="740.1" stroke="#7a5a45" stroke-width="31.4" stroke-linecap="round" opacity="1"/>
+<line x1="1552.7" y1="708.1" x2="1551.8" y2="740.1" stroke="#e6c9ad" stroke-width="29.4" stroke-linecap="round" opacity="1"/>
+<line x1="1382.0" y1="660.0" x2="1459.2" y2="674.6" stroke="#7a5a45" stroke-width="55.0" stroke-linecap="round" opacity="1"/>
+<line x1="1382.0" y1="660.0" x2="1459.2" y2="674.6" stroke="#dcb99a" stroke-width="53.0" stroke-linecap="round" opacity="1"/>
+<line x1="1459.2" y1="674.6" x2="1520.3" y2="695.6" stroke="#7a5a45" stroke-width="49.0" stroke-linecap="round" opacity="1"/>
+<line x1="1459.2" y1="674.6" x2="1520.3" y2="695.6" stroke="#dcb99a" stroke-width="47.0" stroke-linecap="round" opacity="1"/>
+<line x1="1520.3" y1="695.6" x2="1571.9" y2="719.1" stroke="#7a5a45" stroke-width="43.0" stroke-linecap="round" opacity="1"/>
+<line x1="1520.3" y1="695.6" x2="1571.9" y2="719.1" stroke="#dcb99a" stroke-width="41.0" stroke-linecap="round" opacity="1"/>
+<circle cx="1506.0" cy="640.0" r="5" fill="#1d3557"/>
+<circle cx="1569.6" cy="663.3" r="5" fill="#1d3557"/>
+<circle cx="1603.8" cy="696.7" r="5" fill="#1d3557"/>
+<circle cx="1518.0" cy="638.0" r="5" fill="#1d3557"/>
+<circle cx="1588.0" cy="667.6" r="5" fill="#1d3557"/>
+<circle cx="1622.4" cy="709.2" r="5" fill="#1d3557"/>
+<circle cx="1510.0" cy="638.0" r="5" fill="#1d3557"/>
+<circle cx="1574.4" cy="670.0" r="5" fill="#1d3557"/>
+<circle cx="1601.0" cy="712.3" r="5" fill="#1d3557"/>
+<circle cx="1490.0" cy="642.0" r="5" fill="#1d3557"/>
+<circle cx="1537.3" cy="671.3" r="5" fill="#1d3557"/>
+<circle cx="1552.7" cy="708.1" r="5" fill="#1d3557"/>
+<circle cx="1382.0" cy="660.0" r="5" fill="#8e44ad"/>
+<circle cx="1459.2" cy="674.6" r="5" fill="#8e44ad"/>
+<circle cx="1520.3" cy="695.6" r="5" fill="#8e44ad"/>
+<line x1="1310.0" y1="560.0" x2="1310.0" y2="720.0" stroke="#c0392b" stroke-width="1.5" marker-start="url(#a0)" marker-end="url(#a1)"/>
+<text x="1310.0" y="640.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#c0392b"></text>
+<text x="1310.0" y="540.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#c0392b">avuç kalınlığı 0.028 (y ±0.014)</text>
+<line x1="1350.0" y1="760.0" x2="1690.0" y2="760.0" stroke="#c0392b" stroke-width="1.5" marker-start="url(#a0)" marker-end="url(#a1)"/>
+<text x="1520.0" y="784.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#c0392b">bilek → orta parmak ucu ≈ 0.176 (rest)</text>
+<text x="1290.0" y="820.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">Parmak yarıçapı: prox 0.0105→0.0095 · mid 0.0095→0.0088 · dist 0.0088→0.0080 (orta ×1.05, serçe ×0.88)</text>
+<text x="1290.0" y="860.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">rest açıları (MCP/PIP/DIP): işaret .35/.42/.29 · orta .40/.48/.34 · yüzük .46/.55/.39 · serçe .55/.62/.43</text>
+<text x="260.0" y="1150.0" font-family="Helvetica, Arial, sans-serif" font-size="24" text-anchor="start" fill="#222" font-weight="bold">3) Avuç içinden — holdFan3 temasları (şablon sağ el; solda x aynalı)</text>
+<rect x="436.0" y="1658.0" width="168.0" height="184.0" rx="24" fill="#e6c9ad" stroke="#7a5a45" stroke-width="2"/>
+<ellipse cx="580.0" cy="1760.0" rx="44.0" ry="64.0" fill="#e6c9ad" stroke="#7a5a45" stroke-width="2"/>
+<line x1="520.0" y1="1874.0" x2="520.0" y2="1810.0" stroke="#7a5a45" stroke-width="114.0" stroke-linecap="round" opacity="1"/>
+<line x1="520.0" y1="1874.0" x2="520.0" y2="1810.0" stroke="#e6c9ad" stroke-width="112.0" stroke-linecap="round" opacity="1"/>
+<line x1="586.0" y1="1674.0" x2="586.9" y2="1611.7" stroke="#7a5a45" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="586.0" y1="1674.0" x2="586.9" y2="1611.7" stroke="#e6c9ad" stroke-width="40.0" stroke-linecap="round" opacity="1"/>
+<line x1="586.9" y1="1611.7" x2="587.4" y2="1576.0" stroke="#7a5a45" stroke-width="38.6" stroke-linecap="round" opacity="1"/>
+<line x1="586.9" y1="1611.7" x2="587.4" y2="1576.0" stroke="#e6c9ad" stroke-width="36.6" stroke-linecap="round" opacity="1"/>
+<line x1="587.4" y1="1576.0" x2="587.7" y2="1553.0" stroke="#7a5a45" stroke-width="35.6" stroke-linecap="round" opacity="1"/>
+<line x1="587.4" y1="1576.0" x2="587.7" y2="1553.0" stroke="#e6c9ad" stroke-width="33.6" stroke-linecap="round" opacity="1"/>
+<line x1="542.0" y1="1662.0" x2="542.0" y2="1593.5" stroke="#7a5a45" stroke-width="44.0" stroke-linecap="round" opacity="1"/>
+<line x1="542.0" y1="1662.0" x2="542.0" y2="1593.5" stroke="#e6c9ad" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="542.0" y1="1593.5" x2="542.0" y2="1554.5" stroke="#7a5a45" stroke-width="40.4" stroke-linecap="round" opacity="1"/>
+<line x1="542.0" y1="1593.5" x2="542.0" y2="1554.5" stroke="#e6c9ad" stroke-width="38.4" stroke-linecap="round" opacity="1"/>
+<line x1="542.0" y1="1554.5" x2="542.0" y2="1531.2" stroke="#7a5a45" stroke-width="37.0" stroke-linecap="round" opacity="1"/>
+<line x1="542.0" y1="1554.5" x2="542.0" y2="1531.2" stroke="#e6c9ad" stroke-width="35.0" stroke-linecap="round" opacity="1"/>
+<line x1="498.0" y1="1670.0" x2="498.2" y2="1604.9" stroke="#7a5a45" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="498.0" y1="1670.0" x2="498.2" y2="1604.9" stroke="#e6c9ad" stroke-width="40.0" stroke-linecap="round" opacity="1"/>
+<line x1="498.2" y1="1604.9" x2="498.3" y2="1568.4" stroke="#7a5a45" stroke-width="38.6" stroke-linecap="round" opacity="1"/>
+<line x1="498.2" y1="1604.9" x2="498.3" y2="1568.4" stroke="#e6c9ad" stroke-width="36.6" stroke-linecap="round" opacity="1"/>
+<line x1="498.3" y1="1568.4" x2="498.4" y2="1545.8" stroke="#7a5a45" stroke-width="35.6" stroke-linecap="round" opacity="1"/>
+<line x1="498.3" y1="1568.4" x2="498.4" y2="1545.8" stroke="#e6c9ad" stroke-width="33.6" stroke-linecap="round" opacity="1"/>
+<line x1="454.0" y1="1690.0" x2="455.0" y2="1638.3" stroke="#7a5a45" stroke-width="37.2" stroke-linecap="round" opacity="1"/>
+<line x1="454.0" y1="1690.0" x2="455.0" y2="1638.3" stroke="#e6c9ad" stroke-width="35.2" stroke-linecap="round" opacity="1"/>
+<line x1="455.0" y1="1638.3" x2="455.6" y2="1607.8" stroke="#7a5a45" stroke-width="34.2" stroke-linecap="round" opacity="1"/>
+<line x1="455.0" y1="1638.3" x2="455.6" y2="1607.8" stroke="#e6c9ad" stroke-width="32.2" stroke-linecap="round" opacity="1"/>
+<line x1="455.6" y1="1607.8" x2="456.0" y2="1588.5" stroke="#7a5a45" stroke-width="31.4" stroke-linecap="round" opacity="1"/>
+<line x1="455.6" y1="1607.8" x2="456.0" y2="1588.5" stroke="#e6c9ad" stroke-width="29.4" stroke-linecap="round" opacity="1"/>
+<line x1="592.0" y1="1798.0" x2="596.0" y2="1770.3" stroke="#7a5a45" stroke-width="55.0" stroke-linecap="round" opacity="1"/>
+<line x1="592.0" y1="1798.0" x2="596.0" y2="1770.3" stroke="#dcb99a" stroke-width="53.0" stroke-linecap="round" opacity="1"/>
+<line x1="596.0" y1="1770.3" x2="568.7" y2="1704.8" stroke="#7a5a45" stroke-width="49.0" stroke-linecap="round" opacity="1"/>
+<line x1="596.0" y1="1770.3" x2="568.7" y2="1704.8" stroke="#dcb99a" stroke-width="47.0" stroke-linecap="round" opacity="1"/>
+<line x1="568.7" y1="1704.8" x2="544.3" y2="1650.1" stroke="#7a5a45" stroke-width="43.0" stroke-linecap="round" opacity="1"/>
+<line x1="568.7" y1="1704.8" x2="544.3" y2="1650.1" stroke="#dcb99a" stroke-width="41.0" stroke-linecap="round" opacity="1"/>
+<polygon points="236.0,1216.5 616.0,1216.5 616.0,1693.9 236.0,1693.9" fill="#eee1c7" fill-opacity=".45" stroke="#8a6d3b" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="588.0" cy="1581.6" r="7" fill="#1d3557"/>
+<line x1="588.0" y1="1581.6" x2="480.0" y2="1245.0" stroke="#999" stroke-width="1"/>
+<text x="180.0" y="1250.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#222">index arka yüz kart(+0.081,+0.072) deri boşluğu 0.5 mm</text>
+<circle cx="542.0" cy="1562.3" r="7" fill="#1d3557"/>
+<line x1="542.0" y1="1562.3" x2="480.0" y2="1267.0" stroke="#999" stroke-width="1"/>
+<text x="180.0" y="1272.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#222">middle arka yüz kart(+0.058,+0.061) deri boşluğu 0.7 mm</text>
+<circle cx="498.0" cy="1574.6" r="7" fill="#1d3557"/>
+<line x1="498.0" y1="1574.6" x2="480.0" y2="1289.0" stroke="#999" stroke-width="1"/>
+<text x="180.0" y="1294.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#222">ring arka yüz kart(+0.036,+0.068) deri boşluğu 0.6 mm</text>
+<circle cx="456.0" cy="1614.9" r="7" fill="#1d3557"/>
+<line x1="456.0" y1="1614.9" x2="480.0" y2="1311.0" stroke="#999" stroke-width="1"/>
+<text x="180.0" y="1316.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#222">pinky arka yüz kart(+0.015,+0.091) deri boşluğu 0.3 mm</text>
+<circle cx="550.0" cy="1648.3" r="7" fill="#c0392b"/>
+<line x1="550.0" y1="1648.3" x2="480.0" y2="1333.0" stroke="#999" stroke-width="1"/>
+<text x="180.0" y="1338.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#222">thumb ön yüz kart(+0.062,+0.110) deri boşluğu 2.0 mm</text>
+<circle cx="550.0" cy="1648.3" r="12" fill="none" stroke="#c0392b" stroke-width="2"/>
+<text x="566.0" y="1678.3" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="start" fill="#c0392b">yelpaze pivotu = baş parmak yastığı (kart x +0.062, z +0.110)</text>
+<text x="60.0" y="2050.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">Kart paketi el uzayında: C = (+0.047, -0.093, -0.197) m, Euler XYZ (-0.50, 0, π); arka normal n=(0,0.878,-0.479)</text>
+<text x="60.0" y="2090.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">Paket alt-sol köşesi (şablonda x_c=+0.095, z_c=+0.136) baş parmak perdesinde: el uzayı (−0.048, −0.028, −0.078).</text>
+<text x="1070.0" y="1150.0" font-family="Helvetica, Arial, sans-serif" font-size="24" text-anchor="start" fill="#222" font-weight="bold">4) Yelpaze tutuşu yandan (YZ düzlemi) — holdFan3, 3 kart</text>
+<rect x="1208.0" y="1372.0" width="184.0" height="56.0" rx="18" fill="#e6c9ad" stroke="#7a5a45" stroke-width="2"/>
+<line x1="1176.0" y1="1400.0" x2="1240.0" y2="1400.0" stroke="#7a5a45" stroke-width="74.0" stroke-linecap="round" opacity="1"/>
+<line x1="1176.0" y1="1400.0" x2="1240.0" y2="1400.0" stroke="#e6c9ad" stroke-width="72.0" stroke-linecap="round" opacity="1"/>
+<line x1="1359.9" y1="1449.0" x2="1837.3" y2="1709.8" stroke="#8a6d3b" stroke-width="16.0" stroke-linecap="butt" opacity=".85"/>
+<line x1="1359.9" y1="1449.0" x2="1837.3" y2="1709.8" stroke="#eee1c7" stroke-width="12.0" stroke-linecap="butt"/>
+<line x1="1356.1" y1="1456.0" x2="1833.5" y2="1716.8" stroke="#8a6d3b" stroke-width="16.0" stroke-linecap="butt" opacity=".85"/>
+<line x1="1356.1" y1="1456.0" x2="1833.5" y2="1716.8" stroke="#eee1c7" stroke-width="12.0" stroke-linecap="butt"/>
+<line x1="1352.3" y1="1463.0" x2="1829.7" y2="1723.8" stroke="#8a6d3b" stroke-width="16.0" stroke-linecap="butt" opacity=".85"/>
+<line x1="1352.3" y1="1463.0" x2="1829.7" y2="1723.8" stroke="#eee1c7" stroke-width="12.0" stroke-linecap="butt"/>
+<line x1="1376.0" y1="1400.0" x2="1438.3" y2="1427.2" stroke="#7a5a45" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="1376.0" y1="1400.0" x2="1438.3" y2="1427.2" stroke="#e6c9ad" stroke-width="40.0" stroke-linecap="round" opacity="1"/>
+<line x1="1438.3" y1="1427.2" x2="1474.0" y2="1459.3" stroke="#7a5a45" stroke-width="38.6" stroke-linecap="round" opacity="1"/>
+<line x1="1438.3" y1="1427.2" x2="1474.0" y2="1459.3" stroke="#e6c9ad" stroke-width="36.6" stroke-linecap="round" opacity="1"/>
+<line x1="1474.0" y1="1459.3" x2="1497.0" y2="1492.1" stroke="#7a5a45" stroke-width="35.6" stroke-linecap="round" opacity="1"/>
+<line x1="1474.0" y1="1459.3" x2="1497.0" y2="1492.1" stroke="#e6c9ad" stroke-width="33.6" stroke-linecap="round" opacity="1"/>
+<line x1="1388.0" y1="1398.0" x2="1456.5" y2="1430.9" stroke="#7a5a45" stroke-width="44.0" stroke-linecap="round" opacity="1"/>
+<line x1="1388.0" y1="1398.0" x2="1456.5" y2="1430.9" stroke="#e6c9ad" stroke-width="42.0" stroke-linecap="round" opacity="1"/>
+<line x1="1456.5" y1="1430.9" x2="1495.5" y2="1468.2" stroke="#7a5a45" stroke-width="40.4" stroke-linecap="round" opacity="1"/>
+<line x1="1456.5" y1="1430.9" x2="1495.5" y2="1468.2" stroke="#e6c9ad" stroke-width="38.4" stroke-linecap="round" opacity="1"/>
+<line x1="1495.5" y1="1468.2" x2="1518.8" y2="1503.2" stroke="#7a5a45" stroke-width="37.0" stroke-linecap="round" opacity="1"/>
+<line x1="1495.5" y1="1468.2" x2="1518.8" y2="1503.2" stroke="#e6c9ad" stroke-width="35.0" stroke-linecap="round" opacity="1"/>
+<line x1="1252.0" y1="1420.0" x2="1279.7" y2="1511.8" stroke="#7a5a45" stroke-width="55.0" stroke-linecap="round" opacity="1"/>
+<line x1="1252.0" y1="1420.0" x2="1279.7" y2="1511.8" stroke="#dcb99a" stroke-width="53.0" stroke-linecap="round" opacity="1"/>
+<line x1="1279.7" y1="1511.8" x2="1345.2" y2="1524.0" stroke="#7a5a45" stroke-width="49.0" stroke-linecap="round" opacity="1"/>
+<line x1="1279.7" y1="1511.8" x2="1345.2" y2="1524.0" stroke="#dcb99a" stroke-width="47.0" stroke-linecap="round" opacity="1"/>
+<line x1="1345.2" y1="1524.0" x2="1399.9" y2="1526.2" stroke="#7a5a45" stroke-width="43.0" stroke-linecap="round" opacity="1"/>
+<line x1="1345.2" y1="1524.0" x2="1399.9" y2="1526.2" stroke="#dcb99a" stroke-width="41.0" stroke-linecap="round" opacity="1"/>
+<line x1="1468.4" y1="1517.4" x2="1520.0" y2="995.0" stroke="#999" stroke-width="1"/>
+<circle cx="1468.4" cy="1517.4" r="7" fill="#1d3557"/>
+<text x="1524.0" y="1000.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#222">index yastığı (arka yüz) — deri/yüzey 0.5 mm</text>
+<line x1="1487.7" y1="1527.9" x2="1520.0" y2="1017.0" stroke="#999" stroke-width="1"/>
+<circle cx="1487.7" cy="1527.9" r="7" fill="#1d3557"/>
+<text x="1524.0" y="1022.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#222">middle yastığı (arka yüz) — deri/yüzey 0.7 mm</text>
+<line x1="1401.7" y1="1480.9" x2="1520.0" y2="1039.0" stroke="#999" stroke-width="1"/>
+<circle cx="1401.7" cy="1480.9" r="7" fill="#c0392b"/>
+<text x="1524.0" y="1044.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" fill="#222">thumb yastığı (ön yüz) — deri/yüzey 2.0 mm</text>
+<text x="520.0" y="1980.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">Kart düzlemi avuç düzlemine göre -0.50 rad eğik (üst kenar avuç içine/−Y yönüne yatar); paket yarı kalınlığı 3 kart = 0.008, 2 kart = 0.006, 1 kart = 0.004.</text>
+<text x="520.0" y="2020.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">Kural: deri yüzeyi ↔ kart yüzeyi ≥ 2 mm (temas 0–2 mm); parmak gövdesi kart sınırı içinde düzlemi kesmez.</text>
+<text x="520.0" y="2060.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">Dünya yerleşimi (mevcut heldFan [0,.29,1.22] rot [1.18,0,0]) → sol el grubu pos (−0.047, 0.093, 1.315), Euler (0.68, 0, π).</text>
+</svg>

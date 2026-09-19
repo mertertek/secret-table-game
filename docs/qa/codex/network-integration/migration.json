@@ -1,0 +1,73 @@
+[
+  {
+    "name": "history_before",
+    "value": [
+      {
+        "version": "0001",
+        "name": "schema"
+      },
+      {
+        "version": "0002",
+        "name": "functions"
+      },
+      {
+        "version": "0003",
+        "name": "realtime"
+      },
+      {
+        "version": "0004",
+        "name": "explicit_grants"
+      },
+      {
+        "version": "0005",
+        "name": "trigger_fn_grants"
+      }
+    ]
+  },
+  {
+    "name": "history_after",
+    "value": [
+      {
+        "version": "0001",
+        "name": "schema"
+      },
+      {
+        "version": "0002",
+        "name": "functions"
+      },
+      {
+        "version": "0003",
+        "name": "realtime"
+      },
+      {
+        "version": "0004",
+        "name": "explicit_grants"
+      },
+      {
+        "version": "0005",
+        "name": "trigger_fn_grants"
+      },
+      {
+        "version": "0007",
+        "name": "viewpoint_channels"
+      }
+    ]
+  },
+  {
+    "name": "policies",
+    "value": [
+      {
+        "policyname": "room_channel_read",
+        "cmd": "SELECT"
+      },
+      {
+        "policyname": "viewpoint_channel_read",
+        "cmd": "SELECT"
+      },
+      {
+        "policyname": "viewpoint_channel_write",
+        "cmd": "INSERT"
+      }
+    ]
+  }
+]

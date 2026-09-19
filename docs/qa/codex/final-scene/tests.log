@@ -1,0 +1,110 @@
+
+> secret-table@0.0.0 test <proje-klasörü>
+> pnpm -r --workspace-concurrency=1 test
+
+Scope: 6 of 7 workspace projects
+
+> @secret-table/contracts@0.2.0 test <proje-klasörü>/packages/contracts
+> vitest run --passWithNoTests
+
+
+ RUN  v3.2.7 <proje-klasörü>/packages/contracts
+
+ ✓ src/viewpoint.test.ts (5 tests) 3ms
+ ✓ src/schemas.test.ts (6 tests) 5ms
+
+ Test Files  2 passed (2)
+      Tests  11 passed (11)
+   Start at  19:52:21
+   Duration  576ms (transform 105ms, setup 0ms, collect 347ms, tests 7ms, environment 0ms, prepare 109ms)
+
+
+> @secret-table/fixtures@0.0.0 test <proje-klasörü>/packages/fixtures
+> vitest run
+
+
+ RUN  v3.2.7 <proje-klasörü>/packages/fixtures
+
+ ✓ src/fixtures.test.ts (28 tests) 19ms
+
+ Test Files  1 passed (1)
+      Tests  28 passed (28)
+   Start at  19:52:22
+   Duration  432ms (transform 61ms, setup 0ms, collect 85ms, tests 19ms, environment 0ms, prepare 44ms)
+
+
+> @secret-table/game-core@0.0.0 test <proje-klasörü>/packages/game-core
+> vitest run --passWithNoTests
+
+
+ RUN  v3.2.7 <proje-klasörü>/packages/game-core
+
+ ✓ src/setup.test.ts (14 tests) 6ms
+ ✓ src/engine.election.test.ts (16 tests) 8ms
+ ✓ src/engine.legislative.test.ts (7 tests) 17ms
+ ✓ src/engine.guards.test.ts (9 tests) 19ms
+ ✓ src/engine.powers.test.ts (11 tests) 27ms
+ ✓ src/engine.fullgame.test.ts (8 tests) 55ms
+
+ Test Files  6 passed (6)
+      Tests  65 passed (65)
+   Start at  19:52:23
+   Duration  540ms (transform 355ms, setup 0ms, collect 706ms, tests 133ms, environment 2ms, prepare 816ms)
+
+
+> @secret-table/scene@0.0.0 test <proje-klasörü>/packages/scene
+> vitest run --passWithNoTests
+
+
+ RUN  v3.2.7 <proje-klasörü>/packages/scene
+
+ ✓ src/animation/cues.test.ts (12 tests) 3ms
+ ✓ src/layout/presentation.test.ts (13 tests) 7ms
+ ✓ src/audio/SceneAudio.test.ts (7 tests) 62ms
+ ✓ src/layout/cameraFraming.test.ts (4 tests) 5ms
+ ✓ src/prototype/prototype.test.ts (27 tests) 39ms
+ ✓ src/live/presentation.test.ts (16 tests) 6ms
+
+ Test Files  6 passed (6)
+      Tests  79 passed (79)
+   Start at  19:52:24
+   Duration  657ms (transform 529ms, setup 0ms, collect 1.13s, tests 123ms, environment 1ms, prepare 604ms)
+
+
+> @secret-table/server@0.0.0 test <proje-klasörü>/packages/server
+> vitest run --passWithNoTests
+
+
+ RUN  v3.2.7 <proje-klasörü>/packages/server
+
+ ✓ src/projection.test.ts (5 tests) 7ms
+ ✓ src/lobby.test.ts (5 tests) 8ms
+ ✓ src/service.concurrency.test.ts (5 tests) 18ms
+ ✓ src/service.test.ts (13 tests) 46ms
+ ✓ src/service.rematch.test.ts (5 tests) 88ms
+
+ Test Files  5 passed (5)
+      Tests  33 passed (33)
+   Start at  19:52:25
+   Duration  501ms (transform 306ms, setup 0ms, collect 670ms, tests 167ms, environment 0ms, prepare 387ms)
+
+
+> @secret-table/web@0.0.0 test <proje-klasörü>/apps/web
+> vitest run --passWithNoTests
+
+
+ RUN  v3.2.7 <proje-klasörü>/apps/web
+
+ ✓ src/ui/text.test.ts (8 tests) 13ms
+ ✓ src/multiplayer/viewpointProtocol.test.ts (7 tests) 5ms
+ ✓ src/multiplayer/viewpointChannel.test.ts (8 tests) 24ms
+ ✓ api/_lib/context.test.ts (6 tests) 4ms
+ ✓ src/immersive/immersiveSession.test.tsx (2 tests) 21ms
+ ✓ src/immersive/controls.test.tsx (18 tests) 46ms
+ ✓ src/ui/rolePanel.crosscontrol.test.tsx (4 tests) 66ms
+
+ Test Files  7 passed (7)
+      Tests  53 passed (53)
+   Start at  19:52:26
+   Duration  1.46s (transform 546ms, setup 0ms, collect 1.63s, tests 179ms, environment 1.99s, prepare 796ms)
+

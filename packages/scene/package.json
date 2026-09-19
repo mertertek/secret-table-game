@@ -1,0 +1,39 @@
+{
+  "name": "@secret-table/scene",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./art": {
+      "types": "./src/art.ts",
+      "default": "./src/art.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@secret-table/contracts": "workspace:*",
+    "@react-three/drei": "~10.7.8",
+    "@react-three/fiber": "~9.7.0",
+    "three": "~0.186.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.0",
+    "@types/three": "~0.185.4",
+    "react": "~19.2.8",
+    "react-dom": "~19.2.8",
+    "typescript": "~5.9.3",
+    "vitest": "~3.2.7"
+  }
+}

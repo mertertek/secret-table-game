@@ -1,0 +1,4 @@
+{
+  "camera": "overview",
+  "intents": "[\"inspect_own_role:false\",\"inspect_own_role:true\",\"set_camera\"]"
+}

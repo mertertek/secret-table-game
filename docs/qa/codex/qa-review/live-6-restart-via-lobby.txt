@@ -1,0 +1,62 @@
+- banner:
+  - strong: Secret Table
+  - generic: Rol tanışması
+  - checkbox "düşük grafik"
+  - text: düşük grafik
+  - checkbox "hareketi azalt"
+  - text: hareketi azalt
+  - checkbox "ses" [checked]
+  - text: ses
+  - generic "Bağlı"
+  - button "Yenile"
+- button "Özel alanı incele"
+- button "Kimliği aç"
+- complementary:
+  - 'region "Sıra: Rol tanışması"':
+    - 'heading "Sıra: Rol tanışması" [level=2]'
+    - status: Oyun duraklatıldı; bazı oyuncular bekleniyor.
+    - heading "Rolünü öğren" [level=3]
+    - paragraph: Rol zarfını aç ve hazır olduğunu bildir.
+    - group "Rolünü öğren":
+      - button "Hazırım"
+  - region "Özel bilgin":
+    - heading "Özel bilgin" [level=2]
+    - button "Göster"
+    - paragraph: Rolün ve özel bilgin gizli. Görmek için “Göster”e bas.
+  - region "Oyuncular":
+    - heading "Oyuncular" [level=2]
+    - list:
+      - generic "bağlı"
+      - generic: "1"
+      - generic: QA-İpek Şığ Öztürk
+      - generic: Oda sahibi
+      - generic "bağlı"
+      - generic: "2"
+      - generic: Bot-Ada
+      - generic "bağlı"
+      - generic: "3"
+      - generic: Bot-Bora
+      - generic "bağlı"
+      - generic: "4"
+      - generic: Bot-Cem
+      - generic "bağlı değil"
+      - generic: "5"
+      - generic: Bot-Derya
+      - generic "bağlı değil"
+      - generic: "6"
+      - generic: Bot-Efe
+  - region "Masa":
+    - heading "Masa" [level=2]
+    - status: "Duraklatıldı: oyuncu çevrimdışı"
+    - term: Liberal
+    - definition: 0 / 5
+    - term: Faşist
+    - definition: 0 / 6
+    - term: Seçim sayacı
+    - definition: 0 / 3
+    - term: Deste / Atık
+    - definition: 17 / 0
+  - region "Tur geçmişi":
+    - heading "Tur geçmişi" [level=2]
+    - list:
+      - listitem: Oyun başladı (6 kişi).

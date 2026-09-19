@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+const { chromium } = require('<yerel-yol>);
+const [,, port = '5199', grip = 'rest', view = 'back', zoom = '0.7', out = '/tmp/one.png'] = process.argv;
+const b = await chromium.launch({ headless: true, executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', args: ['--use-gl=angle', '--use-angle=metal', '--ignore-gpu-blocklist'] });
+const ctx = await b.newContext({ viewport: { width: 560, height: 560 }, deviceScaleFactor: 2 });
+const p = await ctx.newPage();
+await p.goto(`http://localhost:${port}/dev/hands?grip=${grip}&view=${view}&zoom=${zoom}`);
+await p.waitForFunction(() => document.querySelector('canvas')?.dataset.d1Ready === '1', null, { timeout: 30000 });
+await p.waitForTimeout(800);
+await p.screenshot({ path: out, type: 'png' });
+await b.close();

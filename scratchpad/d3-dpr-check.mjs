@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+const { chromium } = require('<yerel-yol>);
+const browser = await chromium.launch({ headless: true, executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', args: ['--use-gl=angle','--use-angle=metal','--ignore-gpu-blocklist'] });
+const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 });
+const page = await ctx.newPage();
+await page.goto('http://localhost:5199/');
+await page.evaluate((p) => localStorage.setItem('secret-table:prefs', JSON.stringify(p)), { quality: 'standard', reducedMotion: false, soundEnabled: false, sensitivity: 1, cameraMode: 'seat' });
+await page.goto('http://localhost:5199/dev/game?fixture=nomination');
+await page.waitForFunction(() => +(document.querySelector('canvas')?.dataset.sceneFrames || 0) > 0, null, { timeout: 60000 });
+console.log(await page.evaluate(() => { const c = document.querySelector('canvas'); return { dpr: devicePixelRatio, buffer: [c.width, c.height], css: [c.clientWidth, c.clientHeight] }; }));
+await browser.close();

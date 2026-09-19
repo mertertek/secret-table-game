@@ -1,0 +1,173 @@
+{
+ "results": [
+  {
+   "id": "kurulum",
+   "ok": true,
+   "ev": "g1-A-seat.jpg",
+   "n": "oda FHUJYA, 3 bot, 5 oyuncu, iki bağlam koltuk kamerasında"
+  },
+  {
+   "id": "B-head-render",
+   "ok": true,
+   "ev": "b1-B-sees-A-turn.jpg",
+   "n": "B'de A hareket ederken 4,5 s'de 243 kare çizildi (boşta 2 s'de 19); ardışık kare farkları [0.00105]"
+  },
+  {
+   "id": "B-stale",
+   "ok": true,
+   "ev": "b3-B-stale.jpg",
+   "n": "hareket bitti + 5 s: B karesi değişimi 0.00212 (4 s bayatlama sonrası nötre dönüş)"
+  },
+  {
+   "id": "C-local",
+   "ok": true,
+   "ev": "c1-wheel.jpg",
+   "n": "G çarkı 8 jest; yerel: 1→point, 2→hands_up, 5→middle, 7→clap, 8→facepalm"
+  },
+  {
+   "id": "C-peer",
+   "ok": true,
+   "ev": "c2-point-B.jpg",
+   "n": "B'de aktif jest: point:1(+39 kare), hands_up:1(+46 kare), middle:1(+48 kare), clap:1(+45 kare), facepalm:1(+60 kare)"
+  },
+  {
+   "id": "C-ratelimit",
+   "ok": true,
+   "ev": "-",
+   "n": "1,2 s hız sınırı: ilk thumbs_up, hemen ardından istenen ret → thumbs_up"
+  },
+  {
+   "id": "E-lean",
+   "ok": true,
+   "ev": "e1-lean.jpg",
+   "n": "B → aria-pressed=true, kare farkı 0.64824, eğilmede çizim 96; Esc sonrası başlangıca fark 0"
+  },
+  {
+   "id": "E-hud-idle",
+   "ok": true,
+   "ev": "e4-hud-idle.jpg",
+   "n": "Pointer Lock locked fs=true lock=true; 3,6 s hareketsizlik sonrası data-hud-idle=false (sıra sendeyse gizlenmez)"
+  },
+  {
+   "id": "E-enter",
+   "ok": true,
+   "ev": "e3-immersive.jpg",
+   "n": "Enter sonrası locked fs=true lock=true aktif=game"
+  },
+  {
+   "id": "E-neighbor",
+   "ok": true,
+   "ev": "e5-neighbor.jpg",
+   "n": "kilitli bakışla sağa tam dönüş yapıldı (yaw sınırı 1,4 rad = 80°; 5 kişilik komşu ≈72°) — kare: e5-neighbor.jpg"
+  },
+  {
+   "id": "F-reconnect",
+   "ok": true,
+   "ev": "f1-reconnect.jpg",
+   "n": "ilk kare 4033 ms; faz \"Oylama\" → \"Oylama\"; kamera seat; ofis eli \"\""
+  },
+  {
+   "id": "D-flow",
+   "ok": false,
+   "ev": "d-final-A.jpg",
+   "n": "fazlar: Oylama → Başkan kart atıyor → Şansölye kanun seçiyor → Aday belirleme"
+  },
+  {
+   "id": "D-execution",
+   "ok": true,
+   "ev": "x3-fire-A.jpg",
+   "n": "senaryo \"\"; hedef seçenekleri [\"Bahar\",\"Bot-Ada\",\"Bot-Bora\",\"Bot-Cem\"]; ateş sonrası A cue 3 ses 2, B cue 10; B vuruldu ekranı true; B duyuru \"ADAY SEÇİMİBaşkan Bot-Ada şansölye adayını seçiyor\""
+  },
+  {
+   "id": "D-gameover",
+   "ok": false,
+   "ev": "x5-gameover-A.jpg",
+   "n": "70+40 turda oyun bitmedi; son faz Aday belirleme"
+  },
+  {
+   "id": "G-phone",
+   "ok": true,
+   "ev": "g2-phone-game.jpg",
+   "n": "390×844: araçlar [\"Genel masa\",\"Kendi koltuğum\",\"Özel alan\",\"Tahta\",\"Oyuna odaklan\",\"Menü M\"], jest düğmesi false, yatay taşma false"
+  }
+ ],
+ "log": [
+  "oda FHUJYA bot 3",
+  "A {\"status\":\"Rol tanışması\",\"detail\":\"3 oyuncu rolüne bakıyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"\",\"shot\":false,\"err\":\"\"} B {\"status\":\"Rol tanışması\",\"detail\":\"3 oyuncu rolüne bakıyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"\",\"shot\":false,\"err\":\"\"}",
+  "GEÇTİ kurulum | g1-A-seat.jpg | oda FHUJYA, 3 bot, 5 oyuncu, iki bağlam koltuk kamerasında",
+  "B menü oyuncular: Oyuncular1MertOda sahibi2Bahar3Bot-Ada4Bot-Bora5Bot-Cem | 1MertOda sahibi2Bahar3Bot-Ada4Bot-Bora5Bot-Cem | 1MertOda sahibi | 1 | Mert | Oda sahibi | 2Bahar | 2 | Bahar |  | 3Bot-Ada | 3 | Bot-Ada |  | 4Bot-Bora | 4 | Bot-Bora |  | 5Bot-Cem | 5 | Bot-Cem |  | MasaLiberal0 / 5Faşist0 / 6Seçim sayacı0 / 3Deste / Atık17 / 0 | Tur geçmişiOyun başladı (5 kişi). | Tercihlerdüşük grafikhareketi azaltDuyurularsesFare hassasiyeti: 1.0×kendi koltuğumdan bak (V) | TuşlarE / sol tıkBakılan hedefi seç (hamle onayı değil)1 · 2 · 3Soldan sağa ilgili kartı / seçeneği seç← →Yalnız inceleme / seçenek odağını değ",
+  "B kare sayacı: boşta 19 (2 s), A hareket ederken 243 (4,5 s)",
+  "B ardışık kare farkları [0.00105]",
+  "GEÇTİ B-head-render | b1-B-sees-A-turn.jpg | B'de A hareket ederken 4,5 s'de 243 kare çizildi (boşta 2 s'de 19); ardışık kare farkları [0.00105]",
+  "GEÇTİ B-stale | b3-B-stale.jpg | hareket bitti + 5 s: B karesi değişimi 0.00212 (4 s bayatlama sonrası nötre dönüş)",
+  "çark 1☝İşaret2🙌Teslim3👍Onay4👎Ret5🖕Orta parmak6👋Selam7👏Alkış8🤦Yüz avuçlamaJest seç1–8 · ok tuşları · fare",
+  "jest tablosu [{\"k\":\"1\",\"want\":\"point\",\"a\":\"point\",\"bEmotes\":\"1\",\"bFrames\":39,\"aSounds\":\"0\"},{\"k\":\"2\",\"want\":\"hands_up\",\"a\":\"hands_up\",\"bEmotes\":\"1\",\"bFrames\":46,\"aSounds\":\"0\"},{\"k\":\"5\",\"want\":\"middle\",\"a\":\"middle\",\"bEmotes\":\"1\",\"bFrames\":48,\"aSounds\":\"0\"},{\"k\":\"7\",\"want\":\"clap\",\"a\":\"clap\",\"bEmotes\":\"1\",\"bFrames\":45,\"aSounds\":\"1\"},{\"k\":\"8\",\"want\":\"facepalm\",\"a\":\"facepalm\",\"bEmotes\":\"1\",\"bFrames\":60,\"aSounds\":\"1\"}]",
+  "GEÇTİ C-local | c1-wheel.jpg | G çarkı 8 jest; yerel: 1→point, 2→hands_up, 5→middle, 7→clap, 8→facepalm",
+  "GEÇTİ C-peer | c2-point-B.jpg | B'de aktif jest: point:1(+39 kare), hands_up:1(+46 kare), middle:1(+48 kare), clap:1(+45 kare), facepalm:1(+60 kare)",
+  "GEÇTİ C-ratelimit | - | 1,2 s hız sınırı: ilk thumbs_up, hemen ardından istenen ret → thumbs_up",
+  "GEÇTİ E-lean | e1-lean.jpg | B → aria-pressed=true, kare farkı 0.64824, eğilmede çizim 96; Esc sonrası başlangıca fark 0",
+  "kilit locked fs=true lock=true",
+  "GEÇTİ E-hud-idle | e4-hud-idle.jpg | Pointer Lock locked fs=true lock=true; 3,6 s hareketsizlik sonrası data-hud-idle=false (sıra sendeyse gizlenmez)",
+  "GEÇTİ E-enter | e3-immersive.jpg | Enter sonrası locked fs=true lock=true aktif=game",
+  "komşuya dönük durum {\"status\":\"Oylama\",\"detail\":\"sen henüz oy vermedin · Bekleyen: Mert (sen), Bahar\",\"opts\":[\"Evet\",\"Hayır\"],\"over\":false,\"overText\":\"\",\"ann\":\"\",\"shot\":false,\"err\":\"\"}",
+  "GEÇTİ E-neighbor | e5-neighbor.jpg | kilitli bakışla sağa tam dönüş yapıldı (yaw sınırı 1,4 rad = 80°; 5 kişilik komşu ≈72°) — kare: e5-neighbor.jpg",
+  "GEÇTİ F-reconnect | f1-reconnect.jpg | ilk kare 4033 ms; faz \"Oylama\" → \"Oylama\"; kamera seat; ofis eli \"\"",
+  "[D] FAZ Oylama — sen henüz oy vermedin · Bekleyen: Mert (sen), Bahar | A: Evet / Hayır | duyuru A:  | B: Oylama/sen henüz oy vermedin · Bekleyen: Mert, Bahar (sen)",
+  "   A rozet 4 ofis  cue 0 ses 1 | B rozet 4 ofis  cue 0",
+  "[D] A → \"Evet\" (Gönderilecek: Evet)",
+  "[D] B → \"Evet\" (Gönderilecek: Evet)",
+  "[D] B → \"Evet\" ()",
+  "[D] B → \"Evet\" ()",
+  "[D] B → \"Evet\" ()",
+  "[D] B → \"Evet\" ()",
+  "[D] FAZ Başkan kart atıyor — Başkan Bot-Bora 3 karttan birini atıyor | A:  | duyuru A: YASAMABaşkan Bot-Bora 3 karttan birini atıyor | B: Başkan kart atıyor/Başkan Bot-Bora 3 karttan birini atıyor",
+  "   A rozet 0 ofis president:3 cue 0 ses 1 | B rozet 0 ofis president:3 cue 4",
+  "[D] FAZ Şansölye kanun seçiyor — Şansölye Bahar kanunu seçiyor | A:  | duyuru A: YASAMAŞansölye Bahar kanunu seçiyor | B: Şansölye kanun seçiyor/Sıra sende: iki karttan birini yürürlüğe koy",
+  "   A rozet 0 ofis chancellor:2 cue 0 ses 1 | B rozet 0 ofis chancellor:2 cue 4",
+  "[D] B → \"Liberal kanun\" (Gönderilecek: Liberal kanun)",
+  "[D] B → \"Liberal kanun\" ()",
+  "[D] FAZ Aday belirleme — Başkan Bot-Cem şansölye adayını seçiyor | A:  | duyuru A: ADAY SEÇİMİBaşkan Bot-Cem şansölye adayını seçiyor | B: Aday belirleme/Başkan Bot-Cem şansölye adayını seçiyor",
+  "   A rozet 0 ofis  cue 0 ses 1 | B rozet 0 ofis  cue 6",
+  "[D] A → \"Evet\" (Gönderilecek: Evet)",
+  "[D] B → \"Evet\" (Gönderilecek: Evet)",
+  "[D] B → \"Evet\" ()",
+  "[D] B → \"Evet\" ()",
+  "[D] A → \"Bahar\" (Gönderilecek: Bahar)",
+  "[D] A → \"Bahar\" ()",
+  "[D] A → \"Bahar\" ()",
+  "[D] B → \"Evet\" (Gönderilecek: Evet)",
+  "[D] A → \"Evet\" (Gönderilecek: Evet)",
+  "[D] A → \"Evet\" (Gönderilecek: Evet)",
+  "[D] A → \"Faşist kanun\" (Gönderilecek: Faşist kanun)",
+  "[D] A → \"Faşist kanun\" ()",
+  "[D] A → \"Faşist kanun\" ()",
+  "[D] B → \"Faşist kanun\" (Gönderilecek: Faşist kanun)",
+  "[D] B → \"Faşist kanun\" (Gönderilecek: Faşist kanun)",
+  "[D] B → \"Mert\" (Gönderilecek: Mert)",
+  "[D] B → \"Mert\" (Gönderilecek: Mert)",
+  "[D] B → \"Evet\" (Gönderilecek: Evet)",
+  "[D] B → \"Evet\" ()",
+  "[D] A → \"Evet\" (Gönderilecek: Evet)",
+  "[D] A → \"Evet\" ()",
+  "[D] A → \"Evet\" ()",
+  "[D] B → \"Faşist kanun\" (Gönderilecek: Faşist kanun)",
+  "[D] B → \"Faşist kanun\" ()",
+  "[D] fazlar [[\"Oylama\",\"Evet / Hayır\"],[\"Başkan kart atıyor\",\"\"],[\"Şansölye kanun seçiyor\",\"\"],[\"Aday belirleme\",\"\"]]",
+  "KALDI D-flow | d-final-A.jpg | fazlar: Oylama → Başkan kart atıyor → Şansölye kanun seçiyor → Aday belirleme",
+  "dev senaryo ok ",
+  "infaz fazı {\"status\":\"Başkanlık yetkisi\",\"detail\":\"Sıra sende: infaz için oyuncu seç\",\"opts\":[\"Bahar\",\"Bot-Ada\",\"Bot-Bora\",\"Bot-Cem\"],\"over\":false,\"overText\":\"\",\"ann\":\"BAŞKANLIK YETKİSİİnfaz · Bir oyuncu seç\",\"shot\":false,\"err\":\"\"}",
+  "silah hazır sahne A {\"frames\":2745,\"calls\":93,\"tris\":175486,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"2\",\"sounds\":\"2\",\"audio\":\"running\",\"status\":\"Başkanlık yetkisi\",\"detail\":\"Sıra sende: infaz için oyuncu seç\",\"actions\":[\"1Bahar\",\"2Bot-Ada\",\"3Bot-Bora\",\"4Bot-Cem\"]}",
+  "infaz hamlesi {\"i\":0,\"c\":\"Bahar infaz edilecek — oyundan elenecek.\"} seçenekler [\"Bahar\",\"Bot-Ada\",\"Bot-Bora\",\"Bot-Cem\"]",
+  "infaz sonrası A {\"status\":\"Aday belirleme\",\"detail\":\"Başkan Bot-Ada şansölye adayını seçiyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"\",\"shot\":false,\"err\":\"\"} B {\"status\":\"Aday belirleme\",\"detail\":\"Başkan Bot-Ada şansölye adayını seçiyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"ADAY SEÇİMİBaşkan Bot-Ada şansölye adayını seçiyor\",\"shot\":true,\"err\":\"\"}",
+  "sahne A {\"frames\":2845,\"calls\":95,\"tris\":175486,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"3\",\"sounds\":\"2\",\"audio\":\"running\",\"status\":\"Aday belirleme\",\"detail\":\"Başkan Bot-Ada şansölye adayını seçiyor\",\"actions\":[]} B {\"frames\":1573,\"calls\":146,\"tris\":182042,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"10\",\"sounds\":\"0\",\"audio\":\"locked\",\"status\":\"Aday belirleme\",\"detail\":\"Başkan Bot-Ada şansölye adayını seçiyor\",\"actions\":[]}",
+  "GEÇTİ D-execution | x3-fire-A.jpg | senaryo \"\"; hedef seçenekleri [\"Bahar\",\"Bot-Ada\",\"Bot-Bora\",\"Bot-Cem\"]; ateş sonrası A cue 3 ses 2, B cue 10; B vuruldu ekranı true; B duyuru \"ADAY SEÇİMİBaşkan Bot-Ada şansölye adayını seçiyor\"",
+  "oyun sonu {\"status\":\"Aday belirleme\",\"detail\":\"Başkan Bot-Cem şansölye adayını seçiyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"ADAY SEÇİMİBaşkan Bot-Cem şansölye adayını seçiyor\",\"shot\":false,\"err\":\"\"}",
+  "KALDI D-gameover | x5-gameover-A.jpg | 70+40 turda oyun bitmedi; son faz Aday belirleme",
+  "telefon HUD {\"tools\":[\"Genel masa\",\"Kendi koltuğum\",\"Özel alan\",\"Tahta\",\"Oyuna odaklan\",\"Menü M\"],\"jest\":false,\"opts\":0,\"overflow\":false}",
+  "GEÇTİ G-phone | g2-phone-game.jpg | 390×844: araçlar [\"Genel masa\",\"Kendi koltuğum\",\"Özel alan\",\"Tahta\",\"Oyuna odaklan\",\"Menü M\"], jest düğmesi false, yatay taşma false"
+ ],
+ "aErr": [],
+ "aNet": [],
+ "bErr": [],
+ "bNet": []
+}

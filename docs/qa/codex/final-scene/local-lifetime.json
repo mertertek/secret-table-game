@@ -1,0 +1,250 @@
+{
+  "envelopeStart": {
+    "canvas": {
+      "bottom": 1000,
+      "height": 1000,
+      "left": 0,
+      "right": 1165,
+      "top": 0,
+      "width": 1165,
+      "x": 0,
+      "y": 0
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "true",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.577",
+      "fpCameraZ": "1.969",
+      "fpFov": "55.43",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpMotion": "envelope",
+      "fpMotionProgress": "0.130",
+      "fpPrivateFaces": "0",
+      "sceneDrawCalls": "150",
+      "sceneFrames": "298",
+      "sceneGeometries": "116",
+      "sceneTextures": "25",
+      "sceneTriangles": "67154"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "1",
+      "qaIntents": "[]",
+      "qaLook": "null",
+      "qaSelection": "null",
+      "qaTargets": "{\"slots\":[],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "1",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "drainedEnd": {
+    "canvas": {
+      "bottom": 1000,
+      "height": 1000,
+      "left": 0,
+      "right": 1165,
+      "top": 0,
+      "width": 1165,
+      "x": 0,
+      "y": 0
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.600",
+      "fpCameraZ": "2.035",
+      "fpFov": "64.00",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpMotion": "settled",
+      "fpMotionProgress": "1",
+      "fpPrivateFaces": "1",
+      "sceneDrawCalls": "178",
+      "sceneFrames": "470",
+      "sceneGeometries": "119",
+      "sceneTextures": "29",
+      "sceneTriangles": "74362"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "1",
+      "qaIntents": "[]",
+      "qaLook": "null",
+      "qaSelection": "null",
+      "qaTargets": "{\"slots\":[],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "1",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "beforeReset": {
+    "canvas": {
+      "bottom": 1000,
+      "height": 1000,
+      "left": 0,
+      "right": 1165,
+      "top": 0,
+      "width": 1165,
+      "x": 0,
+      "y": 0
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.600",
+      "fpCameraZ": "2.035",
+      "fpFov": "64.00",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpMotion": "envelope",
+      "fpMotionProgress": "0.137",
+      "fpPrivateFaces": "0",
+      "sceneDrawCalls": "174",
+      "sceneFrames": "501",
+      "sceneGeometries": "119",
+      "sceneTextures": "28",
+      "sceneTriangles": "73566"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "1",
+      "qaIntents": "[]",
+      "qaLook": "null",
+      "qaSelection": "null",
+      "qaTargets": "{\"slots\":[],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "1",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  "afterReset": {
+    "canvas": {
+      "bottom": 1000,
+      "height": 1000,
+      "left": 0,
+      "right": 1165,
+      "top": 0,
+      "width": 1165,
+      "x": 0,
+      "y": 0
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.600",
+      "fpCameraZ": "2.035",
+      "fpFov": "64.00",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpMotion": "settled",
+      "fpMotionProgress": "1",
+      "fpPrivateFaces": "0",
+      "sceneDrawCalls": "169",
+      "sceneFrames": "508",
+      "sceneGeometries": "119",
+      "sceneTextures": "28",
+      "sceneTriangles": "71980"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "2",
+      "qaIntents": "[]",
+      "qaLook": "null",
+      "qaSelection": "null",
+      "qaTargets": "{\"slots\":[],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "1",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  }
+}

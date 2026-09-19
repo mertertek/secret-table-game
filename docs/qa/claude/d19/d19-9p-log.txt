@@ -1,0 +1,31 @@
+17:56:40.436 A(Mert) oda açtı: kod=2F2CXJ roomId=06ab8e3f-b914-41f9-93e9-cad76d642d56
+17:56:40.978 8 bot eklendi (hedef 9)
+17:56:40.978 GEÇTİ — 9 kişilik masa: 8 bot katılır (BOT_NAMES 9) (8 bot)
+17:56:41.798 oyun başladı
+17:56:51.534 GEÇTİ — 9 kişilik oyun başlar (büyük düzen) (9 oyuncu, rol=liberal)
+17:56:51.567 kare 20-9kisi-oyun.jpg
+17:56:53.561 senaryo uygulandı: Sadakat incelemesi (şimdi)
+17:56:53.561 GEÇTİ — investigate_now (9 kişi) kabul edilir
+17:56:53.566 GEÇTİ — Yetki tablosu: 9-10 kişide 1. faşist yuva = sadakat incelemesi (faşist kanun=1)
+17:56:53.566 GEÇTİ — 9 kişide inceleme hedefi sayısı = 8 (8 hedef)
+17:56:53.611 kare 21-9kisi-inceleme.jpg
+17:56:53.840 GEÇTİ — İnceleme sonucu (parti) yalnız başkana (Bot-Ada → fascist)
+17:56:55.965 senaryo uygulandı: Sadakat incelemesi (şimdi)
+17:56:55.969 GEÇTİ — Aynı oyuncu ikinci kez incelenemez (9 kişide iki inceleme yuvası var) (7 hedef, Bot-Ada listede yok)
+17:56:56.015 kare 22-9kisi-ikinci-inceleme.jpg
+17:56:58.869 senaryo uygulandı: Özel seçim (şimdi)
+17:56:58.875 GEÇTİ — Yetki tablosu: 9-10 kişide 3. faşist yuva = özel seçim (faşist kanun=3)
+17:56:58.991 GEÇTİ — Özel seçim: hedef sonraki başkan (9 kişi) (yeni başkan=Bot-Derya)
+17:56:59.022 kare 23-9kisi-ozel-secim.jpg
+17:57:00.219 senaryo uygulandı: İnfaza atla (şimdi)
+17:57:00.223 GEÇTİ — Yetki tablosu: 9-10 kişide 4. faşist yuva = infaz (faşist kanun=4)
+17:57:00.430 GEÇTİ — İnfaz (9 kişi): hedef elenir (Bot-Ada elendi, hayatta=8)
+17:57:00.430 KALDI — Elenen oyuncu sıra atlanır (9 kişi) (sonraki başkan=undefined (beklenen Bot-Bora))
+17:57:03.078 kare 24-9kisi-infaz.jpg
+17:57:03.283 GEÇTİ — Deste tepesi 9 kişilik düzende yok (devre dışı)
+17:57:03.428 [A(Mert)] console.error: Failed to load resource: the server responded with a status of 409 (Conflict)
+17:57:44.490 KALDI — Veto (9 kişi): 5 faşist kanunda şansölyede veto seçeneği (faşist kanun=undefined)
+17:58:04.491 HATA: TimeoutError: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator('.actionbar__option').filter({ hasText: 'Veto iste' }).first() to be visible
+

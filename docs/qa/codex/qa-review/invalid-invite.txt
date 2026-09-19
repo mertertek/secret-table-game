@@ -1,0 +1,13 @@
+- main:
+  - heading "Odaya katıl" [level=1]
+  - paragraph:
+    - text: "Davet kodu:"
+    - code: "------"
+  - generic: Görünen adın
+  - textbox "Görünen adın":
+    - /placeholder: Örn. Mert
+    - text: QA-Çağrı Şengül Uzun İsim Denemesi
+  - button "Katıl"
+  - alert: Oda bulunamadı ya da kapanmış.
+  - paragraph:
+    - button "← Ana sayfa"

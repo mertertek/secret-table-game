@@ -1,0 +1,29 @@
+{
+  "beforeDrag": {
+    "selection": {
+      "fpDrags": "0",
+      "fpSelections": "2"
+    },
+    "stage": {
+      "fpMode": "seat",
+      "fpPitch": "-0.260",
+      "fpYaw": "0.000"
+    }
+  },
+  "afterDrag": {
+    "selection": {
+      "fpDrags": "1",
+      "fpSelections": "2"
+    },
+    "stage": {
+      "fpMode": "seat",
+      "fpPitch": "-0.120",
+      "fpYaw": "-1.003"
+    }
+  },
+  "limit": {
+    "fpMode": "seat",
+    "fpPitch": "-0.838",
+    "fpYaw": "-1.012"
+  }
+}

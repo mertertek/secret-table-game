@@ -1,0 +1,47 @@
+# Supabase yerel geliştirme yapılandırması — C00 başlangıç taslağı.
+# C03'te migration, RLS/RPC izinleri ve Realtime tetikleyicileriyle birlikte
+# kesinleştirilir. `supabase start` bu görevde çalıştırılmadı (Docker imaj indirimi
+# ağır); komutlar supabase/README.md içinde.
+
+project_id = "secret-table"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 17
+
+[db.pooler]
+enabled = false
+
+[realtime]
+enabled = true
+
+[studio]
+enabled = true
+port = 54323
+
+[inbucket]
+enabled = true
+port = 54324
+
+[storage]
+enabled = false
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173"]
+jwt_expiry = 3600
+enable_signup = true
+# Misafir kimliği: isimle katılım ekranının arkasında anonim oturum.
+enable_anonymous_sign_ins = true
+
+[analytics]
+enabled = false

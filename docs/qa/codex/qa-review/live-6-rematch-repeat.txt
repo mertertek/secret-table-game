@@ -1,0 +1,91 @@
+- banner:
+  - strong: Secret Table
+  - generic: Oyun bitti
+  - checkbox "düşük grafik"
+  - text: düşük grafik
+  - checkbox "hareketi azalt"
+  - text: hareketi azalt
+  - checkbox "ses" [checked]
+  - text: ses
+  - generic "Bağlı"
+  - button "Yenile"
+- complementary:
+  - 'region "Sıra: Oyun bitti"':
+    - 'heading "Sıra: Oyun bitti" [level=2]'
+    - paragraph: Şu an yapman gereken bir şey yok. Diğer oyuncular bekleniyor.
+    - alert: SERVICE_UNAVAILABLE
+  - heading "Oyun bitti" [level=2]
+  - button "Yeniden oyna" [active]
+  - button "Lobiye dön"
+  - region "Özel bilgin":
+    - heading "Özel bilgin" [level=2]
+    - button "Göster"
+    - paragraph: Rolün ve özel bilgin gizli. Görmek için “Göster”e bas.
+  - region "Oyuncular":
+    - heading "Oyuncular" [level=2]
+    - list:
+      - generic "bağlı"
+      - generic: "1"
+      - generic: QA-İpek Şığ Öztürk
+      - generic: Oda sahibi
+      - generic "bağlı"
+      - generic: "2"
+      - generic: Bot-Ada
+      - generic "bağlı"
+      - generic: "3"
+      - generic: Bot-Bora
+      - generic "bağlı"
+      - generic: "4"
+      - generic: Bot-Cem
+      - generic "bağlı değil"
+      - generic: "5"
+      - generic: Bot-Derya
+      - generic "bağlı"
+      - generic: "6"
+      - generic: Bot-Efe
+  - region "Masa":
+    - heading "Masa" [level=2]
+    - term: Liberal
+    - definition: 5 / 5
+    - term: Faşist
+    - definition: 1 / 6
+    - term: Seçim sayacı
+    - definition: 0 / 3
+    - term: Deste / Atık
+    - definition: 9 / 2
+    - paragraph: "Son seçim: Bot-Cem / QA-İpek Şığ Öztürk — kabul (5 evet / 1 hayır)"
+    - status:
+      - strong: Liberaller kazandı
+      - generic: — Beş liberal kanun çıktı
+      - list:
+        - listitem: "QA-İpek Şığ Öztürk: liberal"
+        - listitem: "Bot-Ada: hitler"
+        - listitem: "Bot-Bora: liberal"
+        - listitem: "Bot-Cem: liberal"
+        - listitem: "Bot-Derya: liberal"
+        - listitem: "Bot-Efe: fascist"
+  - region "Tur geçmişi":
+    - heading "Tur geçmişi" [level=2]
+    - list:
+      - listitem: Oyun başladı (6 kişi).
+      - listitem: Bot-Cem, QA-İpek Şığ Öztürk adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Liberal kanun çıktı.
+      - listitem: Bot-Derya, Bot-Ada adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Faşist kanun çıktı.
+      - listitem: Bot-Efe, QA-İpek Şığ Öztürk adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Liberal kanun çıktı.
+      - listitem: QA-İpek Şığ Öztürk, Bot-Ada adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Liberal kanun çıktı.
+      - listitem: Bot-Ada, Bot-Bora adayını gösterdi.
+      - listitem: Seçim reddedildi.
+      - listitem: "Seçim sayacı: 1."
+      - listitem: Bot-Bora, Bot-Cem adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Liberal kanun çıktı.
+      - listitem: Bot-Cem, QA-İpek Şığ Öztürk adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Liberal kanun çıktı.

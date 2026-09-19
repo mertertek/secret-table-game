@@ -1,0 +1,109 @@
+- banner:
+  - strong: Secret Table
+  - generic: Oyun bitti
+  - checkbox "düşük grafik"
+  - text: düşük grafik
+  - checkbox "hareketi azalt"
+  - text: hareketi azalt
+  - checkbox "ses" [checked]
+  - text: ses
+  - generic "Bağlı"
+  - button "Yenile"
+- button "QA-Çağrı Şengül Uzun İsim Denemesi"
+- button "Bot-Ada"
+- button "Bot-Bora"
+- button "Bot-Cem"
+- button "Bot-Derya"
+- button "Bot-Efe"
+- button "Bot-Gul"
+- complementary:
+  - 'region "Sıra: Oyun bitti"':
+    - 'heading "Sıra: Oyun bitti" [level=2]'
+    - paragraph: Şu an yapman gereken bir şey yok. Diğer oyuncular bekleniyor.
+  - heading "Oyun bitti" [level=2]
+  - button "Yeniden oyna"
+  - button "Lobiye dön"
+  - region "Özel bilgin":
+    - heading "Özel bilgin" [level=2]
+    - button "Göster"
+    - paragraph: Rolün ve özel bilgin gizli. Görmek için “Göster”e bas.
+  - region "Oyuncular":
+    - heading "Oyuncular" [level=2]
+    - list:
+      - generic "bağlı"
+      - generic: "1"
+      - generic: QA-Çağrı Şengül Uzun İsim Denemesi
+      - generic: Oda sahibi
+      - generic: elendi
+      - generic "bağlı"
+      - generic: "2"
+      - generic: Bot-Ada
+      - generic "bağlı"
+      - generic: "3"
+      - generic: Bot-Bora
+      - generic "bağlı değil"
+      - generic: "4"
+      - generic: Bot-Cem
+      - generic "bağlı"
+      - generic: "5"
+      - generic: Bot-Derya
+      - generic "bağlı"
+      - generic: "6"
+      - generic: Bot-Efe
+      - generic "bağlı değil"
+      - generic: "7"
+      - generic: Bot-Gul
+      - generic: elendi
+  - region "Masa":
+    - heading "Masa" [level=2]
+    - term: Liberal
+    - definition: 1 / 5
+    - term: Faşist
+    - definition: 6 / 6
+    - term: Seçim sayacı
+    - definition: 0 / 3
+    - term: Deste / Atık
+    - definition: 6 / 4
+    - paragraph: "Son seçim: Bot-Ada / Bot-Bora — kabul (4 evet / 1 hayır)"
+    - status:
+      - strong: Faşistler kazandı
+      - generic: — Altı faşist kanun çıktı
+      - list:
+        - listitem: "QA-Çağrı Şengül Uzun İsim Denemesi: liberal"
+        - listitem: "Bot-Ada: liberal"
+        - listitem: "Bot-Bora: fascist"
+        - listitem: "Bot-Cem: fascist"
+        - listitem: "Bot-Derya: liberal"
+        - listitem: "Bot-Efe: hitler"
+        - listitem: "Bot-Gul: liberal"
+  - region "Tur geçmişi":
+    - heading "Tur geçmişi" [level=2]
+    - list:
+      - listitem: Oyun başladı (7 kişi).
+      - listitem: Bot-Ada, QA-Çağrı Şengül Uzun İsim Denemesi adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Faşist kanun çıktı.
+      - listitem: Bot-Bora, Bot-Cem adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Faşist kanun çıktı.
+      - listitem: "Başkanlık yetkisi kullanıldı: Bot-Bora → QA-Çağrı Şengül Uzun İsim Denemesi."
+      - listitem: Bot-Cem, QA-Çağrı Şengül Uzun İsim Denemesi adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Liberal kanun çıktı.
+      - listitem: Bot-Derya, Bot-Ada adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Faşist kanun çıktı.
+      - listitem: "Başkanlık yetkisi kullanıldı: Bot-Derya → QA-Çağrı Şengül Uzun İsim Denemesi."
+      - listitem: QA-Çağrı Şengül Uzun İsim Denemesi, Bot-Bora adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Faşist kanun çıktı.
+      - listitem: "Başkanlık yetkisi kullanıldı: QA-Çağrı Şengül Uzun İsim Denemesi → Bot-Gul."
+      - listitem: Bot-Gul infaz edildi.
+      - listitem: Bot-Efe, Bot-Ada adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Faşist kanun çıktı.
+      - listitem: "Başkanlık yetkisi kullanıldı: Bot-Efe → QA-Çağrı Şengül Uzun İsim Denemesi."
+      - listitem: QA-Çağrı Şengül Uzun İsim Denemesi infaz edildi.
+      - listitem: Bot-Ada, Bot-Bora adayını gösterdi.
+      - listitem: Seçim kabul edildi.
+      - listitem: Faşist kanun çıktı.

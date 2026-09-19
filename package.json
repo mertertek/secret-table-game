@@ -1,0 +1,51 @@
+{
+  "name": "secret-table",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A 3D social deduction game for 5-10 friends, played in the browser at a shared virtual table, based on the rules of Secret Hitler.",
+  "license": "CC-BY-NC-SA-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mertertek/secret-table-game.git"
+  },
+  "keywords": [
+    "game",
+    "social-deduction",
+    "secret-hitler",
+    "multiplayer",
+    "three.js",
+    "react-three-fiber",
+    "webgl",
+    "typescript",
+    "supabase",
+    "vercel"
+  ],
+  "type": "module",
+  "packageManager": "pnpm@10.18.3",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @secret-table/web dev",
+    "build": "pnpm --filter @secret-table/web build",
+    "preview": "pnpm --filter @secret-table/web preview",
+    "typecheck": "pnpm -r --workspace-concurrency=1 typecheck",
+    "test": "pnpm -r --workspace-concurrency=1 test",
+    "check": "pnpm typecheck && pnpm test",
+    "supabase": "supabase",
+    "build:runtime": "node scripts/build-runtime.mjs",
+    "test:runtime": "node scripts/build-runtime.mjs && node scripts/test-runtime.mjs",
+    "test:api-config": "node scripts/test-api-config.mjs"
+  },
+  "devDependencies": {
+    "supabase": "~2.117.0",
+    "typescript": "~5.9.3",
+    "esbuild": "0.28.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "supabase"
+    ]
+  }
+}

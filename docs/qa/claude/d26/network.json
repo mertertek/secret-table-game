@@ -1,0 +1,16 @@
+{
+  "apiGameRequests": 0,
+  "supabaseRequests": 0,
+  "phasesSeen": [
+    "Role reveal",
+    "Nomination",
+    "Election",
+    "Chancellor is choosing",
+    "Presidential power",
+    "Game over"
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "ticks": 56,
+  "acts": 7
+}

@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2850" height="3870" viewBox="0 0 2850 3870" font-family="Noto Sans, Inter, Helvetica Neue, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#0f1815"/>
+<!-- Sahne zemini (fotoğraflardaki keçe/duvar) temsili -->
+<text x="90" y="70" font-size="44" font-weight="600" fill="#eee1c7">D6 · Baş üstü isim etiketi — durum sayfası</text>
+<text x="90" y="108" font-size="22" fill="#cfc3a9">Ölçek 1 m = 1000 px · etiket 0,60 × 0,18 m · yazı: Noto Sans / sans-serif · renkler docs/design/D6-nameplate.md §4</text>
+<text x="90" y="160" font-size="30" font-weight="600" fill="#e3be73">Temel durumlar</text>
+<rect x="93.0" y="203.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="390.0" y="264.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Kaan</text>
+<text x="280.0" y="335.0" font-size="38.0" font-weight="600" fill="#a39a86" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">KOLTUK 04</text>
+<text x="90.0" y="418.0" font-size="22" fill="#cfc3a9">Normal (oyun içi, dolgu KOLTUK)</text>
+<rect x="783.0" y="203.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#b49359" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1080.0" y="264.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Mert</text>
+<text x="970.0" y="335.0" font-size="38.0" font-weight="600" fill="#a39a86" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">KOLTUK 01</text>
+<rect x="810.0" y="188.0" width="90.0" height="34.0" rx="17.0" fill="#b49359" fill-opacity="1.0" stroke="none" stroke-width="0.0" stroke-opacity="1.0"/>
+<text x="855.0" y="205.0" font-size="22.0" font-weight="700" fill="#1b1f1e" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central" letter-spacing="2.6">SEN</text>
+<text x="780.0" y="418.0" font-size="22" fill="#cfc3a9">Sen (genel masa görünümü)</text>
+<rect x="1473.0" y="203.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1770.0" y="264.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Elif</text>
+<circle cx="1682.4" cy="335.0" r="13.0" fill="#e3be73" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="1707.4" y="335.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAŞKAN</text>
+<text x="1470.0" y="418.0" font-size="22" fill="#cfc3a9">Başkan</text>
+<rect x="2163.0" y="203.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="2460.0" y="264.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Selin</text>
+<circle cx="2350.5" cy="335.0" r="10.4" fill="none" fill-opacity="1.0" stroke="#e3be73" stroke-width="5.2"/>
+<text x="2375.5" y="335.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">ŞANSÖLYE</text>
+<text x="2160.0" y="418.0" font-size="22" fill="#cfc3a9">Şansölye</text>
+<rect x="93.0" y="563.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="390.0" y="624.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Elif</text>
+<circle cx="234.2" cy="695.0" r="10.4" fill="none" fill-opacity="1.0" stroke="#e3be73" stroke-width="4.7" stroke-dasharray="6.2 4.7"/>
+<circle cx="234.2" cy="695.0" r="4.5" fill="#e3be73" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="259.2" y="695.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAŞKAN ADAYI</text>
+<text x="90.0" y="778.0" font-size="22" fill="#cfc3a9">Başkan adayı</text>
+<rect x="783.0" y="563.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1080.0" y="624.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Selin</text>
+<circle cx="902.3" cy="695.0" r="10.4" fill="none" fill-opacity="1.0" stroke="#e3be73" stroke-width="4.7" stroke-dasharray="6.2 4.7"/>
+<text x="927.3" y="695.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">ŞANSÖLYE ADAYI</text>
+<text x="780.0" y="778.0" font-size="22" fill="#cfc3a9">Şansölye adayı</text>
+<rect x="1473.0" y="563.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1770.0" y="624.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Ada</text>
+<text x="1708.1" y="695.0" font-size="38.0" font-weight="600" fill="#8fd3a5" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">HAZIR</text>
+<text x="1470.0" y="778.0" font-size="22" fill="#cfc3a9">Hazır (lobi)</text>
+<rect x="2163.0" y="563.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="2460.0" y="624.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Barış</text>
+<text x="2350.0" y="695.0" font-size="38.0" font-weight="600" fill="#a39a86" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">KOLTUK 06</text>
+<text x="2160.0" y="778.0" font-size="22" fill="#cfc3a9">Lobi, hazır değil</text>
+<text x="90" y="950.0" font-size="30" font-weight="600" fill="#e3be73">Etkileşim</text>
+<rect x="93.0" y="993.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#a4c9b7" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="390.0" y="1054.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Deniz</text>
+<text x="283.1" y="1125.0" font-size="38.0" font-weight="600" fill="#a4c9b7" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">HEDEF SEÇ</text>
+<text x="90.0" y="1208.0" font-size="22" fill="#cfc3a9">Hedef seçilebilir</text>
+<rect x="783.0" y="993.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#e3be73" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1080.0" y="1054.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Deniz</text>
+<text x="973.1" y="1125.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">HEDEF SEÇ</text>
+<text x="780.0" y="1208.0" font-size="22" fill="#cfc3a9">Üzerinde (hover)</text>
+<rect x="1475.0" y="995.0" width="590.0" height="170.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#e3be73" stroke-width="10.0" stroke-opacity="1.0"/>
+<polyline points="1460.0,1010.0 1460.0,980.0 1490.0,980.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="2080.0,1010.0 2080.0,980.0 2050.0,980.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="1460.0,1150.0 1460.0,1180.0 1490.0,1180.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="2080.0,1150.0 2080.0,1180.0 2050.0,1180.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="1770.0" y="1054.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Deniz</text>
+<text x="1663.1" y="1125.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">HEDEF SEÇ</text>
+<text x="1470.0" y="1208.0" font-size="22" fill="#cfc3a9">Hedeflendi (klavye, aimed)</text>
+<rect x="2163.0" y="993.0" width="594.0" height="174.0" rx="32.0" fill="#e3be73" fill-opacity="0.96" stroke="#e3be73" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="2460.0" y="1054.0" font-size="66.0" font-weight="550" fill="#1b1f1e" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Deniz</text>
+<text x="2381.6" y="1125.0" font-size="38.0" font-weight="600" fill="#1b1f1e" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">SEÇİLDİ</text>
+<text x="2160.0" y="1208.0" font-size="22" fill="#cfc3a9">Seçili</text>
+<text x="90" y="1380.0" font-size="30" font-weight="600" fill="#e3be73">Bağlantı ve eleme</text>
+<rect x="93.0" y="1423.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#e6a95c" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="390.0" y="1484.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Barış</text>
+<text x="239.4" y="1555.0" font-size="38.0" font-weight="600" fill="#e6a95c" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAĞLANTI YOK</text>
+<text x="90.0" y="1638.0" font-size="22" fill="#cfc3a9">Bağlantı yok</text>
+<rect x="783.0" y="1423.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#e6a95c" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1080.0" y="1484.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Elif</text>
+<circle cx="923.4" cy="1555.0" r="13.0" fill="#e3be73" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="948.4" y="1555.0" font-size="38.0" font-weight="600" fill="#e6a95c" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAĞLANTI YOK</text>
+<text x="780.0" y="1638.0" font-size="22" fill="#cfc3a9">Bağlantı yok + başkan</text>
+<rect x="1473.0" y="1423.0" width="594.0" height="174.0" rx="32.0" fill="#141d1c" fill-opacity="0.55" stroke="#3d4643" stroke-width="6.0" stroke-opacity="0.7"/>
+<text x="1770.0" y="1484.0" font-size="66.0" font-weight="550" fill="#a39a86" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Kaan</text>
+<text x="1696.7" y="1555.0" font-size="38.0" font-weight="600" fill="#a39a86" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">ELENDİ</text>
+<text x="1470.0" y="1638.0" font-size="22" fill="#cfc3a9">Elendi</text>
+<rect x="2163.0" y="1423.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="2460.0" y="1484.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Ayşegül Demirt…</text>
+<text x="2350.0" y="1555.0" font-size="38.0" font-weight="600" fill="#a39a86" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">KOLTUK 09</text>
+<text x="2160.0" y="1638.0" font-size="22" fill="#cfc3a9">Uzun isim kırpma (15 kr)</text>
+<text x="90" y="1810.0" font-size="30" font-weight="600" fill="#e3be73">Oy çipi (D5 gömülü)</text>
+<rect x="93.0" y="1853.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="390.0" y="1914.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Kaan</text>
+<rect x="263.9" y="1955.0" width="252.2" height="60.0" rx="30.0" fill="#eee1c7" fill-opacity="0.78" stroke="#5a6860" stroke-width="3.0" stroke-opacity="0.78"/>
+<text x="321.9" y="1985.0" font-size="34.0" font-weight="650" fill="#4a5650" fill-opacity="0.78" text-anchor="start" dominant-baseline="central" letter-spacing="1.4">BEKLİYOR</text>
+<circle cx="297.9" cy="1985.0" r="8.7" fill="none" fill-opacity="1.0" stroke="#4a5650" stroke-width="3.9"/>
+<text x="90.0" y="2068.0" font-size="22" fill="#cfc3a9">Oy bekliyor</text>
+<rect x="783.0" y="1853.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1080.0" y="1914.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Kaan</text>
+<rect x="957.8" y="1955.0" width="244.4" height="60.0" rx="30.0" fill="#eee1c7" fill-opacity="1.0" stroke="#4f9464" stroke-width="3.0" stroke-opacity="1.0"/>
+<text x="1015.8" y="1985.0" font-size="34.0" font-weight="650" fill="#2a5f3c" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="1.4">OY VERDİ</text>
+<polyline points="982.4,1985.3 989.2,1992.4 1001.8,1977.0" fill="none" stroke="#2a5f3c" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="780.0" y="2068.0" font-size="22" fill="#cfc3a9">Oy verdi</text>
+<rect x="1473.0" y="1853.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1770.0" y="1914.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Kaan</text>
+<rect x="1689.3" y="1955.0" width="161.4" height="60.0" rx="30.0" fill="#eee1c7" fill-opacity="1.0" stroke="#4f9464" stroke-width="3.0" stroke-opacity="1.0"/>
+<text x="1747.3" y="1985.0" font-size="34.0" font-weight="650" fill="#2a5f3c" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="1.4">EVET</text>
+<polyline points="1714.0,1985.3 1720.7,1992.4 1733.3,1977.0" fill="none" stroke="#2a5f3c" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="1470.0" y="2068.0" font-size="22" fill="#cfc3a9">Evet</text>
+<rect x="2163.0" y="1853.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="2460.0" y="1914.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Kaan</text>
+<rect x="2366.8" y="1955.0" width="186.3" height="60.0" rx="30.0" fill="#eee1c7" fill-opacity="1.0" stroke="#c0564e" stroke-width="3.0" stroke-opacity="1.0"/>
+<text x="2424.8" y="1985.0" font-size="34.0" font-weight="650" fill="#8f3a33" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="1.4">HAYIR</text>
+<polyline points="2392.8,1977.0 2408.9,1993.0" fill="none" stroke="#8f3a33" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="2408.9,1977.0 2392.8,1993.0" fill="none" stroke="#8f3a33" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="2160.0" y="2068.0" font-size="22" fill="#cfc3a9">Hayır</text>
+<text x="90" y="2240.0" font-size="30" font-weight="600" fill="#e3be73">Kombinasyonlar</text>
+<rect x="93.0" y="2283.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="390.0" y="2344.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Elif</text>
+<circle cx="214.7" cy="2415.0" r="13.0" fill="#e3be73" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="239.7" y="2415.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAŞKAN</text>
+<rect x="498.6" y="2385.0" width="161.4" height="60.0" rx="30.0" fill="#eee1c7" fill-opacity="1.0" stroke="#4f9464" stroke-width="3.0" stroke-opacity="1.0"/>
+<text x="556.6" y="2415.0" font-size="34.0" font-weight="650" fill="#2a5f3c" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="1.4">EVET</text>
+<polyline points="523.3,2415.3 530.1,2422.4 542.6,2406.9" fill="none" stroke="#2a5f3c" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="90.0" y="2498.0" font-size="22" fill="#cfc3a9">Başkan + evet</text>
+<rect x="783.0" y="2283.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1080.0" y="2344.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Selin</text>
+<circle cx="865.3" cy="2415.0" r="10.4" fill="none" fill-opacity="1.0" stroke="#e3be73" stroke-width="4.7" stroke-dasharray="6.2 4.7"/>
+<text x="890.3" y="2415.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">ŞANSÖLYE ADAYI</text>
+<circle cx="1320.0" cy="2415.0" r="30.0" fill="#eee1c7" fill-opacity="1.0" stroke="#c0564e" stroke-width="3.0"/>
+<polyline points="1312.0,2406.9 1328.0,2423.1" fill="none" stroke="#8f3a33" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="1328.0,2406.9 1312.0,2423.1" fill="none" stroke="#8f3a33" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="780.0" y="2498.0" font-size="22" fill="#cfc3a9">Şansölye adayı + hayır (çip kısa)</text>
+<rect x="1473.0" y="2283.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1770.0" y="2344.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Elif</text>
+<circle cx="1577.2" cy="2415.0" r="10.4" fill="none" fill-opacity="1.0" stroke="#e3be73" stroke-width="4.7" stroke-dasharray="6.2 4.7"/>
+<circle cx="1577.2" cy="2415.0" r="4.5" fill="#e3be73" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="1602.2" y="2415.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAŞKAN ADAYI</text>
+<circle cx="2010.0" cy="2415.0" r="30.0" fill="#eee1c7" fill-opacity="1.0" stroke="#4f9464" stroke-width="3.0"/>
+<polyline points="2000.7,2415.3 2007.4,2422.4 2020.0,2406.9" fill="none" stroke="#2a5f3c" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="1470.0" y="2498.0" font-size="22" fill="#cfc3a9">Başkan adayı + oy verdi (çip kısa)</text>
+<rect x="2163.0" y="2283.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#e6a95c" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="2460.0" y="2344.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Barış</text>
+<text x="2272.4" y="2415.0" font-size="38.0" font-weight="600" fill="#e6a95c" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAĞLANTI YOK</text>
+<circle cx="2700.0" cy="2415.0" r="30.0" fill="#eee1c7" fill-opacity="0.78" stroke="#5a6860" stroke-width="3.0"/>
+<circle cx="2700.0" cy="2415.0" r="8.7" fill="none" fill-opacity="1.0" stroke="#4a5650" stroke-width="3.9"/>
+<text x="2160.0" y="2498.0" font-size="22" fill="#cfc3a9">Bağlantı yok + bekliyor</text>
+<rect x="93.0" y="2643.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#a4c9b7" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="390.0" y="2704.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Selin</text>
+<circle cx="277.1" cy="2775.0" r="10.4" fill="none" fill-opacity="1.0" stroke="#e3be73" stroke-width="5.2"/>
+<text x="302.1" y="2775.0" font-size="38.0" font-weight="600" fill="#a4c9b7" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">HEDEF SEÇ</text>
+<text x="90.0" y="2858.0" font-size="22" fill="#cfc3a9">Şansölye + hedef seçilebilir</text>
+<rect x="785.0" y="2645.0" width="590.0" height="170.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#e3be73" stroke-width="10.0" stroke-opacity="1.0"/>
+<polyline points="770.0,2660.0 770.0,2630.0 800.0,2630.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="1390.0,2660.0 1390.0,2630.0 1360.0,2630.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="770.0,2800.0 770.0,2830.0 800.0,2830.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="1390.0,2800.0 1390.0,2830.0 1360.0,2830.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="1080.0" y="2704.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Elif</text>
+<circle cx="992.4" cy="2775.0" r="13.0" fill="#e3be73" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="1017.4" y="2775.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAŞKAN</text>
+<text x="780.0" y="2858.0" font-size="22" fill="#cfc3a9">Başkan + hedeflendi</text>
+<rect x="1473.0" y="2643.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="1770.0" y="2704.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Ayşegül Demirt…</text>
+<circle cx="1594.7" cy="2775.0" r="13.0" fill="#e3be73" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="1619.7" y="2775.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAŞKAN</text>
+<rect x="1878.6" y="2745.0" width="161.4" height="60.0" rx="30.0" fill="#eee1c7" fill-opacity="1.0" stroke="#4f9464" stroke-width="3.0" stroke-opacity="1.0"/>
+<text x="1936.6" y="2775.0" font-size="34.0" font-weight="650" fill="#2a5f3c" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="1.4">EVET</text>
+<polyline points="1903.3,2775.3 1910.1,2782.4 1922.6,2766.9" fill="none" stroke="#2a5f3c" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="1470.0" y="2858.0" font-size="22" fill="#cfc3a9">Uzun isim + başkan + evet</text>
+<rect x="2163.0" y="2643.0" width="594.0" height="174.0" rx="32.0" fill="#141d1c" fill-opacity="0.55" stroke="#3d4643" stroke-width="6.0" stroke-opacity="0.7"/>
+<text x="2460.0" y="2704.0" font-size="66.0" font-weight="550" fill="#a39a86" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Ayşegül Demirt…</text>
+<text x="2386.7" y="2775.0" font-size="38.0" font-weight="600" fill="#a39a86" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">ELENDİ</text>
+<text x="2160.0" y="2858.0" font-size="22" fill="#cfc3a9">Elendi (oy yok, makam yok)</text>
+<text x="90" y="3030.0" font-size="30" font-weight="600" fill="#e3be73">Kompakt varyant (telefon, 0,60 × 0,11 m)</text>
+<rect x="93.0" y="3073.0" width="594.0" height="104.0" rx="26.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="322.0" y="3125.0" font-size="56.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="start" dominant-baseline="central">Kaan</text>
+<text x="90.0" y="3218.0" font-size="22" fill="#cfc3a9">Normal</text>
+<rect x="783.0" y="3073.0" width="594.0" height="104.0" rx="26.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<circle cx="1001.7" cy="3125.0" r="13.0" fill="#e3be73" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="1026.7" y="3125.0" font-size="56.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="start" dominant-baseline="central">Elif</text>
+<circle cx="1147.3" cy="3125.0" r="24.0" fill="#eee1c7" fill-opacity="1.0" stroke="#4f9464" stroke-width="3.0"/>
+<polyline points="1138.0,3125.3 1144.7,3132.4 1157.3,3116.9" fill="none" stroke="#2a5f3c" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="780.0" y="3218.0" font-size="22" fill="#cfc3a9">Başkan + evet</text>
+<rect x="1473.0" y="3073.0" width="594.0" height="104.0" rx="26.0" fill="#17241f" fill-opacity="0.86" stroke="#59625a" stroke-width="6.0" stroke-opacity="1.0"/>
+<circle cx="1668.2" cy="3125.0" r="10.4" fill="none" fill-opacity="1.0" stroke="#e3be73" stroke-width="5.2"/>
+<text x="1693.2" y="3125.0" font-size="56.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="start" dominant-baseline="central">Selin</text>
+<circle cx="1860.8" cy="3125.0" r="24.0" fill="#eee1c7" fill-opacity="1.0" stroke="#c0564e" stroke-width="3.0"/>
+<polyline points="1852.8,3116.9 1868.9,3133.1" fill="none" stroke="#8f3a33" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="1868.9,3116.9 1852.8,3133.1" fill="none" stroke="#8f3a33" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="1470.0" y="3218.0" font-size="22" fill="#cfc3a9">Şansölye + hayır</text>
+<rect x="2165.0" y="3075.0" width="590.0" height="100.0" rx="26.0" fill="#17241f" fill-opacity="0.86" stroke="#e3be73" stroke-width="10.0" stroke-opacity="1.0"/>
+<polyline points="2150.0,3090.0 2150.0,3060.0 2180.0,3060.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="2770.0,3090.0 2770.0,3060.0 2740.0,3060.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="2150.0,3160.0 2150.0,3190.0 2180.0,3190.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<polyline points="2770.0,3160.0 2770.0,3190.0 2740.0,3190.0" fill="none" stroke="#e3be73" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0"/>
+<text x="2394.8" y="3125.0" font-size="56.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="start" dominant-baseline="central">Mert</text>
+<rect x="2190.0" y="3058.0" width="90.0" height="34.0" rx="17.0" fill="#b49359" fill-opacity="1.0" stroke="none" stroke-width="0.0" stroke-opacity="1.0"/>
+<text x="2235.0" y="3075.0" font-size="22.0" font-weight="700" fill="#1b1f1e" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central" letter-spacing="2.6">SEN</text>
+<text x="2160.0" y="3218.0" font-size="22" fill="#cfc3a9">Sen + hedeflendi</text>
+<text x="90" y="3460.0" font-size="30" font-weight="600" fill="#e3be73">Anatomi ve ölçüler (metre)</text>
+<rect x="353.0" y="3573.0" width="594.0" height="174.0" rx="32.0" fill="#17241f" fill-opacity="0.86" stroke="#b49359" stroke-width="6.0" stroke-opacity="1.0"/>
+<text x="650.0" y="3634.0" font-size="66.0" font-weight="550" fill="#eee1c7" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central">Elif</text>
+<circle cx="562.4" cy="3705.0" r="13.0" fill="#e3be73" fill-opacity="1.0" stroke="none" stroke-width="0.0"/>
+<text x="587.4" y="3705.0" font-size="38.0" font-weight="600" fill="#e3be73" fill-opacity="1.0" text-anchor="start" dominant-baseline="central" letter-spacing="2.3">BAŞKAN</text>
+<rect x="380.0" y="3558.0" width="90.0" height="34.0" rx="17.0" fill="#b49359" fill-opacity="1.0" stroke="none" stroke-width="0.0" stroke-opacity="1.0"/>
+<text x="425.0" y="3575.0" font-size="22.0" font-weight="700" fill="#1b1f1e" fill-opacity="1.0" text-anchor="middle" dominant-baseline="central" letter-spacing="2.6">SEN</text>
+<line x1="350" y1="3530.0" x2="950.0" y2="3530.0" stroke="#a4c9b7" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="650.0" y="3520.0" font-size="20" fill="#a4c9b7" text-anchor="middle">W = 0,60 m</text>
+<line x1="990.0" y1="3570.0" x2="990.0" y2="3750.0" stroke="#a4c9b7" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="1070.0" y="3660.0" font-size="20" fill="#a4c9b7" text-anchor="middle">H = 0,18 m</text>
+<line x1="310" y1="3570.0" x2="310" y2="3634.0" stroke="#a4c9b7" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="200" y="3658.0" font-size="20" fill="#a4c9b7" text-anchor="middle">isim merkezi 0,064</text>
+<line x1="310" y1="3705.0" x2="240" y2="3705.0" stroke="#a4c9b7" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="190" y="3735.0" font-size="20" fill="#a4c9b7" text-anchor="middle">satır 2 merkezi 0,135</text>
+<text x="1150.0" y="3590.0" font-size="22" fill="#cfc3a9">köşe r = 0,032 · çerçeve 0,006 (hedeflendi 0,010) · iç pay 0,030</text>
+<text x="1150.0" y="3624.0" font-size="22" fill="#cfc3a9">isim 0,066 m (550) · en fazla 15 karakter, 14 + … · genişlik ≤ 0,50</text>
+<text x="1150.0" y="3658.0" font-size="22" fill="#cfc3a9">satır 2 büyük harf 0,038 m (600), +0,06 em aralık · makam simgesi ⌀ 0,026</text>
+<text x="1150.0" y="3692.0" font-size="22" fill="#cfc3a9">oy çipi yükseklik 0,060 · yazı 0,034 (650) · iç pay 0,020 · sığmazsa yalnız simge (⌀ 0,060)</text>
+<text x="1150.0" y="3726.0" font-size="22" fill="#cfc3a9">SEN etiketi 0,090 × 0,034, sol üst, çerçeveyi 0,012 taşar</text>
+<text x="1150.0" y="3760.0" font-size="22" fill="#cfc3a9">dünya konumu: etiket alt kenarı baş tepesinin 0,05 m üstü (y = 0,48) · kameraya döner · ölçek alt kenardan büyür</text>
+</svg>

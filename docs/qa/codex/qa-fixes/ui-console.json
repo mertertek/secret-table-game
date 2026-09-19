@@ -1,0 +1,74 @@
+[
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:00:45.920Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:01:39.041Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:03:33.284Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:04:11.769Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:10:11.528Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:11:30.303Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:13:50.653Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "error",
+    "message": "You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it.",
+    "timestamp": "2026-09-09T15:15:05.599Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-VQ7XFHPP.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:15:06.415Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:15:06.828Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:15:27.026Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  },
+  {
+    "level": "warn",
+    "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "timestamp": "2026-09-09T15:15:43.308Z",
+    "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+  }
+]

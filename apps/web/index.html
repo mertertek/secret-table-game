@@ -1,0 +1,35 @@
+<!doctype html>
+<!-- Static default for browsers and crawlers; main.tsx sets the real `lang` from the
+     player's stored/browser language before the first paint. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <!-- ROADMAP B6: single dark theme; the browser bar keeps the felt colour. -->
+    <meta name="theme-color" content="#234b40" />
+    <meta
+      name="description"
+      content="Secret Table — a 3D social deduction game for 5–10 friends, played in the browser at a shared table. No accounts, no install."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Secret Table" />
+    <meta
+      property="og:description"
+      content="A 3D social deduction game for 5–10 friends, played in the browser at a shared table. First-person view, hand gestures, Turkish and English UI."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="tr_TR" />
+    <meta name="twitter:card" content="summary" />
+    <!-- Card motif, inline SVG data URI (no extra file or dependency). -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23234b40'/%3E%3Cg transform='rotate(-14 16 18)'%3E%3Crect x='6' y='7' width='13' height='19' rx='2.5' fill='%23eee1c7' stroke='%23583b2b' stroke-width='1'/%3E%3C/g%3E%3Cg transform='rotate(12 16 18)'%3E%3Crect x='14' y='7' width='13' height='19' rx='2.5' fill='%23f6ecd9' stroke='%23583b2b' stroke-width='1'/%3E%3Ccircle cx='20.5' cy='16.5' r='4' fill='none' stroke='%23b49359' stroke-width='1.6'/%3E%3C/g%3E%3C/svg%3E"
+    />
+    <title>Secret Table</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+{
+ "results": [
+  {
+   "id": "A-avatar-sync",
+   "ok": false,
+   "ev": "a2-lobby-A-sees-B.jpg",
+   "n": "B \"Fötr\" seçti → A'da 3119 ms (lobi yoklaması)"
+  },
+  {
+   "id": "A-bots",
+   "ok": true,
+   "ev": "a3-lobby-5p.jpg",
+   "n": "3 bot; [\"Mert=Bıyıklı Amca\",\"Bahar=Fötr\",\"Bot-Ada=Gözlüklü\",\"Bot-Bora=Sakallı\",\"Bot-Cem=Bereli Teyze\"]"
+  },
+  {
+   "id": "A-start",
+   "ok": true,
+   "ev": "a4-game-A.jpg",
+   "n": "oyun 5 kişiyle başladı; iki bağlamda sahne çizildi"
+  },
+  {
+   "id": "B-send",
+   "ok": false,
+   "ev": "b2-A-look-right.jpg",
+   "n": "A 0 paket; yaw Infinity..-Infinity, pitch Infinity..-Infinity"
+  },
+  {
+   "id": "B-latency",
+   "ok": false,
+   "ev": "b1-B-sees-A-right.jpg",
+   "n": "B'ye eşleşen paket gelmedi (gelen 0)"
+  },
+  {
+   "id": "B-visible",
+   "ok": false,
+   "ev": "b3-B-sees-A-left-down.jpg",
+   "n": "B karesi değişimi: boşta 0.01023, sağa 0, sola 0.07925"
+  },
+  {
+   "id": "B-idle",
+   "ok": true,
+   "ev": "-",
+   "n": "3,2 s hareketsizlik → giden paket 0"
+  },
+  {
+   "id": "B-stale",
+   "ok": true,
+   "ev": "b4-B-stale-neutral.jpg",
+   "n": "4 s sonrası B karesi son harekete göre değişim 0.0066 (bayat → nötr)"
+  },
+  {
+   "id": "C-local",
+   "ok": false,
+   "ev": "c1-emote-wheel.jpg",
+   "n": "çark 8 jest; yerel oynatılan: 1→point, 2→hands_up, 5→middle, 7→clap, 8→facepalm"
+  },
+  {
+   "id": "C-peer",
+   "ok": true,
+   "ev": "c2-emote-point-B.jpg",
+   "n": "B'de aktif jest sayacı: point:1, hands_up:1, middle_finger:1, clap:1, facepalm:1; B'ye gelen paket 0 (benzersiz seq 0)"
+  },
+  {
+   "id": "C-clap-sound",
+   "ok": true,
+   "ev": "c2-emote-clap-A.jpg",
+   "n": "ses durumu A running, çalınan 1"
+  },
+  {
+   "id": "E-lean",
+   "ok": true,
+   "ev": "e1-lean-board.jpg",
+   "n": "B → aria-pressed=true, kare değişimi 0.69687; Esc sonrası başlangıca göre 0"
+  },
+  {
+   "id": "E-neighbor",
+   "ok": false,
+   "ev": "e2-neighbor-right.jpg",
+   "n": "sağa tam sürükleme sonrası |yaw| = null rad (sınır 1.4; 5 kişilik komşu ~72°=1,26 rad)"
+  },
+  {
+   "id": "E-menu",
+   "ok": true,
+   "ev": "e3-menu.jpg",
+   "n": "M menüsü açıldı, Geliştirici bölümü var"
+  },
+  {
+   "id": "E-fullscreen",
+   "ok": false,
+   "ev": "e3-menu.jpg",
+   "n": "headless Chrome'da Pointer Lock/fullscreen isteği kullanıcı jesti olmadan yükselmiyor: immersive=locked fullscreenEl=true lock=true — bu madde gerçek tarayıcıda kullanıcıda kalır"
+  },
+  {
+   "id": "F-reconnect",
+   "ok": true,
+   "ev": "f1-reconnect-B.jpg",
+   "n": "yenileme: ilk kare 4034 ms; faz \"Oylama\" → \"Oylama\"; kamera seat; kareler arası fark 0"
+  },
+  {
+   "id": "D-flow",
+   "ok": true,
+   "ev": "d-final-A.jpg",
+   "n": "görülen fazlar: Oylama → Başkan kart atıyor → Şansölye kanun seçiyor → Aday belirleme → Başkanlık yetkisi"
+  }
+ ],
+ "log": [
+  "oda CX888Z http://localhost:5199/katil/CX888Z",
+  "KALDI A-avatar-sync | a2-lobby-A-sees-B.jpg | B \"Fötr\" seçti → A'da 3119 ms (lobi yoklaması)",
+  "GEÇTİ A-bots | a3-lobby-5p.jpg | 3 bot; [\"Mert=Bıyıklı Amca\",\"Bahar=Fötr\",\"Bot-Ada=Gözlüklü\",\"Bot-Bora=Sakallı\",\"Bot-Cem=Bereli Teyze\"]",
+  "A sahne {\"frames\":17,\"calls\":119,\"tris\":177672,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"0\",\"sounds\":\"0\",\"audio\":\"locked\",\"status\":\"Rol tanışması\",\"detail\":\"Sıra sende: rolüne bak ve hazır olduğunu bildir\",\"actions\":[\"1Hazırım\"]}",
+  "B sahne {\"frames\":17,\"calls\":119,\"tris\":175080,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"0\",\"sounds\":\"0\",\"audio\":\"locked\",\"status\":\"Rol tanışması\",\"detail\":\"Sıra sende: rolüne bak ve hazır olduğunu bildir\",\"actions\":[\"1Hazırım\"]}",
+  "GEÇTİ A-start | a4-game-A.jpg | oyun 5 kişiyle başladı; iki bağlamda sahne çizildi",
+  "A rol paneli: Özel bilginGizleRolün: Liberal",
+  "B rol paneli: Özel bilginGizleRolün: HitlerBildiklerinBot-Bora — Faşist (Hitler faşistleri bilir)",
+  "rol sonrası A {\"status\":\"Rol tanışması\",\"detail\":\"1 oyuncu rolüne bakıyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"\",\"shot\":false,\"err\":\"\"}",
+  "A giden 0 B gelen 0 gecikme []",
+  "KALDI B-send | b2-A-look-right.jpg | A 0 paket; yaw Infinity..-Infinity, pitch Infinity..-Infinity",
+  "KALDI B-latency | b1-B-sees-A-right.jpg | B'ye eşleşen paket gelmedi (gelen 0)",
+  "KALDI B-visible | b3-B-sees-A-left-down.jpg | B karesi değişimi: boşta 0.01023, sağa 0, sola 0.07925",
+  "GEÇTİ B-idle | - | 3,2 s hareketsizlik → giden paket 0",
+  "GEÇTİ B-stale | b4-B-stale-neutral.jpg | 4 s sonrası B karesi son harekete göre değişim 0.0066 (bayat → nötr)",
+  "çark 1☝İşaret2🙌Teslim3👍Onay4👎Ret5🖕Orta parmak6👋Selam7👏Alkış8🤦Yüz avuçlamaJest seç1–8 · ok tuşları · fare",
+  "jest tablosu [{\"key\":\"1\",\"want\":\"point\",\"aLocal\":\"point\",\"bActive\":\"1\",\"aSounds\":\"0\",\"bSounds\":\"0\"},{\"key\":\"2\",\"want\":\"hands_up\",\"aLocal\":\"hands_up\",\"bActive\":\"1\",\"aSounds\":\"0\",\"bSounds\":\"0\"},{\"key\":\"5\",\"want\":\"middle_finger\",\"aLocal\":\"middle\",\"bActive\":\"1\",\"aSounds\":\"0\",\"bSounds\":\"0\"},{\"key\":\"7\",\"want\":\"clap\",\"aLocal\":\"clap\",\"bActive\":\"1\",\"aSounds\":\"1\",\"bSounds\":\"0\"},{\"key\":\"8\",\"want\":\"facepalm\",\"aLocal\":\"facepalm\",\"bActive\":\"1\",\"aSounds\":\"1\",\"bSounds\":\"0\"}]",
+  "B jest paketleri 0 []",
+  "KALDI C-local | c1-emote-wheel.jpg | çark 8 jest; yerel oynatılan: 1→point, 2→hands_up, 5→middle, 7→clap, 8→facepalm",
+  "GEÇTİ C-peer | c2-emote-point-B.jpg | B'de aktif jest sayacı: point:1, hands_up:1, middle_finger:1, clap:1, facepalm:1; B'ye gelen paket 0 (benzersiz seq 0)",
+  "GEÇTİ C-clap-sound | c2-emote-clap-A.jpg | ses durumu A running, çalınan 1",
+  "GEÇTİ E-lean | e1-lean-board.jpg | B → aria-pressed=true, kare değişimi 0.69687; Esc sonrası başlangıca göre 0",
+  "KALDI E-neighbor | e2-neighbor-right.jpg | sağa tam sürükleme sonrası |yaw| = null rad (sınır 1.4; 5 kişilik komşu ~72°=1,26 rad)",
+  "GEÇTİ E-menu | e3-menu.jpg | M menüsü açıldı, Geliştirici bölümü var",
+  "tam ekran denemesi immersive=locked fullscreenEl=true lock=true",
+  "KALDI E-fullscreen | e3-menu.jpg | headless Chrome'da Pointer Lock/fullscreen isteği kullanıcı jesti olmadan yükselmiyor: immersive=locked fullscreenEl=true lock=true — bu madde gerçek tarayıcıda kullanıcıda kalır",
+  "GEÇTİ F-reconnect | f1-reconnect-B.jpg | yenileme: ilk kare 4034 ms; faz \"Oylama\" → \"Oylama\"; kamera seat; kareler arası fark 0",
+  "[D] FAZ Oylama — sen henüz oy vermedin · Bekleyen: Mert (sen), Bahar | A ops: Evet / Hayır | duyuru: ",
+  "  sahne A {\"frames\":1319,\"calls\":83,\"tris\":164056,\"camera\":\"seat\",\"locked\":\"true\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"4\",\"cues\":\"0\",\"sounds\":\"1\",\"audio\":\"running\",\"status\":\"Oylama\",\"detail\":\"sen henüz oy vermedin · Bekleyen: Mert (sen), Bahar\",\"actions\":[\"1Evet\",\"2Hayır\"]}",
+  "  sahne B {\"frames\":22,\"calls\":128,\"tris\":176460,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"4\",\"cues\":\"0\",\"sounds\":\"0\",\"audio\":\"locked\",\"status\":\"Oylama\",\"detail\":\"sen henüz oy vermedin · Bekleyen: Mert, Bahar (sen)\",\"actions\":[\"1Evet\",\"2Hayır\"]}",
+  "[D] A → Evet (Gönderilecek: Evet)",
+  "[D] B → Evet (Gönderilecek: Evet)",
+  "[D] A → Evet ()",
+  "[D] B → Evet ()",
+  "[D] FAZ Başkan kart atıyor — Başkan Bot-Bora 3 karttan birini atıyor | A ops:  | duyuru: YASAMABaşkan Bot-Bora 3 karttan birini atıyor",
+  "  sahne A {\"frames\":1454,\"calls\":83,\"tris\":163334,\"camera\":\"seat\",\"locked\":\"true\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"president:3\",\"badges\":\"0\",\"cues\":\"0\",\"sounds\":\"1\",\"audio\":\"running\",\"status\":\"Başkan kart atıyor\",\"detail\":\"Başkan Bot-Bora 3 karttan birini atıyor\",\"actions\":[]}",
+  "  sahne B {\"frames\":150,\"calls\":129,\"tris\":175952,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"president:3\",\"badges\":\"4\",\"cues\":\"4\",\"sounds\":\"0\",\"audio\":\"locked\",\"status\":\"Başkan kart atıyor\",\"detail\":\"Başkan Bot-Bora 3 karttan birini atıyor\",\"actions\":[]}",
+  "[D] FAZ Şansölye kanun seçiyor — Şansölye Bot-Cem kanunu seçiyor | A ops:  | duyuru: YASAMAŞansölye Bot-Cem kanunu seçiyor",
+  "  sahne A {\"frames\":1477,\"calls\":84,\"tris\":163706,\"camera\":\"seat\",\"locked\":\"true\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"chancellor:2\",\"badges\":\"0\",\"cues\":\"0\",\"sounds\":\"1\",\"audio\":\"running\",\"status\":\"Şansölye kanun seçiyor\",\"detail\":\"Şansölye Bot-Cem kanunu seçiyor\",\"actions\":[]}",
+  "  sahne B {\"frames\":185,\"calls\":127,\"tris\":175948,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"president:3\",\"badges\":\"0\",\"cues\":\"4\",\"sounds\":\"0\",\"audio\":\"locked\",\"status\":\"Başkan kart atıyor\",\"detail\":\"Başkan Bot-Bora 3 karttan birini atıyor\",\"actions\":[]}",
+  "[D] FAZ Aday belirleme — Başkan Bot-Cem şansölye adayını seçiyor | A ops:  | duyuru: ADAY SEÇİMİBaşkan Bot-Cem şansölye adayını seçiyor",
+  "  sahne A {\"frames\":1526,\"calls\":83,\"tris\":164450,\"camera\":\"seat\",\"locked\":\"true\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"0\",\"sounds\":\"1\",\"audio\":\"running\",\"status\":\"Aday belirleme\",\"detail\":\"Başkan Bot-Cem şansölye adayını seçiyor\",\"actions\":[]}",
+  "  sahne B {\"frames\":244,\"calls\":128,\"tris\":177462,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"4\",\"sounds\":\"0\",\"audio\":\"locked\",\"status\":\"Aday belirleme\",\"detail\":\"Başkan Bot-Cem şansölye adayını seçiyor\",\"actions\":[]}",
+  "[D] A → Evet (Gönderilecek: Evet)",
+  "[D] B → Evet (Gönderilecek: Evet)",
+  "[D] B → Evet ()",
+  "[D] B → Evet ()",
+  "[D] B → Evet (Gönderilecek: Evet)",
+  "[D] B → Evet ()",
+  "[D] A → Bahar (Gönderilecek: Bahar)",
+  "[D] A → Bahar ()",
+  "[D] A → Evet (Gönderilecek: Evet)",
+  "[D] A → Evet (Gönderilecek: Evet)",
+  "[D] B → Evet (Gönderilecek: Evet)",
+  "[D] B hata: Bu işleme şu anda izin yok. Sıranı bekle veya görünüm yenilenince tekrar dene.",
+  "[D] A → Evet (Gönderilecek: Evet)",
+  "[D] B → Evet ()",
+  "[D] A → Liberal kanun (Gönderilecek: Liberal kanun)",
+  "[D] A hata: Bu işleme şu anda izin yok. Sıranı bekle veya görünüm yenilenince tekrar dene.",
+  "[D] A → Liberal kanun (Gönderilecek: Liberal kanun)",
+  "[D] B → Faşist kanun (Gönderilecek: Faşist kanun)",
+  "[D] B → Faşist kanun ()",
+  "[D] FAZ Başkanlık yetkisi — Sıra sende: deste tepesine bak | A ops: Deste tepesine bak | duyuru: BAŞKANLIK YETKİSİDeste tepesine bakma · Deste tepesine bak",
+  "  sahne A {\"frames\":2415,\"calls\":88,\"tris\":166430,\"camera\":\"seat\",\"locked\":\"true\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"2\",\"sounds\":\"2\",\"audio\":\"running\",\"status\":\"Başkanlık yetkisi\",\"detail\":\"Sıra sende: deste tepesine bak\",\"actions\":[\"1Deste tepesine bak\"]}",
+  "  sahne B {\"frames\":1100,\"calls\":147,\"tris\":182228,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"6\",\"sounds\":\"0\",\"audio\":\"locked\",\"status\":\"Başkanlık yetkisi\",\"detail\":\"Başkan Mert deste tepesine bakma kullanıyor\",\"actions\":[]}",
+  "[D] A → Deste tepesine bak (Destenin en üstteki üç kanununu göreceksin.)",
+  "[D] A → Deste tepesine bak ()",
+  "[D] A → Gördüm, kapat (Gönderilecek: Gördüm, kapat)",
+  "[D] A → Gördüm, kapat (Gönderilecek: Gördüm, kapat)",
+  "[D] A → Gördüm, kapat (Gönderilecek: Gördüm, kapat)",
+  "[D] B → Mert (Gönderilecek: Mert)",
+  "[D] B → Mert ()",
+  "[D] B → Evet (Gönderilecek: Evet)",
+  "[D] A → Evet (Gönderilecek: Evet)",
+  "[D] A → Evet ()",
+  "[D] A → Evet ()",
+  "[D] B → Faşist kanun (Gönderilecek: Faşist kanun)",
+  "[D] B → Faşist kanun ()",
+  "[D] A → Faşist kanun (Gönderilecek: Faşist kanun)",
+  "[D] A → Faşist kanun ()",
+  "[D] B → Mert (Mert infaz edilecek — oyundan elenecek.)",
+  "[D] B → Mert (Mert infaz edilecek — oyundan elenecek.)",
+  "[D] B → Evet (Gönderilecek: Evet)",
+  "[D] B → Evet ()",
+  "[D] B → Evet (Gönderilecek: Evet)",
+  "[D] B → Evet (Gönderilecek: Evet)",
+  "[D] B hata: Bu işleme şu anda izin yok. Sıranı bekle veya görünüm yenilenince tekrar dene.",
+  "[D] fazlar [[\"Oylama\",\"Evet / Hayır\"],[\"Başkan kart atıyor\",\"\"],[\"Şansölye kanun seçiyor\",\"\"],[\"Aday belirleme\",\"\"],[\"Başkanlık yetkisi\",\"Deste tepesine bak\"]]",
+  "GEÇTİ D-flow | d-final-A.jpg | görülen fazlar: Oylama → Başkan kart atıyor → Şansölye kanun seçiyor → Aday belirleme → Başkanlık yetkisi",
+  "D son durum {\"status\":\"Şansölye kanun seçiyor\",\"detail\":\"Şansölye Bot-Cem kanunu seçiyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"\",\"shot\":true,\"err\":\"\"}"
+ ],
+ "aErrors": [],
+ "aNet": [],
+ "bErrors": [],
+ "bNet": []
+}

@@ -1,0 +1,105 @@
+- text: QA fixture · ağ yok
+- combobox "QA senaryosu":
+  - option "Lobi — 7 kişi"
+  - option "Rol tanışması — faşist"
+  - option "Rol tanışması — liberal"
+  - option "Adaylık — başkan seçiyor"
+  - option "Oylama — oy bekleniyor"
+  - option "Oylama — oy verildi"
+  - option "Seçim sonucu — hükümet kuruldu"
+  - option "Yasama — başkan kart atıyor"
+  - option "Yasama — şansölye yürürlüğe koyuyor"
+  - option "Yasama — veto hakkı açık"
+  - option "Yasama — başkan vetoyu yanıtlıyor" [selected]
+  - option "Sonuç — politika tahtaya yerleşti"
+  - option "Yetki — sadakat incelemesi hedefi"
+  - option "Yetki — parti incelemesi sonucu"
+  - option "Yetki — deste bakma sonucu"
+  - option "Oyun sonu — liberaller kazandı"
+  - option "Oyun sonu — faşistler kazandı"
+  - option "Duraklama — başka oyuncu çevrimdışı"
+  - option "Bağlantı — kendim yeniden bağlanıyorum"
+  - option "Uzun isimler — kısaltma / hover"
+  - option "Masa — 5 kişi (small)"
+  - option "Masa — 6 kişi (small)"
+  - option "Masa — 7 kişi (medium)"
+  - option "Masa — 8 kişi (medium)"
+  - option "Masa — 9 kişi (large)"
+  - option "Masa — 10 kişi (large)"
+- checkbox "Sentetik servis hatası" [checked] [active]
+- text: Sentetik servis hatası
+- status
+- checkbox "Sentetik bağlantı kesik"
+- text: Sentetik bağlantı kesik
+- banner:
+  - strong: Secret Table
+  - generic: Veto yanıtı
+  - generic: dev
+  - checkbox "düşük grafik"
+  - text: düşük grafik
+  - checkbox "hareketi azalt"
+  - text: hareketi azalt
+  - checkbox "ses"
+  - text: ses
+  - generic "Bağlı"
+  - button "Yenile"
+- button "Mert"
+- button "Elif"
+- button "Deniz"
+- button "Kaan"
+- button "Selin"
+- button "Barış"
+- button "Ada"
+- complementary:
+  - 'region "Sıra: Veto yanıtı"':
+    - 'heading "Sıra: Veto yanıtı" [level=2]'
+    - heading "Veto yanıtı" [level=3]
+    - paragraph: Şansölyenin veto önerisini yanıtla.
+    - group "Veto yanıtı":
+      - button "Vetoyu kabul et"
+      - button "Vetoyu reddet"
+    - alert: SERVICE_UNAVAILABLE
+  - region "Özel bilgin":
+    - heading "Özel bilgin" [level=2]
+    - button "Göster"
+    - paragraph: Rolün ve özel bilgin gizli. Görmek için “Göster”e bas.
+  - region "Oyuncular":
+    - heading "Oyuncular" [level=2]
+    - list:
+      - generic "bağlı"
+      - generic: "1"
+      - generic: Mert
+      - generic: Başkan
+      - generic: Oda sahibi
+      - generic "bağlı"
+      - generic: "2"
+      - generic: Elif
+      - generic "bağlı"
+      - generic: "3"
+      - generic: Deniz
+      - generic: Şansölye
+      - generic "bağlı"
+      - generic: "4"
+      - generic: Kaan
+      - generic "bağlı"
+      - generic: "5"
+      - generic: Selin
+      - generic "bağlı"
+      - generic: "6"
+      - generic: Barış
+      - generic "bağlı"
+      - generic: "7"
+      - generic: Ada
+  - region "Masa":
+    - heading "Masa" [level=2]
+    - term: Liberal
+    - definition: 3 / 5
+    - term: Faşist
+    - definition: 5 / 6
+    - term: Seçim sayacı
+    - definition: 0 / 3
+    - term: Deste / Atık
+    - definition: 6 / 8
+  - region "Tur geçmişi":
+    - heading "Tur geçmişi" [level=2]
+    - paragraph: Henüz olay yok.

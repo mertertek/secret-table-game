@@ -1,0 +1,121 @@
+{
+  "stats": [
+    {
+      "name": "seat-hold3",
+      "draws": 219,
+      "tris": 105728,
+      "geoms": 136,
+      "motion": "settled",
+      "faces": "3",
+      "handMs": "68.1",
+      "handTris": "4950"
+    },
+    {
+      "name": "inspect-hold3",
+      "draws": 186,
+      "tris": 92338,
+      "geoms": 137,
+      "motion": "settled",
+      "faces": "3",
+      "handMs": "68.1",
+      "handTris": "4950"
+    },
+    {
+      "name": "seat-selected",
+      "draws": 220,
+      "tris": 105740,
+      "geoms": 137,
+      "motion": "settled",
+      "faces": "3",
+      "handMs": "68.1",
+      "handTris": "4950"
+    },
+    {
+      "name": "inspect-selected",
+      "draws": 187,
+      "tris": 92350,
+      "geoms": 138,
+      "motion": "settled",
+      "faces": "3",
+      "handMs": "68.1",
+      "handTris": "4950"
+    },
+    {
+      "name": "seat-hold2",
+      "draws": 221,
+      "tris": 106648,
+      "geoms": 137,
+      "motion": "settled",
+      "faces": "2",
+      "handMs": "68.0",
+      "handTris": "4950"
+    },
+    {
+      "name": "inspect-hold2",
+      "draws": 187,
+      "tris": 93118,
+      "geoms": 138,
+      "motion": "settled",
+      "faces": "2",
+      "handMs": "68.0",
+      "handTris": "4950"
+    },
+    {
+      "name": "seat-vote",
+      "draws": 192,
+      "tris": 100980,
+      "geoms": 115,
+      "motion": "settled",
+      "faces": "0",
+      "handMs": "63.1",
+      "handTris": "4950"
+    },
+    {
+      "name": "seat-vote-end",
+      "draws": 192,
+      "tris": 100980,
+      "geoms": 115,
+      "motion": "settled",
+      "faces": "0",
+      "handMs": "63.1",
+      "handTris": "4950"
+    },
+    {
+      "name": "seat-envelope",
+      "draws": 157,
+      "tris": 86318,
+      "geoms": 114,
+      "motion": "settled",
+      "faces": "1",
+      "handMs": "70.1",
+      "handTris": "4950"
+    },
+    {
+      "name": "inspect-envelope",
+      "draws": 157,
+      "tris": 86318,
+      "geoms": 114,
+      "motion": "settled",
+      "faces": "1",
+      "handMs": "70.1",
+      "handTris": "4950"
+    },
+    {
+      "name": "overview-arms",
+      "draws": 240,
+      "tris": 106562,
+      "geoms": 140,
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "overview-arms-low",
+      "draws": 136,
+      "tris": 54008,
+      "geoms": 123,
+      "handMs": null,
+      "handTris": null
+    }
+  ],
+  "errors": []
+}

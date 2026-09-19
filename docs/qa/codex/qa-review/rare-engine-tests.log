@@ -1,0 +1,11 @@
+
+ RUN  v3.2.7 <proje-klasörü>/packages/game-core
+
+ ✓ src/engine.guards.test.ts (9 tests) 12ms
+ ✓ src/engine.legislative.test.ts (7 tests) 14ms
+
+ Test Files  2 passed (2)
+      Tests  16 passed (16)
+   Start at  17:24:21
+   Duration  545ms (transform 288ms, setup 0ms, collect 376ms, tests 26ms, environment 0ms, prepare 170ms)
+

@@ -1,0 +1,71 @@
+{
+ "results": [
+  {
+   "id": "G-lobby",
+   "ok": true,
+   "ev": "g10-phone-lobby.jpg",
+   "n": "390×844 lobi: 8 karakter, 3 ten, yatay taşma false (390/390)"
+  },
+  {
+   "id": "G-game",
+   "ok": true,
+   "ev": "g12-phone-game.jpg",
+   "n": "telefon oyun: araçlar [\"Genel masa\",\"Kendi koltuğum\",\"Özel alan\",\"Tahta\",\"Tam ekran\",\"Menü M\"], jest düğmesi true, tuval [390,844], taşma false"
+  },
+  {
+   "id": "B-visual",
+   "ok": false,
+   "ev": "b11-B-sees-A-yaw-right.jpg",
+   "n": "B A'ya dönükken kare farkı sağ 0.00003 · sol 0.00033; B'de boşta 2 s'de 9 kare, A dönerken 149 kare"
+  },
+  {
+   "id": "D-execution",
+   "ok": true,
+   "ev": "x12-exec-A-3.jpg",
+   "n": "hedef \"Bahar\" (Bahar infaz edilecek — oyundan elenecek.); seçenek rakamları 1–4; cue 0→1, ses 0→1"
+  },
+  {
+   "id": "D-gameover",
+   "ok": false,
+   "ev": "x20-gameover-A.jpg",
+   "n": "oyun bitmedi; faz Rol tanışması"
+  }
+ ],
+ "log": [
+  "oda 9V3CBJ",
+  "GEÇTİ G-lobby | g10-phone-lobby.jpg | 390×844 lobi: 8 karakter, 3 ten, yatay taşma false (390/390)",
+  "bot 3 A {\"status\":\"Rol tanışması\",\"detail\":\"2 oyuncu rolüne bakıyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"\",\"shot\":false,\"shotCard\":\"\",\"err\":\"\"} B {\"status\":\"Rol tanışması\",\"detail\":\"1 oyuncu rolüne bakıyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"\",\"shot\":false,\"shotCard\":\"\",\"err\":\"\"}",
+  "telefon HUD {\"tools\":[\"Genel masa\",\"Kendi koltuğum\",\"Özel alan\",\"Tahta\",\"Tam ekran\",\"Menü M\"],\"jest\":true,\"overflow\":false,\"canvas\":[390,844]}",
+  "telefon jest ",
+  "GEÇTİ G-game | g12-phone-game.jpg | telefon oyun: araçlar [\"Genel masa\",\"Kendi koltuğum\",\"Özel alan\",\"Tahta\",\"Tam ekran\",\"Menü M\"], jest düğmesi true, tuval [390,844], taşma false",
+  "B left dönük \"overview\"",
+  "B right dönük \"overview\"",
+  "B kare: boşta 2s 9 · A hareket sırasında 149",
+  "B kare farkları 0.00003 0.00033",
+  "KALDI B-visual | b11-B-sees-A-yaw-right.jpg | B A'ya dönükken kare farkı sağ 0.00003 · sol 0.00033; B'de boşta 2 s'de 9 kare, A dönerken 149 kare",
+  "infaz senaryosu true Oyunun her aşaması klavyeyle oynanabilir. Daha çok seçenek varsa oklarla gez, Enter ile onayla. Fare serbestken alt çubuktaki düğmeler de çalışır. | Yalnız yerel geliştirme. Sunucu bu komutları yalnız SECRET_TABLE_DEV_TOOLS=1 iken kabul eder. Roller, gizli eller ve deste içeriği değişmez. | Senaryo uygulandı. {\"status\":\"Başkanlık yetkisi\",\"detail\":\"Sıra sende: infaz için oyuncu seç\",\"opts\":[\"Bahar\",\"Bot-Ada\",\"Bot-Bora\",\"Bot-Cem\"],\"over\":false,\"overText\":\"\",\"ann\":\"BAŞKANLIK YETKİSİİnfaz · Bir oyuncu seç\",\"shot\":false,\"shotCard\":\"\",\"err\":\"\"}",
+  "silah hazır {\"frames\":312,\"calls\":128,\"tris\":181398,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"0\",\"sounds\":\"0\",\"audio\":\"running\",\"status\":\"Başkanlık yetkisi\",\"detail\":\"Sıra sende: infaz için oyuncu seç\",\"actions\":[\"1Bahar\",\"2Bot-Ada\",\"3Bot-Bora\",\"4Bot-Cem\"]}",
+  "infaz sonrası {\"status\":\"Aday belirleme\",\"detail\":\"Başkan Bot-Ada şansölye adayını seçiyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"İNFAZBahar vuruldu\",\"shot\":false,\"shotCard\":\"\",\"err\":\"\"} {\"frames\":469,\"calls\":127,\"tris\":178608,\"camera\":\"seat\",\"locked\":\"false\",\"emotes\":\"0\",\"localEmote\":\"\",\"office\":\"\",\"badges\":\"0\",\"cues\":\"1\",\"sounds\":\"1\",\"audio\":\"running\",\"status\":\"Aday belirleme\",\"detail\":\"Başkan Bot-Ada şansölye adayını seçiyor\",\"actions\":[]}",
+  "GEÇTİ D-execution | x12-exec-A-3.jpg | hedef \"Bahar\" (Bahar infaz edilecek — oyundan elenecek.); seçenek rakamları 1–4; cue 0→1, ses 0→1",
+  "[son 0] faz Aday belirleme · Başkan Bot-Ada şansölye adayını seçiyor · ops [] (senaryo true)",
+  "[son 1] faz Başkanlık yetkisi · Sıra sende: infaz için oyuncu seç · ops [\"Bot-Ada\",\"Bot-Bora\",\"Bot-Cem\"] (senaryo true)",
+  "[son 1] infaz → Bot-Ada infaz edilecek — oyundan elenecek.",
+  "[son 1] sonuç: Aday belirleme · bitti=false · ",
+  "[son 2] faz Başkanlık yetkisi · Sıra sende: infaz için oyuncu seç · ops [\"Bot-Bora\",\"Bot-Cem\"] (senaryo true)",
+  "[son 2] infaz → Bot-Bora infaz edilecek — oyundan elenecek.",
+  "[son 2] sonuç: Aday belirleme · bitti=false · ",
+  "[son 3] faz Oyun bitti · Faşistler kazandı · ops [\"Aynı oyuncularla yeniden oyna\",\"Lobiye dön\"] (senaryo true)",
+  "[son 3] infaz → ",
+  "[son 3] sonuç: Rol tanışması · bitti=false · ",
+  "oyun sonu {\"status\":\"Rol tanışması\",\"detail\":\"3 oyuncu rolüne bakıyor\",\"opts\":[],\"over\":false,\"overText\":\"\",\"ann\":\"\",\"shot\":false,\"shotCard\":\"\",\"err\":\"\"}",
+  "KALDI D-gameover | x20-gameover-A.jpg | oyun bitmedi; faz Rol tanışması"
+ ],
+ "aErr": [
+  "[A] console Failed to load resource: the server responded with a status of 409 (Conflict)"
+ ],
+ "aNet": [
+  "[A] 409 POST /api/game"
+ ],
+ "bErr": [],
+ "bNet": []
+}

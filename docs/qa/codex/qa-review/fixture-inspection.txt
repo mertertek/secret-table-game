@@ -1,0 +1,108 @@
+- text: QA fixture · ağ yok
+- combobox "QA senaryosu":
+  - option "Lobi — 7 kişi"
+  - option "Rol tanışması — faşist"
+  - option "Rol tanışması — liberal"
+  - option "Adaylık — başkan seçiyor"
+  - option "Oylama — oy bekleniyor"
+  - option "Oylama — oy verildi"
+  - option "Seçim sonucu — hükümet kuruldu"
+  - option "Yasama — başkan kart atıyor"
+  - option "Yasama — şansölye yürürlüğe koyuyor"
+  - option "Yasama — veto hakkı açık"
+  - option "Yasama — başkan vetoyu yanıtlıyor"
+  - option "Sonuç — politika tahtaya yerleşti"
+  - option "Yetki — sadakat incelemesi hedefi"
+  - option "Yetki — parti incelemesi sonucu" [selected]
+  - option "Yetki — deste bakma sonucu"
+  - option "Oyun sonu — liberaller kazandı"
+  - option "Oyun sonu — faşistler kazandı"
+  - option "Duraklama — başka oyuncu çevrimdışı"
+  - option "Bağlantı — kendim yeniden bağlanıyorum"
+  - option "Uzun isimler — kısaltma / hover"
+  - option "Masa — 5 kişi (small)"
+  - option "Masa — 6 kişi (small)"
+  - option "Masa — 7 kişi (medium)"
+  - option "Masa — 8 kişi (medium)"
+  - option "Masa — 9 kişi (large)"
+  - option "Masa — 10 kişi (large)"
+- checkbox "Sentetik servis hatası"
+- text: Sentetik servis hatası
+- status
+- banner:
+  - strong: Secret Table
+  - generic: Başkanlık yetkisi
+  - generic: dev
+  - checkbox "düşük grafik"
+  - text: düşük grafik
+  - checkbox "hareketi azalt"
+  - text: hareketi azalt
+  - checkbox "ses" [checked]
+  - text: ses
+  - generic "Bağlı"
+  - button "Yenile"
+- button "Özel alanı incele"
+- complementary:
+  - 'region "Sıra: Başkanlık yetkisi"':
+    - 'heading "Sıra: Başkanlık yetkisi" [level=2]'
+    - heading "Özel sonuç" [level=3]
+    - paragraph: Sonucu gördüğünü bildir.
+    - group "Özel sonuç":
+      - button "Gördüm, kapat"
+  - region "Özel bilgin":
+    - heading "Özel bilgin" [level=2]
+    - button "Gizle" [expanded]
+    - paragraph:
+      - text: "İnceleme:"
+      - strong: Barış
+      - text: → Faşist parti
+  - region "Oyuncular":
+    - heading "Oyuncular" [level=2]
+    - list:
+      - generic "bağlı"
+      - generic: "1"
+      - generic: Mert
+      - generic: Başkan
+      - generic: Oda sahibi
+      - generic "bağlı"
+      - generic: "2"
+      - generic: Elif
+      - generic "bağlı"
+      - generic: "3"
+      - generic: Deniz
+      - generic "bağlı"
+      - generic: "4"
+      - generic: Kaan
+      - generic "bağlı"
+      - generic: "5"
+      - generic: Selin
+      - generic: Şansölye
+      - generic "bağlı"
+      - generic: "6"
+      - generic: Barış
+      - generic "bağlı"
+      - generic: "7"
+      - generic: Ada
+      - generic "bağlı"
+      - generic: "8"
+      - generic: Cem
+      - generic "bağlı"
+      - generic: "9"
+      - generic: Yağmur
+  - region "Masa":
+    - heading "Masa" [level=2]
+    - term: Liberal
+    - definition: 2 / 5
+    - term: Faşist
+    - definition: 3 / 6
+    - term: Seçim sayacı
+    - definition: 0 / 3
+    - term: Deste / Atık
+    - definition: 9 / 6
+    - paragraph:
+      - text: "Yetki:"
+      - strong: Sadakat incelemesi
+      - text: — Mert → Barış
+  - region "Tur geçmişi":
+    - heading "Tur geçmişi" [level=2]
+    - paragraph: Henüz olay yok.

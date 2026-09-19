@@ -1,0 +1,44 @@
+{
+  "idleBefore": {
+    "engine": "three.js r186",
+    "sceneDrawCalls": "201",
+    "sceneFrames": "130",
+    "sceneGeometries": "132",
+    "sceneTextures": "37",
+    "sceneTriangles": "96762"
+  },
+  "idleAfter": {
+    "engine": "three.js r186",
+    "sceneDrawCalls": "201",
+    "sceneFrames": "130",
+    "sceneGeometries": "132",
+    "sceneTextures": "37",
+    "sceneTriangles": "96762"
+  },
+  "cycles": [
+    {
+      "engine": "three.js r186",
+      "sceneDrawCalls": "201",
+      "sceneFrames": "139",
+      "sceneGeometries": "158",
+      "sceneTextures": "37",
+      "sceneTriangles": "96762"
+    },
+    {
+      "engine": "three.js r186",
+      "sceneDrawCalls": "201",
+      "sceneFrames": "147",
+      "sceneGeometries": "132",
+      "sceneTextures": "37",
+      "sceneTriangles": "96762"
+    },
+    {
+      "engine": "three.js r186",
+      "sceneDrawCalls": "201",
+      "sceneFrames": "156",
+      "sceneGeometries": "158",
+      "sceneTextures": "37",
+      "sceneTriangles": "96762"
+    }
+  ]
+}

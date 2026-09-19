@@ -1,0 +1,17 @@
+Browser tab: 9, Title: "QA · Sentetik oyun panelleri", URL: "http://127.0.0.1:5174/@fs<proje-klasörü>/docs/qa/codex/qa-review/ui-fixtures.html".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 56
+~				55 button (expanded) Gizle, Secondary Actions: Collapse
++				114 container ID: role-panel-body, Description: Rolün: Faşist Bildiklerin Deniz — Hitler (Faşistler birbirini tanır) Barış — Faşist (Faşistler birbirini tanır)
++					115 container
++						116 text Rolün:  Faşist
++					117 heading Bildiklerin, Value: 3
++						118 text Bildiklerin
++					119 content list
++						120 container
++							121 AXListMarker • 
++							122 text Deniz  — Hitler  ( Faşistler birbirini tanır )
++						123 container
++							124 AXListMarker • 
++							125 text Barış  — Faşist  ( Faşistler birbirini tanır )
+The focused UI element is 114 container ID: role-panel-body, Description: Rolün: Faşist Bildiklerin Deniz — Hitler (Faşistler birbirini tanır) Barış — Faşist (Faşistler birbirini tanır)

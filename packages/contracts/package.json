@@ -1,0 +1,34 @@
+{
+  "name": "@secret-table/contracts",
+  "version": "0.2.6",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "browser": "./src/index.ts",
+      "development": "./src/index.ts",
+      "node": "./dist/index.js",
+      "default": "./src/index.ts"
+    },
+    "./schemas": {
+      "types": "./src/schemas.ts",
+      "browser": "./src/schemas.ts",
+      "development": "./src/schemas.ts",
+      "node": "./dist/schemas.js",
+      "default": "./src/schemas.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitest": "~3.2.7"
+  }
+}

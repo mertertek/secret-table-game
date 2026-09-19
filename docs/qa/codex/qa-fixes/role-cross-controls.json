@@ -1,0 +1,20 @@
+{
+  "sceneOpenHtmlHide": {
+    "intents": "[\"inspect_own_role:true\"]",
+    "open": false,
+    "sceneText": [
+      "Özel alanı incele",
+      "Tahtayı incele",
+      "Kimliği aç"
+    ]
+  },
+  "htmlOpenSceneClose": {
+    "intents": "[\"inspect_own_role:true\",\"inspect_own_role:false\"]",
+    "open": false,
+    "sceneText": [
+      "Özel alanı incele",
+      "Tahtayı incele",
+      "Kimliği aç"
+    ]
+  }
+}

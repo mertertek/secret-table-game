@@ -1,0 +1,63 @@
+{
+  "initial": {
+    "motion": {
+      "sceneAudioState": "locked",
+      "sceneAudioVoices": "0",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "0",
+      "sceneSoundsPlayed": "0"
+    },
+    "render": {
+      "engine": "three.js r186",
+      "sceneDrawCalls": "195",
+      "sceneFrames": "2",
+      "sceneGeometries": "131",
+      "sceneTextures": "79",
+      "sceneTriangles": "80264"
+    }
+  },
+  "interrupted": {
+    "motion": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "6",
+      "sceneSoundsPlayed": "1"
+    },
+    "render": {
+      "engine": "three.js r186",
+      "sceneDrawCalls": "234",
+      "sceneFrames": "530",
+      "sceneGeometries": "155",
+      "sceneTextures": "48",
+      "sceneTriangles": "104660"
+    },
+    "samples": "{\"scenario\":\"enact\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"1\",\"sceneCuesActive\":\"1\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"0\",\"sceneAudioVoices\":\"0\",\"frames\":\"21\"}\n{\"scenario\":\"enact\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"1\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"0\",\"sceneAudioVoices\":\"0\",\"frames\":\"126\"}\n{\"scenario\":\"eliminated\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"2\",\"sceneCuesActive\":\"1\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"0\",\"sceneAudioVoices\":\"0\",\"frames\":\"209\"}\n{\"scenario\":\"eliminated\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"2\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"0\",\"sceneAudioVoices\":\"0\",\"frames\":\"301\"}\n{\"scenario\":\"batch\",\"count\":10,\"mode\":\"interrupt\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"6\",\"sceneCuesActive\":\"4\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"1\",\"sceneAudioVoices\":\"1\",\"frames\":\"406\"}\n{\"scenario\":\"batch\",\"count\":10,\"mode\":\"interrupt\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"6\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"1\",\"sceneAudioVoices\":\"0\",\"frames\":\"413\"}"
+  },
+  "reduced": {
+    "motion": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "7",
+      "sceneSoundsPlayed": "2"
+    },
+    "render": {
+      "engine": "three.js r186",
+      "sceneDrawCalls": "155",
+      "sceneFrames": "544",
+      "sceneGeometries": "102",
+      "sceneTextures": "39",
+      "sceneTriangles": "66930"
+    },
+    "samples": "{\"scenario\":\"enact\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"1\",\"sceneCuesActive\":\"1\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"0\",\"sceneAudioVoices\":\"0\",\"frames\":\"21\"}\n{\"scenario\":\"enact\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"1\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"0\",\"sceneAudioVoices\":\"0\",\"frames\":\"126\"}\n{\"scenario\":\"eliminated\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"2\",\"sceneCuesActive\":\"1\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"0\",\"sceneAudioVoices\":\"0\",\"frames\":\"209\"}\n{\"scenario\":\"eliminated\",\"count\":7,\"mode\":\"play\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"2\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"0\",\"sceneAudioVoices\":\"0\",\"frames\":\"301\"}\n{\"scenario\":\"batch\",\"count\":10,\"mode\":\"interrupt\",\"reduced\":false,\"at\":120,\"sceneCuesPlayed\":\"6\",\"sceneCuesActive\":\"4\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"1\",\"sceneAudioVoices\":\"1\",\"frames\":\"406\"}\n{\"scenario\":\"batch\",\"count\":10,\"mode\":\"interrupt\",\"reduced\":false,\"at\":1000,\"sceneCuesPlayed\":\"6\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"1\",\"sceneAudioVoices\":\"0\",\"frames\":\"413\"}\n{\"scenario\":\"votes\",\"count\":6,\"mode\":\"play\",\"reduced\":true,\"at\":120,\"sceneCuesPlayed\":\"7\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"2\",\"sceneAudioVoices\":\"1\",\"frames\":\"537\"}\n{\"scenario\":\"votes\",\"count\":6,\"mode\":\"play\",\"reduced\":true,\"at\":1000,\"sceneCuesPlayed\":\"7\",\"sceneCuesActive\":\"0\",\"sceneAudioState\":\"running\",\"sceneSoundsPlayed\":\"2\",\"sceneAudioVoices\":\"0\",\"frames\":\"542\"}"
+  },
+  "cleanLoadLogs": [
+    {
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "timestamp": "2026-09-09T11:56:58.100Z",
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/chunk-QN527OTC.js?v=f67cf386"
+    }
+  ]
+}

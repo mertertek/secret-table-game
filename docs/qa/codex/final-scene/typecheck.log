@@ -1,0 +1,29 @@
+
+> secret-table@0.0.0 typecheck <proje-klasörü>
+> pnpm -r --workspace-concurrency=1 typecheck
+
+Scope: 6 of 7 workspace projects
+
+> @secret-table/contracts@0.2.0 typecheck <proje-klasörü>/packages/contracts
+> tsc -p tsconfig.json
+
+
+> @secret-table/fixtures@0.0.0 typecheck <proje-klasörü>/packages/fixtures
+> tsc -p tsconfig.json
+
+
+> @secret-table/game-core@0.0.0 typecheck <proje-klasörü>/packages/game-core
+> tsc -p tsconfig.json
+
+
+> @secret-table/scene@0.0.0 typecheck <proje-klasörü>/packages/scene
+> tsc -p tsconfig.json
+
+
+> @secret-table/server@0.0.0 typecheck <proje-klasörü>/packages/server
+> tsc -p tsconfig.json
+
+
+> @secret-table/web@0.0.0 typecheck <proje-klasörü>/apps/web
+> tsc -p tsconfig.json
+

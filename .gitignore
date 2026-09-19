@@ -1,0 +1,46 @@
+# Bağımlılıklar
+node_modules/
+.pnpm-store/
+
+# Derleme çıktıları
+dist/
+build/
+*.tsbuildinfo
+coverage/
+
+# Ortam değişkenleri (örnek dosya izlenir)
+.env
+.env.*
+!.env.example
+
+# Araç önbellekleri
+.vite/
+.turbo/
+.eslintcache
+
+# Vercel
+.vercel/
+
+# Supabase yerel çalışma
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+
+# Editör / işletim sistemi
+.DS_Store
+*.local
+.idea/
+.vscode/*
+!.vscode/extensions.json
+scratchpad/.party-*.json
+
+# Ekran görüntüleri ve üretilmiş görseller depoya girmez (public depo boyutu);
+# yerelde kalır, QA raporları göreli yolla onlara bakar. Kaynak SVG/py/mjs izlenir.
+docs/qa/**/*.png
+docs/qa/**/*.jpg
+docs/qa/**/*.jpeg
+docs/qa/**/*.gif
+docs/qa/**/*.webp
+docs/design/**/*.png
+scratchpad/**/*.png
+scratchpad/**/*.jpg

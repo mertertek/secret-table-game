@@ -1,0 +1,49 @@
+{
+  "canvas": {
+    "engine": "three.js r186",
+    "fpCameraMoving": "true",
+    "fpCameraX": "0.000",
+    "fpCameraY": "2.824",
+    "fpCameraZ": "3.610",
+    "fpFov": "73.77",
+    "fpHeadPitch0": "0.000",
+    "fpHeadPitch1": "0.000",
+    "fpHeadPitch2": "0.000",
+    "fpHeadPitch3": "0.000",
+    "fpHeadPitch4": "0.000",
+    "fpHeadPitch5": "0.000",
+    "fpHeadPitch6": "0.000",
+    "fpHeadYaw0": "0.000",
+    "fpHeadYaw1": "0.000",
+    "fpHeadYaw2": "0.000",
+    "fpHeadYaw3": "0.000",
+    "fpHeadYaw4": "0.000",
+    "fpHeadYaw5": "0.000",
+    "fpHeadYaw6": "0.000",
+    "fpMotion": "settled",
+    "fpMotionProgress": "1",
+    "fpPrivateFaces": "0",
+    "sceneDrawCalls": "248",
+    "sceneFrames": "229",
+    "sceneGeometries": "166",
+    "sceneTextures": "41",
+    "sceneTriangles": "75426"
+  },
+  "dpr": 1,
+  "heads": false,
+  "quality": "standard",
+  "rect": {
+    "bottom": 392,
+    "height": 751,
+    "left": 0,
+    "right": 375,
+    "top": -359,
+    "width": 375,
+    "x": 0,
+    "y": -359
+  },
+  "viewport": [
+    390,
+    844
+  ]
+}

@@ -1,0 +1,169 @@
+[
+ {
+  "phase": "Oylama",
+  "tag": "d1-Oylama",
+  "a": {
+   "frames": 1425,
+   "calls": 85,
+   "tris": 167136,
+   "camera": "seat",
+   "locked": "true",
+   "emotes": "0",
+   "localEmote": "",
+   "office": "",
+   "badges": "4",
+   "cues": "0",
+   "sounds": "1",
+   "audio": "running",
+   "status": "Oylama",
+   "detail": "sen henüz oy vermedin · Bekleyen: Mert (sen), Bahar",
+   "actions": [
+    "1Evet",
+    "2Hayır",
+    "OnaylaEnter",
+    "Vazgeç Backspace"
+   ]
+  },
+  "b": {
+   "frames": 18,
+   "calls": 128,
+   "tris": 176276,
+   "camera": "seat",
+   "locked": "false",
+   "emotes": "0",
+   "localEmote": "",
+   "office": "",
+   "badges": "4",
+   "cues": "0",
+   "sounds": "0",
+   "audio": "locked",
+   "status": "Oylama",
+   "detail": "sen henüz oy vermedin · Bekleyen: Mert, Bahar (sen)",
+   "actions": [
+    "1Evet",
+    "2Hayır"
+   ]
+  },
+  "ann": ""
+ },
+ {
+  "phase": "Başkan kart atıyor",
+  "tag": "d2-Bakankartatyor",
+  "a": {
+   "frames": 1553,
+   "calls": 85,
+   "tris": 166414,
+   "camera": "seat",
+   "locked": "true",
+   "emotes": "0",
+   "localEmote": "",
+   "office": "president:3",
+   "badges": "0",
+   "cues": "0",
+   "sounds": "1",
+   "audio": "running",
+   "status": "Başkan kart atıyor",
+   "detail": "Başkan Bot-Bora 3 karttan birini atıyor",
+   "actions": []
+  },
+  "b": {
+   "frames": 189,
+   "calls": 127,
+   "tris": 175764,
+   "camera": "seat",
+   "locked": "false",
+   "emotes": "0",
+   "localEmote": "",
+   "office": "president:3",
+   "badges": "0",
+   "cues": "4",
+   "sounds": "0",
+   "audio": "locked",
+   "status": "Başkan kart atıyor",
+   "detail": "Başkan Bot-Bora 3 karttan birini atıyor",
+   "actions": []
+  },
+  "ann": "YASAMABaşkan Bot-Bora 3 karttan birini atıyor"
+ },
+ {
+  "phase": "Şansölye kanun seçiyor",
+  "tag": "d3-anslyekanunsei",
+  "a": {
+   "frames": 1569,
+   "calls": 87,
+   "tris": 166786,
+   "camera": "seat",
+   "locked": "true",
+   "emotes": "0",
+   "localEmote": "",
+   "office": "chancellor:2",
+   "badges": "0",
+   "cues": "0",
+   "sounds": "1",
+   "audio": "running",
+   "status": "Şansölye kanun seçiyor",
+   "detail": "Şansölye Bahar kanunu seçiyor",
+   "actions": []
+  },
+  "b": {
+   "frames": 208,
+   "calls": 132,
+   "tris": 177306,
+   "camera": "seat",
+   "locked": "false",
+   "emotes": "0",
+   "localEmote": "",
+   "office": "chancellor:2",
+   "badges": "0",
+   "cues": "4",
+   "sounds": "0",
+   "audio": "locked",
+   "status": "Şansölye kanun seçiyor",
+   "detail": "Sıra sende: iki karttan birini yürürlüğe koy",
+   "actions": [
+    "1Liberal kanun",
+    "2Liberal kanun"
+   ]
+  },
+  "ann": "YASAMAŞansölye Bahar kanunu seçiyor"
+ },
+ {
+  "phase": "Aday belirleme",
+  "tag": "d4-Adaybelirleme",
+  "a": {
+   "frames": 1624,
+   "calls": 85,
+   "tris": 167530,
+   "camera": "seat",
+   "locked": "true",
+   "emotes": "0",
+   "localEmote": "",
+   "office": "",
+   "badges": "0",
+   "cues": "0",
+   "sounds": "1",
+   "audio": "running",
+   "status": "Aday belirleme",
+   "detail": "Başkan Bot-Cem şansölye adayını seçiyor",
+   "actions": []
+  },
+  "b": {
+   "frames": 340,
+   "calls": 132,
+   "tris": 178074,
+   "camera": "seat",
+   "locked": "false",
+   "emotes": "0",
+   "localEmote": "",
+   "office": "",
+   "badges": "0",
+   "cues": "6",
+   "sounds": "0",
+   "audio": "locked",
+   "status": "Aday belirleme",
+   "detail": "Başkan Bot-Cem şansölye adayını seçiyor",
+   "actions": []
+  },
+  "ann": "ADAY SEÇİMİBaşkan Bot-Cem şansölye adayını seçiyor"
+ }
+]

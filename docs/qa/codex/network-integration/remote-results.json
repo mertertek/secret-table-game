@@ -1,0 +1,87 @@
+[
+  {
+    "name": "fixture",
+    "value": {
+      "roomId": "12ff27fe-b695-4140-b7ba-a439a12cddc4",
+      "gameId": "f6ce1833-5e6d-4d0b-be02-ce75483a0b60",
+      "kind": "two-actor transport fixture, no game core state"
+    }
+  },
+  {
+    "name": "members_joined_both_actor_topics",
+    "value": true
+  },
+  {
+    "name": "actor_A_send_ack",
+    "value": true
+  },
+  {
+    "name": "actor_B_send_ack",
+    "value": true
+  },
+  {
+    "name": "bidirectional_real_websocket_delivery",
+    "value": true
+  },
+  {
+    "name": "nonmember_join_denied",
+    "value": true
+  },
+  {
+    "name": "member_cannot_write_other_actor_topic",
+    "value": true
+  },
+  {
+    "name": "spoof_ack",
+    "value": "timed out"
+  },
+  {
+    "name": "revision_read_still_allowed",
+    "value": true
+  },
+  {
+    "name": "revision_channel_client_send_denied",
+    "value": true
+  },
+  {
+    "name": "real_token_refresh",
+    "value": true
+  },
+  {
+    "name": "send_after_token_refresh",
+    "value": true
+  },
+  {
+    "name": "delivery_after_token_refresh",
+    "value": true
+  },
+  {
+    "name": "socket_channel_rejoin",
+    "value": true
+  },
+  {
+    "name": "send_after_rejoin",
+    "value": true
+  },
+  {
+    "name": "delivery_after_rejoin",
+    "value": true
+  },
+  {
+    "name": "measured_2_client_traffic",
+    "value": {
+      "sent": 5,
+      "received": 5,
+      "elapsedMs": 4656,
+      "wireJsonBytes": 54
+    }
+  },
+  {
+    "name": "head_traffic_no_game_state_or_ledger_writes",
+    "value": true
+  },
+  {
+    "name": "remote_checks_complete",
+    "value": true
+  }
+]

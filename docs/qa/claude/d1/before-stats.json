@@ -1,0 +1,121 @@
+{
+  "stats": [
+    {
+      "name": "seat-hold3",
+      "draws": 223,
+      "tris": 86704,
+      "geoms": 144,
+      "motion": "settled",
+      "faces": "3",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "inspect-hold3",
+      "draws": 190,
+      "tris": 75258,
+      "geoms": 145,
+      "motion": "settled",
+      "faces": "3",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "seat-selected",
+      "draws": 224,
+      "tris": 86716,
+      "geoms": 145,
+      "motion": "settled",
+      "faces": "3",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "inspect-selected",
+      "draws": 191,
+      "tris": 75270,
+      "geoms": 146,
+      "motion": "settled",
+      "faces": "3",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "seat-hold2",
+      "draws": 225,
+      "tris": 87624,
+      "geoms": 145,
+      "motion": "settled",
+      "faces": "2",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "inspect-hold2",
+      "draws": 191,
+      "tris": 76038,
+      "geoms": 146,
+      "motion": "settled",
+      "faces": "2",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "seat-vote",
+      "draws": 196,
+      "tris": 81956,
+      "geoms": 123,
+      "motion": "settled",
+      "faces": "0",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "seat-vote-end",
+      "draws": 196,
+      "tris": 81956,
+      "geoms": 123,
+      "motion": "settled",
+      "faces": "0",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "seat-envelope",
+      "draws": 161,
+      "tris": 69238,
+      "geoms": 122,
+      "motion": "settled",
+      "faces": "1",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "inspect-envelope",
+      "draws": 161,
+      "tris": 69238,
+      "geoms": 122,
+      "motion": "settled",
+      "faces": "1",
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "overview-arms",
+      "draws": 240,
+      "tris": 92954,
+      "geoms": 146,
+      "handMs": null,
+      "handTris": null
+    },
+    {
+      "name": "overview-arms-low",
+      "draws": 136,
+      "tris": 47204,
+      "geoms": 129,
+      "handMs": null,
+      "handTris": null
+    }
+  ],
+  "errors": []
+}

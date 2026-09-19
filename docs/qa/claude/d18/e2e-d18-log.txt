@@ -1,0 +1,41 @@
+16:41:05.271 A oda açtı: kod=GQ9E7K roomId=93ff2537-6d75-487c-a3b3-f2d1a8d59626
+16:41:06.383 B(Bahar) katıldı
+16:41:07.469 C(Can) katıldı
+16:41:08.522 D(Telefon) katıldı
+16:41:11.249 1 bot eklendi (hedef 5)
+16:41:11.285 A(Mert) hazır
+16:41:11.326 B(Bahar) hazır
+16:41:11.351 C(Can) hazır
+16:41:11.737 D(Telefon) hazır
+16:41:13.803 oyun başladı
+16:41:42.290 roller onaylandı=false
+16:41:52.755 İnfaza atla uygulandı
+16:41:52.858 menü kapandı
+16:42:07.626 A hedefleri: ["1 Bahar","2 Can","3 Bot-Ada","4 Deniz"]
+16:42:07.709 kare a1-target-select.jpg
+16:42:09.061 kare b0-before-fire.jpg
+16:42:09.063 ateş öncesi cue sayaçları: {"B":{"played":0,"revision":-1,"status":"Aday belirlemeBaşkan Deniz şansölye adayını seçiyor"},"C":{"played":2,"revision":-1,"status":"Başkanlık yetkisiBaşkan Mert infaz kullanıyor"},"D":{"played":2,"revision":-1,"status":"Başkanlık yetkisiBaşkan Mert infaz kullanıyor"}}
+16:42:09.222 A ateş etti (hedef: 1 Bahar)
+16:42:10.440 kare a2-shooter-fire.jpg
+16:42:10.441 B(kurban) cue sayacı 0 → 2 (+1219 ms)
+16:42:14.467 C(seyirci) cue sayacı 2 → 3 (+5245 ms)
+16:42:14.485 kare b1-A-fire-at-victim.jpg
+16:42:15.786 kare c1-collapse-at-fire.jpg
+16:42:16.718 kare c2-collapse-slumped.jpg
+16:42:20.518 B'de .shot-layer +11296 ms'de göründü
+16:42:20.556 kare b1b-shot-layer-overview.jpg
+16:42:21.650 kare b2-shot-layer.jpg
+16:42:21.651 B katman durumu: {"layer":true,"fresh":"true","shot":"fired","titleText":"VURULDUN","cardOpacity":"1","vignetteOpacity":"1","pointerEvents":"none","cuesPlayed":"3","status":"Aday belirlemeBaşkan Can şansölye adayını seçiyor","handCards":0}
+16:42:21.652 D(telefon) cue sayacı 2 → 3 (+12430 ms)
+16:42:21.652 cue özeti: B={"played":2,"revision":-1,"status":"Başkanlık yetkisiBaşkan Mert infaz kullanıyor"} C={"played":3,"revision":-1,"status":"Aday belirlemeSıra sende: şansölye adayını seç"} D={"played":3,"revision":-1,"status":"Aday belirlemeBaşkan Can şansölye adayını seçiyor"}
+16:42:26.681 kare b3-shot-layer-persistent.jpg
+16:42:26.683 B 5 s sonra: {"layer":true,"shot":"fired","titleVisible":true,"cardOpacity":"0.85"}
+16:42:32.145 kare b4-shot-layer-after-reload.jpg
+16:42:32.148 B yenilemeden sonra: {"shot":"persistent","fresh":"false","title":true}
+16:42:32.167 kare p1-phone-toolbar.jpg
+16:42:32.168 Telefon HUD: {"hudTop":"110px","topHeight":110,"statusBottom":22,"toolsTop":30,"overlapPx":-8,"toolRows":3,"docScrollX":0}
+16:42:32.766 kare p2-phone-wheel-open.jpg
+16:42:33.256 kare p3-phone-wheel-closed-backdrop.jpg
+16:42:33.865 kare p4-phone-wheel-geri.jpg
+16:42:34.443 kare p5-phone-wheel-closed-geri.jpg
+16:42:34.443 Telefon çark: açıldı=true zeminle-kapandı=true Geri-görünür=true Geri-ile-kapandı=true

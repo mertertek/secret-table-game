@@ -1,0 +1,291 @@
+{
+  "two": {
+    "canvas": {
+      "bottom": 548.59375,
+      "height": 548.59375,
+      "left": 0,
+      "right": 375,
+      "top": 0,
+      "width": 375,
+      "x": 0,
+      "y": 0
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.560",
+      "fpCameraZ": "1.920",
+      "fpFov": "63.68",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadPitch7": "0.000",
+      "fpHeadPitch8": "0.000",
+      "fpHeadPitch9": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpHeadYaw7": "0.000",
+      "fpHeadYaw8": "0.000",
+      "fpHeadYaw9": "0.000",
+      "fpMotion": "settled",
+      "fpMotionProgress": "1",
+      "fpPrivateFaces": "2",
+      "sceneDrawCalls": "186",
+      "sceneFrames": "8",
+      "sceneGeometries": "133",
+      "sceneTextures": "23",
+      "sceneTriangles": "88530"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "6",
+      "qaIntents": "[{\"type\":\"inspect_own_role\",\"open\":true},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"}]",
+      "qaLook": "null",
+      "qaSelection": "{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"}",
+      "qaTargets": "{\"slots\":[{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"},{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"}],\"hovered\":null,\"inspectedIndex\":1}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "0",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "one": {
+    "canvas": {
+      "bottom": 23.59375,
+      "height": 548.59375,
+      "left": 0,
+      "right": 375,
+      "top": -525,
+      "width": 375,
+      "x": 0,
+      "y": -525
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.560",
+      "fpCameraZ": "1.920",
+      "fpFov": "63.68",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadPitch7": "0.000",
+      "fpHeadPitch8": "0.000",
+      "fpHeadPitch9": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpHeadYaw7": "0.000",
+      "fpHeadYaw8": "0.000",
+      "fpHeadYaw9": "0.000",
+      "fpMotion": "settled",
+      "fpMotionProgress": "1",
+      "fpPrivateFaces": "1",
+      "sceneDrawCalls": "181",
+      "sceneFrames": "13",
+      "sceneGeometries": "129",
+      "sceneTextures": "21",
+      "sceneTriangles": "87722"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "6",
+      "qaIntents": "[{\"type\":\"inspect_own_role\",\"open\":true},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"}]",
+      "qaLook": "null",
+      "qaSelection": "{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"}",
+      "qaTargets": "{\"slots\":[{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"}],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "0",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "suspended": {
+    "canvas": {
+      "bottom": -307.40625,
+      "height": 548.59375,
+      "left": 0,
+      "right": 375,
+      "top": -856,
+      "width": 375,
+      "x": 0,
+      "y": -856
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.560",
+      "fpCameraZ": "1.920",
+      "fpFov": "63.68",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadPitch7": "0.000",
+      "fpHeadPitch8": "0.000",
+      "fpHeadPitch9": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpHeadYaw7": "0.000",
+      "fpHeadYaw8": "0.000",
+      "fpHeadYaw9": "0.000",
+      "fpMotion": "settled",
+      "fpMotionProgress": "1",
+      "fpPrivateFaces": "0",
+      "sceneDrawCalls": "178",
+      "sceneFrames": "18",
+      "sceneGeometries": "129",
+      "sceneTextures": "21",
+      "sceneTriangles": "87674"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "6",
+      "qaIntents": "[{\"type\":\"inspect_own_role\",\"open\":true},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"}]",
+      "qaLook": "null",
+      "qaSelection": "{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"}",
+      "qaTargets": "{\"slots\":[],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "0",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "privateRemoved": {
+    "canvas": {
+      "bottom": -307.40625,
+      "height": 548.59375,
+      "left": 0,
+      "right": 375,
+      "top": -856,
+      "width": 375,
+      "x": 0,
+      "y": -856
+    },
+    "locked": false,
+    "metrics": {
+      "engine": "three.js r186",
+      "fpCameraMoving": "false",
+      "fpCameraX": "0.000",
+      "fpCameraY": "0.560",
+      "fpCameraZ": "1.920",
+      "fpFov": "63.68",
+      "fpHeadPitch1": "0.000",
+      "fpHeadPitch2": "0.000",
+      "fpHeadPitch3": "0.000",
+      "fpHeadPitch4": "0.000",
+      "fpHeadPitch5": "0.000",
+      "fpHeadPitch6": "0.000",
+      "fpHeadPitch7": "0.000",
+      "fpHeadPitch8": "0.000",
+      "fpHeadPitch9": "0.000",
+      "fpHeadYaw1": "0.000",
+      "fpHeadYaw2": "0.000",
+      "fpHeadYaw3": "0.000",
+      "fpHeadYaw4": "0.000",
+      "fpHeadYaw5": "0.000",
+      "fpHeadYaw6": "0.000",
+      "fpHeadYaw7": "0.000",
+      "fpHeadYaw8": "0.000",
+      "fpHeadYaw9": "0.000",
+      "fpMotion": "settled",
+      "fpMotionProgress": "1",
+      "fpPrivateFaces": "0",
+      "sceneDrawCalls": "178",
+      "sceneFrames": "25",
+      "sceneGeometries": "132",
+      "sceneTextures": "20",
+      "sceneTriangles": "87752"
+    },
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "6",
+      "qaIntents": "[{\"type\":\"inspect_own_role\",\"open\":true},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"}]",
+      "qaLook": "null",
+      "qaSelection": "{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"}",
+      "qaTargets": "{\"slots\":[],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {
+      "sceneAudioState": "running",
+      "sceneAudioVoices": "0",
+      "sceneCamera": "seat",
+      "sceneCuesActive": "0",
+      "sceneCuesPlayed": "0",
+      "sceneLocked": "false",
+      "sceneSoundsPlayed": "0"
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "unmounted": {
+    "locked": false,
+    "metrics": {},
+    "overflow": false,
+    "qa": {
+      "qaEpoch": "6",
+      "qaIntents": "[{\"type\":\"inspect_own_role\",\"open\":true},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_b\"},{\"type\":\"select_option\",\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"}]",
+      "qaLook": "null",
+      "qaSelection": "{\"actionId\":\"act_discard\",\"optionId\":\"discard_c_a\"}",
+      "qaTargets": "{\"slots\":[],\"hovered\":null,\"inspectedIndex\":0}"
+    },
+    "scene": {},
+    "viewport": [
+      390,
+      844
+    ]
+  }
+}

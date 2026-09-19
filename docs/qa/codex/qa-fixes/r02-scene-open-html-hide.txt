@@ -1,0 +1,7 @@
+Browser tab: 9, Title: "QA düzeltmeleri · Sentetik oyun panelleri", URL: "http://127.0.0.1:5174/@fs<proje-klasörü>/docs/qa/codex/qa-fixes/ui-fixtures.html".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 124-130, 142-152
+~				135 checkbox Kimliği aç, Value: 0
+~				72 button (collapsed) Göster, Secondary Actions: Expand
+~				141 text Rolün ve özel bilgin gizli. Görmek için “Göster”e bas.
+The focused UI element is 72 button (collapsed) Göster, Secondary Actions: Expand

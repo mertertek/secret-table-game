@@ -1,0 +1,3 @@
+# Codex bu dizinde özgün doku, model, font ve ses dosyalarını sahiplenir.
+# Varlıklar paket içinden göreli import ile referanslanır (new URL('./x.glb', import.meta.url));
+# rastgele mutlak /assets/... yolu varsayılmaz (docs/CONTRACT.md bölüm 8).

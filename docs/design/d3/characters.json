@@ -1,0 +1,3299 @@
+{
+ "version": "D3.1 · 2026-09-11",
+ "units": "m / rad",
+ "frame": {
+  "origin": "sandalye minderi üstü, koltuk ekseni",
+  "facing": "-Z (masa merkezi)",
+  "seatTopWorldY": -0.305,
+  "seatGroupOffset": [
+   0,
+   -0.305,
+   0
+  ],
+  "tableSurfaceLocalY": 0.305,
+  "note": "koltuk grubu (TableScene) masa yüksekliğinde; karakter grubu y −0,305"
+ },
+ "sittingHeight": 1.0,
+ "head": {
+  "c": [
+   0.0,
+   0.79,
+   -0.01
+  ],
+  "r": [
+   0.2,
+   0.21,
+   0.19
+  ],
+  "eyeY": 0.774
+ },
+ "wrist": {
+  "L": [
+   -0.22,
+   0.34,
+   -0.324
+  ],
+  "R": [
+   0.22,
+   0.34,
+   -0.324
+  ],
+  "publicArmsHandX": 0.18,
+  "handScale": 1.15,
+  "wristRadius": 0.036
+ },
+ "base": {
+  "box": {
+   "min": [
+    -0.31,
+    -0.03,
+    -0.36
+   ],
+   "max": [
+    0.31,
+    1.02,
+    0.23
+   ]
+  },
+  "boxWithAccessories": {
+   "min": [
+    -0.34,
+    -0.03,
+    -0.36
+   ],
+   "max": [
+    0.34,
+    1.18,
+    0.25
+   ]
+  },
+  "voxel": {
+   "standard": 0.006,
+   "low": 0.009
+  },
+  "iso": 0.0,
+  "primitives": [
+   {
+    "id": "hip",
+    "type": "ellipsoid",
+    "c": [
+     0,
+     0.13,
+     0.02
+    ],
+    "r": [
+     0.21,
+     0.15,
+     0.17
+    ],
+    "k": 0.0,
+    "region": "torso"
+   },
+   {
+    "id": "rump",
+    "type": "ellipsoid",
+    "c": [
+     0,
+     0.16,
+     0.1
+    ],
+    "r": [
+     0.2,
+     0.14,
+     0.12
+    ],
+    "k": 0.05,
+    "region": "torso"
+   },
+   {
+    "id": "belly",
+    "type": "ellipsoid",
+    "c": [
+     0,
+     0.3,
+     0.01
+    ],
+    "r": [
+     0.2,
+     0.17,
+     0.16
+    ],
+    "k": 0.06,
+    "region": "torso"
+   },
+   {
+    "id": "chest",
+    "type": "ellipsoid",
+    "c": [
+     0,
+     0.44,
+     0.0
+    ],
+    "r": [
+     0.21,
+     0.13,
+     0.15
+    ],
+    "k": 0.06,
+    "region": "torso"
+   },
+   {
+    "id": "upperChest",
+    "type": "ellipsoid",
+    "c": [
+     0,
+     0.5,
+     -0.02
+    ],
+    "r": [
+     0.19,
+     0.08,
+     0.13
+    ],
+    "k": 0.05,
+    "region": "torso"
+   },
+   {
+    "id": "shoulders",
+    "type": "capsule",
+    "a": [
+     -0.19,
+     0.535,
+     0
+    ],
+    "b": [
+     0.19,
+     0.535,
+     0
+    ],
+    "r0": 0.075,
+    "r1": 0.075,
+    "k": 0.05,
+    "region": "torso"
+   },
+   {
+    "id": "neck",
+    "type": "capsule",
+    "a": [
+     0,
+     0.53,
+     -0.01
+    ],
+    "b": [
+     0,
+     0.64,
+     -0.01
+    ],
+    "r0": 0.065,
+    "r1": 0.065,
+    "k": 0.03,
+    "region": "neck"
+   },
+   {
+    "id": "head",
+    "type": "ellipsoid",
+    "c": [
+     0.0,
+     0.79,
+     -0.01
+    ],
+    "r": [
+     0.2,
+     0.21,
+     0.19
+    ],
+    "k": 0.025,
+    "region": "head"
+   },
+   {
+    "id": "nose",
+    "type": "ellipsoid",
+    "c": [
+     0,
+     0.765,
+     -0.205
+    ],
+    "r": [
+     0.026,
+     0.02,
+     0.024
+    ],
+    "k": 0.01,
+    "region": "nose"
+   },
+   {
+    "id": "deltoid.L",
+    "type": "sphere",
+    "c": [
+     -0.215,
+     0.545,
+     0.0
+    ],
+    "r": 0.08,
+    "k": 0.04,
+    "region": "torso"
+   },
+   {
+    "id": "deltoid.R",
+    "type": "sphere",
+    "c": [
+     0.215,
+     0.545,
+     0.0
+    ],
+    "r": 0.08,
+    "k": 0.04,
+    "region": "torso"
+   },
+   {
+    "id": "cheek.L",
+    "type": "sphere",
+    "c": [
+     -0.1,
+     0.72,
+     -0.13
+    ],
+    "r": 0.06,
+    "k": 0.03,
+    "region": "head"
+   },
+   {
+    "id": "cheek.R",
+    "type": "sphere",
+    "c": [
+     0.1,
+     0.72,
+     -0.13
+    ],
+    "r": 0.06,
+    "k": 0.03,
+    "region": "head"
+   },
+   {
+    "id": "ear.L",
+    "type": "sphere",
+    "c": [
+     -0.205,
+     0.78,
+     0.0
+    ],
+    "r": 0.036,
+    "k": 0.012,
+    "region": "ear"
+   },
+   {
+    "id": "ear.R",
+    "type": "sphere",
+    "c": [
+     0.205,
+     0.78,
+     0.0
+    ],
+    "r": 0.036,
+    "k": 0.012,
+    "region": "ear"
+   },
+   {
+    "id": "upperArm.L",
+    "type": "capsule",
+    "a": [
+     -0.215,
+     0.545,
+     0.0
+    ],
+    "b": [
+     -0.245,
+     0.4,
+     -0.17
+    ],
+    "r0": 0.062,
+    "r1": 0.055,
+    "k": 0.035,
+    "region": "upperArm"
+   },
+   {
+    "id": "upperArm.R",
+    "type": "capsule",
+    "a": [
+     0.215,
+     0.545,
+     0.0
+    ],
+    "b": [
+     0.245,
+     0.4,
+     -0.17
+    ],
+    "r0": 0.062,
+    "r1": 0.055,
+    "k": 0.035,
+    "region": "upperArm"
+   },
+   {
+    "id": "forearm.L",
+    "type": "capsule",
+    "a": [
+     -0.245,
+     0.4,
+     -0.17
+    ],
+    "b": [
+     -0.22,
+     0.34,
+     -0.324
+    ],
+    "r0": 0.055,
+    "r1": 0.036,
+    "k": 0.025,
+    "region": "forearm"
+   },
+   {
+    "id": "forearm.R",
+    "type": "capsule",
+    "a": [
+     0.245,
+     0.4,
+     -0.17
+    ],
+    "b": [
+     0.22,
+     0.34,
+     -0.324
+    ],
+    "r0": 0.055,
+    "r1": 0.036,
+    "k": 0.025,
+    "region": "forearm"
+   },
+   {
+    "id": "cuff.L",
+    "type": "capsule",
+    "a": [
+     -0.221,
+     0.34,
+     -0.275
+    ],
+    "b": [
+     -0.221,
+     0.34,
+     -0.318
+    ],
+    "r0": 0.04,
+    "r1": 0.04,
+    "k": 0.006,
+    "region": "cuff"
+   },
+   {
+    "id": "cuff.R",
+    "type": "capsule",
+    "a": [
+     0.221,
+     0.34,
+     -0.275
+    ],
+    "b": [
+     0.221,
+     0.34,
+     -0.318
+    ],
+    "r0": 0.04,
+    "r1": 0.04,
+    "k": 0.006,
+    "region": "cuff"
+   },
+   {
+    "id": "thigh.L",
+    "type": "capsule",
+    "a": [
+     -0.11,
+     0.08,
+     -0.02
+    ],
+    "b": [
+     -0.12,
+     0.09,
+     -0.2
+    ],
+    "r0": 0.07,
+    "r1": 0.065,
+    "k": 0.04,
+    "region": "leg"
+   },
+   {
+    "id": "thigh.R",
+    "type": "capsule",
+    "a": [
+     0.11,
+     0.08,
+     -0.02
+    ],
+    "b": [
+     0.12,
+     0.09,
+     -0.2
+    ],
+    "r0": 0.07,
+    "r1": 0.065,
+    "k": 0.04,
+    "region": "leg"
+   }
+  ]
+ },
+ "bodyScaleRule": {
+  "belly": "hip/rump/belly r.x,r.z × s; chest r.x,r.z × (1+(s−1)·0,5)",
+  "shoulders": "shoulders uçları, deltoid, S/E/W x × t; PublicArms el x = 0,18·t",
+  "head": "sabit 1,0"
+ },
+ "bones": [
+  {
+   "name": "hips",
+   "parent": null,
+   "head": [
+    0,
+    0.1,
+    0.0
+   ],
+   "tail": [
+    0,
+    0.3,
+    0.0
+   ],
+   "limits": {
+    "x": [
+     -0.05,
+     0.05
+    ],
+    "y": [
+     -0.05,
+     0.05
+    ],
+    "z": [
+     -0.03,
+     0.03
+    ]
+   },
+   "note": "kök; boşta salınım isteğe bağlı"
+  },
+  {
+   "name": "spine",
+   "parent": "hips",
+   "head": [
+    0,
+    0.3,
+    0.0
+   ],
+   "tail": [
+    0,
+    0.545,
+    0.0
+   ],
+   "limits": {
+    "x": [
+     -0.15,
+     0.15
+    ],
+    "y": [
+     -0.2,
+     0.2
+    ],
+    "z": [
+     -0.1,
+     0.1
+    ]
+   },
+   "note": "öne eğilme / dönme; ilk sürümde sabit"
+  },
+  {
+   "name": "neck",
+   "parent": "spine",
+   "head": [
+    0,
+    0.545,
+    -0.01
+   ],
+   "tail": [
+    0,
+    0.62,
+    -0.01
+   ],
+   "limits": {
+    "x": [
+     -0.1,
+     0.1
+    ],
+    "y": [
+     -0.26,
+     0.26
+    ],
+    "z": [
+     -0.05,
+     0.05
+    ]
+   },
+   "headChannel": 0.4
+  },
+  {
+   "name": "head",
+   "parent": "neck",
+   "head": [
+    0,
+    0.62,
+    -0.01
+   ],
+   "tail": [
+    0,
+    1.0,
+    -0.01
+   ],
+   "limits": {
+    "x": [
+     -0.15,
+     0.15
+    ],
+    "y": [
+     -0.39,
+     0.39
+    ],
+    "z": [
+     -0.08,
+     0.08
+    ]
+   },
+   "headChannel": 0.6
+  },
+  {
+   "name": "shoulder.L",
+   "parent": "spine",
+   "head": [
+    -0.215,
+    0.545,
+    0.0
+   ],
+   "tail": [
+    -0.245,
+    0.4,
+    -0.17
+   ],
+   "limits": {
+    "x": [
+     -0.6,
+     0.6
+    ],
+    "y": [
+     -0.3,
+     0.3
+    ],
+    "z": [
+     -0.3,
+     0.3
+    ]
+   }
+  },
+  {
+   "name": "shoulder.R",
+   "parent": "spine",
+   "head": [
+    0.215,
+    0.545,
+    0.0
+   ],
+   "tail": [
+    0.245,
+    0.4,
+    -0.17
+   ],
+   "limits": {
+    "x": [
+     -0.6,
+     0.6
+    ],
+    "y": [
+     -0.3,
+     0.3
+    ],
+    "z": [
+     -0.3,
+     0.3
+    ]
+   }
+  },
+  {
+   "name": "elbow.L",
+   "parent": "shoulder.L",
+   "head": [
+    -0.245,
+    0.4,
+    -0.17
+   ],
+   "tail": [
+    -0.22,
+    0.34,
+    -0.324
+   ],
+   "limits": {
+    "x": [
+     0.0,
+     1.2
+    ],
+    "y": [
+     -0.1,
+     0.1
+    ],
+    "z": [
+     0,
+     0
+    ]
+   },
+   "note": "PublicArms kaldırma: rotation.x = 0,46·lift"
+  },
+  {
+   "name": "elbow.R",
+   "parent": "shoulder.R",
+   "head": [
+    0.245,
+    0.4,
+    -0.17
+   ],
+   "tail": [
+    0.22,
+    0.34,
+    -0.324
+   ],
+   "limits": {
+    "x": [
+     0.0,
+     1.2
+    ],
+    "y": [
+     -0.1,
+     0.1
+    ],
+    "z": [
+     0,
+     0
+    ]
+   },
+   "note": "PublicArms kaldırma: rotation.x = 0,46·lift"
+  }
+ ],
+ "skin": {
+  "nearest": 2,
+  "sigma": 0.012,
+  "overrides": {
+   "head+ear+nose+cheek+hair+hat+facial+glasses": "head 1,0 (y < 0,66 bandında neck ile σ karışımı)",
+   "cuff+forearm": "elbow 1,0",
+   "acc(bowtie,scarf,collar,buttons)": "spine 1,0 (scarfTail: spine)",
+   "leg": "hips 1,0"
+  },
+  "headChannel": {
+   "neck": 0.4,
+   "head": 0.6,
+   "yawMax": 0.65,
+   "pitchMax": 0.25
+  }
+ },
+ "accessories": {
+  "hair-side": {
+   "id": "hair-side",
+   "name": "Kel + yan saç",
+   "color": "#b9b1a3",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "hairSide.L",
+     "type": "ellipsoid",
+     "c": [
+      -0.19,
+      0.8,
+      0.03
+     ],
+     "r": [
+      0.05,
+      0.075,
+      0.075
+     ],
+     "k": 0.01,
+     "region": "hair"
+    },
+    {
+     "id": "hairSide.R",
+     "type": "ellipsoid",
+     "c": [
+      0.19,
+      0.8,
+      0.03
+     ],
+     "r": [
+      0.05,
+      0.075,
+      0.075
+     ],
+     "k": 0.01,
+     "region": "hair"
+    },
+    {
+     "id": "hairBack.1",
+     "type": "capsule",
+     "a": [
+      -0.17,
+      0.79,
+      0.05
+     ],
+     "b": [
+      -0.08,
+      0.79,
+      0.15
+     ],
+     "r0": 0.035,
+     "r1": 0.035,
+     "k": 0.012,
+     "region": "hair"
+    },
+    {
+     "id": "hairBack.2",
+     "type": "capsule",
+     "a": [
+      -0.08,
+      0.79,
+      0.15
+     ],
+     "b": [
+      0.08,
+      0.79,
+      0.15
+     ],
+     "r0": 0.035,
+     "r1": 0.035,
+     "k": 0.012,
+     "region": "hair"
+    },
+    {
+     "id": "hairBack.3",
+     "type": "capsule",
+     "a": [
+      0.08,
+      0.79,
+      0.15
+     ],
+     "b": [
+      0.17,
+      0.79,
+      0.05
+     ],
+     "r0": 0.035,
+     "r1": 0.035,
+     "k": 0.012,
+     "region": "hair"
+    }
+   ],
+   "note": "tepe çıplak (ten); yan tutamlar kulak arkasında (z +0,03)"
+  },
+  "hair-side-curls": {
+   "id": "hair-side-curls",
+   "name": "Yan bukleler (beyaz)",
+   "color": "#d9d2c6",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "curl.L1",
+     "type": "sphere",
+     "c": [
+      -0.184,
+      0.834,
+      0.03
+     ],
+     "r": 0.046,
+     "k": 0.02,
+     "region": "hair"
+    },
+    {
+     "id": "curl.R1",
+     "type": "sphere",
+     "c": [
+      0.184,
+      0.834,
+      0.03
+     ],
+     "r": 0.046,
+     "k": 0.02,
+     "region": "hair"
+    },
+    {
+     "id": "curl.L2",
+     "type": "sphere",
+     "c": [
+      -0.204,
+      0.766,
+      0.03
+     ],
+     "r": 0.046,
+     "k": 0.02,
+     "region": "hair"
+    },
+    {
+     "id": "curl.R2",
+     "type": "sphere",
+     "c": [
+      0.204,
+      0.766,
+      0.03
+     ],
+     "r": 0.046,
+     "k": 0.02,
+     "region": "hair"
+    },
+    {
+     "id": "curl.L3",
+     "type": "sphere",
+     "c": [
+      -0.18,
+      0.706,
+      0.03
+     ],
+     "r": 0.046,
+     "k": 0.02,
+     "region": "hair"
+    },
+    {
+     "id": "curl.R3",
+     "type": "sphere",
+     "c": [
+      0.18,
+      0.706,
+      0.03
+     ],
+     "r": 0.046,
+     "k": 0.02,
+     "region": "hair"
+    }
+   ],
+   "note": "kulak arkasında; bere/beret ile birlikte"
+  },
+  "hair-flat": {
+   "id": "hair-flat",
+   "name": "Düz saç",
+   "color": "#3a2419",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "hairCap",
+     "type": "ellipsoid",
+     "c": [
+      0,
+      0.83,
+      0.0
+     ],
+     "r": [
+      0.215,
+      0.2,
+      0.205
+     ],
+     "k": 0.01,
+     "region": "hair"
+    },
+    {
+     "id": "sideburn.L",
+     "type": "capsule",
+     "a": [
+      -0.195,
+      0.81,
+      -0.02
+     ],
+     "b": [
+      -0.2,
+      0.74,
+      -0.025
+     ],
+     "r0": 0.018,
+     "r1": 0.016,
+     "k": 0.008,
+     "region": "hair"
+    },
+    {
+     "id": "sideburn.R",
+     "type": "capsule",
+     "a": [
+      0.195,
+      0.81,
+      -0.02
+     ],
+     "b": [
+      0.2,
+      0.74,
+      -0.025
+     ],
+     "r0": 0.018,
+     "r1": 0.016,
+     "k": 0.008,
+     "region": "hair"
+    },
+    {
+     "id": "fringe.1",
+     "type": "ellipsoid",
+     "c": [
+      -0.09,
+      0.865,
+      -0.16
+     ],
+     "r": [
+      0.05,
+      0.03,
+      0.045
+     ],
+     "k": 0.012,
+     "region": "hair"
+    },
+    {
+     "id": "fringe.2",
+     "type": "ellipsoid",
+     "c": [
+      0.0,
+      0.86,
+      -0.17
+     ],
+     "r": [
+      0.05,
+      0.03,
+      0.045
+     ],
+     "k": 0.012,
+     "region": "hair"
+    },
+    {
+     "id": "fringe.3",
+     "type": "ellipsoid",
+     "c": [
+      0.09,
+      0.865,
+      -0.16
+     ],
+     "r": [
+      0.05,
+      0.03,
+      0.045
+     ],
+     "k": 0.012,
+     "region": "hair"
+    }
+   ],
+   "clip": {
+    "point": [
+     0,
+     0.85,
+     -0.19
+    ],
+    "normal": [
+     0,
+     1,
+     0.42
+    ],
+    "k": 0.01
+   },
+   "note": "kesme düzlemi: y > 0,85 − 0,42·(z + 0,19) olan kısım kalır (önde alın açık, arkada ense örtülü)"
+  },
+  "hair-bun": {
+   "id": "hair-bun",
+   "name": "Topuz",
+   "color": "#2b2220",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "bunCap",
+     "type": "ellipsoid",
+     "c": [
+      0,
+      0.83,
+      0.0
+     ],
+     "r": [
+      0.213,
+      0.2,
+      0.205
+     ],
+     "k": 0.01,
+     "region": "hair"
+    },
+    {
+     "id": "bun",
+     "type": "sphere",
+     "c": [
+      0,
+      0.93,
+      0.17
+     ],
+     "r": 0.065,
+     "k": 0.015,
+     "region": "hair"
+    },
+    {
+     "id": "bunTie",
+     "type": "torus",
+     "c": [
+      0,
+      0.93,
+      0.13
+     ],
+     "axis": "z",
+     "R": 0.04,
+     "r": 0.008,
+     "k": 0.004,
+     "region": "hair"
+    },
+    {
+     "id": "sideburn.L",
+     "type": "capsule",
+     "a": [
+      -0.195,
+      0.81,
+      -0.02
+     ],
+     "b": [
+      -0.2,
+      0.76,
+      -0.025
+     ],
+     "r0": 0.016,
+     "r1": 0.014,
+     "k": 0.008,
+     "region": "hair"
+    },
+    {
+     "id": "sideburn.R",
+     "type": "capsule",
+     "a": [
+      0.195,
+      0.81,
+      -0.02
+     ],
+     "b": [
+      0.2,
+      0.76,
+      -0.025
+     ],
+     "r0": 0.016,
+     "r1": 0.014,
+     "k": 0.008,
+     "region": "hair"
+    }
+   ],
+   "clip": {
+    "point": [
+     0,
+     0.86,
+     -0.19
+    ],
+    "normal": [
+     0,
+     1,
+     0.42
+    ],
+    "k": 0.01
+   },
+   "note": "arkaya toplanmış, perçemsiz; topuz arkada üstte (z +0,17), bağ halkası accent"
+  },
+  "hair-curly": {
+   "id": "hair-curly",
+   "name": "Kabarık kıvırcık",
+   "color": "#2a1d18",
+   "tier": "low",
+   "labelLift": 0.08,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "curlyCap",
+     "type": "ellipsoid",
+     "c": [
+      0,
+      0.86,
+      0.02
+     ],
+     "r": [
+      0.25,
+      0.22,
+      0.24
+     ],
+     "k": 0.03,
+     "region": "hair"
+    },
+    {
+     "id": "curly.0",
+     "type": "sphere",
+     "c": [
+      0.22082776588468847,
+      0.9205,
+      0.09695453224827547
+     ],
+     "r": 0.06,
+     "k": 0.03,
+     "region": "hair"
+    },
+    {
+     "id": "curly.1",
+     "type": "sphere",
+     "c": [
+      0.11750000000000002,
+      0.952,
+      0.21485571585149868
+     ],
+     "r": 0.06,
+     "k": 0.03,
+     "region": "hair"
+    },
+    {
+     "id": "curly.2",
+     "type": "sphere",
+     "c": [
+      -0.04080732175172862,
+      0.9591,
+      0.2415817444277468
+     ],
+     "r": 0.06,
+     "k": 0.03,
+     "region": "hair"
+    },
+    {
+     "id": "curly.3",
+     "type": "sphere",
+     "c": [
+      -0.18002044413295978,
+      0.9386,
+      0.16462721217947138
+     ],
+     "r": 0.06,
+     "k": 0.03,
+     "region": "hair"
+    },
+    {
+     "id": "curly.4",
+     "type": "sphere",
+     "c": [
+      -0.235,
+      0.9,
+      0.020000000000000028
+     ],
+     "r": 0.06,
+     "k": 0.03,
+     "region": "hair"
+    },
+    {
+     "id": "curly.5",
+     "type": "sphere",
+     "c": [
+      -0.1800204441329598,
+      0.8614,
+      -0.12462721217947133
+     ],
+     "r": 0.06,
+     "k": 0.03,
+     "region": "hair"
+    },
+    {
+     "id": "curly.6",
+     "type": "sphere",
+     "c": [
+      -0.040807321751728624,
+      0.8409,
+      -0.20158174442774682
+     ],
+     "r": 0.06,
+     "k": 0.03,
+     "region": "hair"
+    },
+    {
+     "id": "curly.7",
+     "type": "sphere",
+     "c": [
+      0.11750000000000002,
+      0.848,
+      -0.1748557158514987
+     ],
+     "r": 0.06,
+     "k": 0.03,
+     "region": "hair"
+    },
+    {
+     "id": "curly.8",
+     "type": "sphere",
+     "c": [
+      0.22082776588468847,
+      0.8795,
+      -0.05695453224827543
+     ],
+     "r": 0.06,
+     "k": 0.03,
+     "region": "hair"
+    }
+   ],
+   "clip": {
+    "point": [
+     0,
+     0.8,
+     -0.19
+    ],
+    "normal": [
+     0,
+     1,
+     0.3
+    ],
+    "k": 0.02
+   },
+   "note": "9 küre hâle; tepe 1,08; ön kesme y > 0,80 − 0,30·(z + 0,19)"
+  },
+  "hair-sideburns": {
+   "id": "hair-sideburns",
+   "name": "Favori",
+   "color": "#2b2220",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "sideburn.L",
+     "type": "capsule",
+     "a": [
+      -0.19,
+      0.81,
+      -0.02
+     ],
+     "b": [
+      -0.2,
+      0.735,
+      -0.025
+     ],
+     "r0": 0.016,
+     "r1": 0.014,
+     "k": 0.008,
+     "region": "hair"
+    },
+    {
+     "id": "sideburn.R",
+     "type": "capsule",
+     "a": [
+      0.19,
+      0.81,
+      -0.02
+     ],
+     "b": [
+      0.2,
+      0.735,
+      -0.025
+     ],
+     "r0": 0.016,
+     "r1": 0.014,
+     "k": 0.008,
+     "region": "hair"
+    }
+   ],
+   "note": "fötr altında yalnız favoriler"
+  },
+  "hair-tufts": {
+   "id": "hair-tufts",
+   "name": "Kep altı tutam",
+   "color": "#241c19",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "tuft.L1",
+     "type": "sphere",
+     "c": [
+      -0.175,
+      0.86,
+      0.0
+     ],
+     "r": 0.03,
+     "k": 0.012,
+     "region": "hair"
+    },
+    {
+     "id": "tuft.R1",
+     "type": "sphere",
+     "c": [
+      0.175,
+      0.86,
+      0.0
+     ],
+     "r": 0.03,
+     "k": 0.012,
+     "region": "hair"
+    },
+    {
+     "id": "tuft.L2",
+     "type": "sphere",
+     "c": [
+      -0.196,
+      0.826,
+      0.0
+     ],
+     "r": 0.028,
+     "k": 0.012,
+     "region": "hair"
+    },
+    {
+     "id": "tuft.R2",
+     "type": "sphere",
+     "c": [
+      0.196,
+      0.826,
+      0.0
+     ],
+     "r": 0.028,
+     "k": 0.012,
+     "region": "hair"
+    }
+   ],
+   "note": "kep/bere kenarı altından taşan tutamlar"
+  },
+  "beret": {
+   "id": "beret",
+   "name": "Bere (fransız)",
+   "color": "#a84f74",
+   "tier": "low",
+   "labelLift": 0.06,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "beretTop",
+     "type": "ellipsoid",
+     "c": [
+      -0.012,
+      0.958,
+      0.0
+     ],
+     "r": [
+      0.225,
+      0.08,
+      0.215
+     ],
+     "k": 0.015,
+     "region": "hat",
+     "rot": [
+      0,
+      0,
+      -0.12
+     ]
+    },
+    {
+     "id": "beretRim",
+     "type": "ellipsoid",
+     "c": [
+      0.0,
+      0.915,
+      0.0
+     ],
+     "r": [
+      0.205,
+      0.035,
+      0.2
+     ],
+     "k": 0.015,
+     "region": "hat"
+    },
+    {
+     "id": "beretStalk",
+     "type": "sphere",
+     "c": [
+      -0.02,
+      1.045,
+      0.0
+     ],
+     "r": 0.014,
+     "k": 0.006,
+     "region": "hat"
+    }
+   ],
+   "colors": {
+    "beretRim": "#8a3f5f"
+   },
+   "note": "rotZ −0,12 rad (sola yatık); tepe 1,045"
+  },
+  "beanie": {
+   "id": "beanie",
+   "name": "Örgü bere",
+   "color": "#d97b2f",
+   "tier": "low",
+   "labelLift": 0.09,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "beanieDome",
+     "type": "ellipsoid",
+     "c": [
+      0,
+      0.89,
+      -0.005
+     ],
+     "r": [
+      0.215,
+      0.185,
+      0.205
+     ],
+     "k": 0.012,
+     "region": "hat"
+    },
+    {
+     "id": "beanieBand",
+     "type": "torus",
+     "c": [
+      0,
+      0.815,
+      -0.005
+     ],
+     "axis": "y",
+     "R": 0.205,
+     "r": 0.03,
+     "k": 0.01,
+     "region": "hat"
+    },
+    {
+     "id": "pompom",
+     "type": "sphere",
+     "c": [
+      0,
+      1.09,
+      -0.005
+     ],
+     "r": 0.04,
+     "k": 0.01,
+     "region": "hat"
+    }
+   ],
+   "clip": {
+    "point": [
+     0,
+     0.8,
+     0
+    ],
+    "normal": [
+     0,
+     1,
+     0
+    ],
+    "k": 0.008
+   },
+   "colors": {
+    "pompom": "#eee1c7"
+   },
+   "note": "kubbe y > 0,80; bant torus; ponpon krem; tepe 1,13"
+  },
+  "cap": {
+   "id": "cap",
+   "name": "Kep (siperlik)",
+   "color": "#eee1c7",
+   "tier": "low",
+   "labelLift": 0.02,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "capDome",
+     "type": "ellipsoid",
+     "c": [
+      0,
+      0.84,
+      -0.01
+     ],
+     "r": [
+      0.212,
+      0.19,
+      0.2
+     ],
+     "k": 0.012,
+     "region": "hat"
+    },
+    {
+     "id": "capBand",
+     "type": "torus",
+     "c": [
+      0,
+      0.865,
+      -0.01
+     ],
+     "axis": "y",
+     "R": 0.2,
+     "r": 0.02,
+     "k": 0.008,
+     "region": "hat"
+    },
+    {
+     "id": "visor",
+     "type": "ellipsoid",
+     "c": [
+      0,
+      0.85,
+      -0.3
+     ],
+     "r": [
+      0.2,
+      0.014,
+      0.13
+     ],
+     "k": 0.01,
+     "region": "hat",
+     "rot": [
+      -0.15,
+      0,
+      0
+     ]
+    },
+    {
+     "id": "capButton",
+     "type": "sphere",
+     "c": [
+      0,
+      1.025,
+      -0.01
+     ],
+     "r": 0.014,
+     "k": 0.006,
+     "region": "hat"
+    }
+   ],
+   "clip": {
+    "point": [
+     0,
+     0.86,
+     0
+    ],
+    "normal": [
+     0,
+     1,
+     0
+    ],
+    "k": 0.008
+   },
+   "colors": {
+    "capBand": "#6ea9c6",
+    "visor": "#8ec5df",
+    "capButton": "#8ec5df"
+   },
+   "note": "kubbe y > 0,86; siperlik rotX −0,15 (ön kenar aşağı); tepe 1,03"
+  },
+  "fedora": {
+   "id": "fedora",
+   "name": "Fötr",
+   "color": "#25355a",
+   "tier": "low",
+   "labelLift": 0.12,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "crown",
+     "type": "roundedBox",
+     "c": [
+      0,
+      1.015,
+      -0.01
+     ],
+     "half": [
+      0.17,
+      0.1,
+      0.16
+     ],
+     "corner": 0.06,
+     "k": 0.015,
+     "region": "hat"
+    },
+    {
+     "id": "hatBand",
+     "type": "roundedBox",
+     "c": [
+      0,
+      0.945,
+      -0.01
+     ],
+     "half": [
+      0.176,
+      0.024,
+      0.166
+     ],
+     "corner": 0.02,
+     "k": 0.006,
+     "region": "hat"
+    },
+    {
+     "id": "brim",
+     "type": "ellipsoid",
+     "c": [
+      0,
+      0.915,
+      -0.01
+     ],
+     "r": [
+      0.275,
+      0.015,
+      0.245
+     ],
+     "k": 0.01,
+     "region": "hat",
+     "rot": [
+      0.06,
+      0,
+      0
+     ]
+    }
+   ],
+   "subtract": {
+    "id": "crownDent",
+    "type": "ellipsoid",
+    "c": [
+     0,
+     1.15,
+     -0.01
+    ],
+    "r": [
+     0.09,
+     0.05,
+     0.14
+    ],
+    "k": 0.02,
+    "target": "crown"
+   },
+   "colors": {
+    "hatBand": "#b49359"
+   },
+   "note": "brim rotX +0,06 (ön kenar hafif aşağı); tepe 1,115 (çukur 1,08); taç başı sarar (baş tepesi 1,00 taç içinde)"
+  },
+  "glasses": {
+   "id": "glasses",
+   "name": "Yuvarlak gözlük",
+   "color": "#b49359",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "lens.L",
+     "type": "torus",
+     "c": [
+      -0.08,
+      0.774,
+      -0.183
+     ],
+     "axis": "z",
+     "R": 0.056,
+     "r": 0.008,
+     "k": 0.004,
+     "region": "acc",
+     "rot": [
+      0,
+      0.22,
+      0
+     ]
+    },
+    {
+     "id": "lens.R",
+     "type": "torus",
+     "c": [
+      0.08,
+      0.774,
+      -0.183
+     ],
+     "axis": "z",
+     "R": 0.056,
+     "r": 0.008,
+     "k": 0.004,
+     "region": "acc",
+     "rot": [
+      0,
+      -0.22,
+      0
+     ]
+    },
+    {
+     "id": "temple.L",
+     "type": "capsule",
+     "a": [
+      -0.134,
+      0.776,
+      -0.175
+     ],
+     "b": [
+      -0.205,
+      0.782,
+      -0.02
+     ],
+     "r0": 0.006,
+     "r1": 0.006,
+     "k": 0.004,
+     "region": "acc"
+    },
+    {
+     "id": "temple.R",
+     "type": "capsule",
+     "a": [
+      0.134,
+      0.776,
+      -0.175
+     ],
+     "b": [
+      0.205,
+      0.782,
+      -0.02
+     ],
+     "r0": 0.006,
+     "r1": 0.006,
+     "k": 0.004,
+     "region": "acc"
+    },
+    {
+     "id": "bridge",
+     "type": "capsule",
+     "a": [
+      -0.026,
+      0.782,
+      -0.19
+     ],
+     "b": [
+      0.026,
+      0.782,
+      -0.19
+     ],
+     "r0": 0.007,
+     "r1": 0.007,
+     "k": 0.004,
+     "region": "acc"
+    }
+   ],
+   "note": "halka torus (kapsül halkası 12 parça yedek); yüz dokusunda cam parlaması son katman"
+  },
+  "glasses-chain": {
+   "id": "glasses-chain",
+   "name": "Gözlük zinciri",
+   "color": "#e3be73",
+   "tier": "standard",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "chain.L1",
+     "type": "capsule",
+     "a": [
+      -0.14,
+      0.76,
+      -0.175
+     ],
+     "b": [
+      -0.215,
+      0.72,
+      -0.05
+     ],
+     "r0": 0.007,
+     "r1": 0.007,
+     "k": 0.004,
+     "region": "acc"
+    },
+    {
+     "id": "chain.R1",
+     "type": "capsule",
+     "a": [
+      0.14,
+      0.76,
+      -0.175
+     ],
+     "b": [
+      0.215,
+      0.72,
+      -0.05
+     ],
+     "r0": 0.007,
+     "r1": 0.007,
+     "k": 0.004,
+     "region": "acc"
+    },
+    {
+     "id": "chain.L2",
+     "type": "capsule",
+     "a": [
+      -0.215,
+      0.72,
+      -0.05
+     ],
+     "b": [
+      -0.19,
+      0.66,
+      0.06
+     ],
+     "r0": 0.007,
+     "r1": 0.007,
+     "k": 0.004,
+     "region": "acc"
+    },
+    {
+     "id": "chain.R2",
+     "type": "capsule",
+     "a": [
+      0.215,
+      0.72,
+      -0.05
+     ],
+     "b": [
+      0.19,
+      0.66,
+      0.06
+     ],
+     "r0": 0.007,
+     "r1": 0.007,
+     "k": 0.004,
+     "region": "acc"
+    }
+   ],
+   "note": "low kademede yok"
+  },
+  "mustache-thick": {
+   "id": "mustache-thick",
+   "name": "Kalın bıyık",
+   "color": "#5a5049",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": -0.02,
+   "primitives": [
+    {
+     "id": "must.L",
+     "type": "capsule",
+     "a": [
+      0.0,
+      0.685,
+      -0.19
+     ],
+     "b": [
+      -0.078,
+      0.7,
+      -0.168
+     ],
+     "r0": 0.02,
+     "r1": 0.018,
+     "k": 0.006,
+     "region": "facial"
+    },
+    {
+     "id": "must.R",
+     "type": "capsule",
+     "a": [
+      -0.0,
+      0.685,
+      -0.19
+     ],
+     "b": [
+      0.078,
+      0.7,
+      -0.168
+     ],
+     "r0": 0.02,
+     "r1": 0.018,
+     "k": 0.006,
+     "region": "facial"
+    },
+    {
+     "id": "mustEnd.L",
+     "type": "sphere",
+     "c": [
+      -0.085,
+      0.705,
+      -0.163
+     ],
+     "r": 0.022,
+     "k": 0.006,
+     "region": "facial"
+    },
+    {
+     "id": "mustEnd.R",
+     "type": "sphere",
+     "c": [
+      0.085,
+      0.705,
+      -0.163
+     ],
+     "r": 0.022,
+     "k": 0.006,
+     "region": "facial"
+    }
+   ],
+   "note": "ağız dokusu 20 mm aşağı kayar"
+  },
+  "mustache-thin": {
+   "id": "mustache-thin",
+   "name": "İnce bıyık",
+   "color": "#2b2220",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": -0.008,
+   "primitives": [
+    {
+     "id": "must.L",
+     "type": "capsule",
+     "a": [
+      -0.004,
+      0.69,
+      -0.192
+     ],
+     "b": [
+      -0.062,
+      0.7,
+      -0.17
+     ],
+     "r0": 0.007,
+     "r1": 0.007,
+     "k": 0.004,
+     "region": "facial"
+    },
+    {
+     "id": "must.R",
+     "type": "capsule",
+     "a": [
+      0.004,
+      0.69,
+      -0.192
+     ],
+     "b": [
+      0.062,
+      0.7,
+      -0.17
+     ],
+     "r0": 0.007,
+     "r1": 0.007,
+     "k": 0.004,
+     "region": "facial"
+    }
+   ]
+  },
+  "beard-full": {
+   "id": "beard-full",
+   "name": "Dolgun sakal",
+   "color": "#4a3a30",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": -0.01,
+   "primitives": [
+    {
+     "id": "beardChin",
+     "type": "ellipsoid",
+     "c": [
+      0,
+      0.62,
+      -0.1
+     ],
+     "r": [
+      0.16,
+      0.1,
+      0.12
+     ],
+     "k": 0.03,
+     "region": "facial"
+    },
+    {
+     "id": "beardCheek.L",
+     "type": "ellipsoid",
+     "c": [
+      -0.13,
+      0.69,
+      -0.1
+     ],
+     "r": [
+      0.07,
+      0.1,
+      0.09
+     ],
+     "k": 0.03,
+     "region": "facial"
+    },
+    {
+     "id": "beardCheek.R",
+     "type": "ellipsoid",
+     "c": [
+      0.13,
+      0.69,
+      -0.1
+     ],
+     "r": [
+      0.07,
+      0.1,
+      0.09
+     ],
+     "k": 0.03,
+     "region": "facial"
+    },
+    {
+     "id": "must.L",
+     "type": "capsule",
+     "a": [
+      0.0,
+      0.685,
+      -0.19
+     ],
+     "b": [
+      -0.078,
+      0.7,
+      -0.168
+     ],
+     "r0": 0.02,
+     "r1": 0.018,
+     "k": 0.01,
+     "region": "facial"
+    },
+    {
+     "id": "must.R",
+     "type": "capsule",
+     "a": [
+      -0.0,
+      0.685,
+      -0.19
+     ],
+     "b": [
+      0.078,
+      0.7,
+      -0.168
+     ],
+     "r0": 0.02,
+     "r1": 0.018,
+     "k": 0.01,
+     "region": "facial"
+    }
+   ],
+   "subtract": {
+    "id": "mouthPocket",
+    "type": "ellipsoid",
+    "c": [
+     0,
+     0.645,
+     -0.2
+    ],
+    "r": [
+     0.055,
+     0.03,
+     0.05
+    ],
+    "k": 0.012,
+    "target": "beard-full"
+   },
+   "note": "sakal alanı önce kendi içinde birleşir, ağız cebi çıkarılır, sonra gövdeye eklenir; alt sınır 0,52 boynu örter"
+  },
+  "bowtie": {
+   "id": "bowtie",
+   "name": "Papyon",
+   "color": "#b49359",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "bow.L",
+     "type": "ellipsoid",
+     "c": [
+      -0.045,
+      0.545,
+      -0.15
+     ],
+     "r": [
+      0.045,
+      0.028,
+      0.02
+     ],
+     "k": 0.004,
+     "region": "acc"
+    },
+    {
+     "id": "bow.R",
+     "type": "ellipsoid",
+     "c": [
+      0.045,
+      0.545,
+      -0.15
+     ],
+     "r": [
+      0.045,
+      0.028,
+      0.02
+     ],
+     "k": 0.004,
+     "region": "acc"
+    },
+    {
+     "id": "bowKnot",
+     "type": "sphere",
+     "c": [
+      0,
+      0.545,
+      -0.155
+     ],
+     "r": 0.018,
+     "k": 0.004,
+     "region": "acc"
+    }
+   ]
+  },
+  "scarf": {
+   "id": "scarf",
+   "name": "Fular",
+   "color": "#7a4f9e",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "scarfRing",
+     "type": "torus",
+     "c": [
+      0,
+      0.575,
+      -0.01
+     ],
+     "axis": "y",
+     "R": 0.085,
+     "r": 0.03,
+     "k": 0.01,
+     "region": "acc"
+    },
+    {
+     "id": "scarfTail",
+     "type": "capsule",
+     "a": [
+      0.04,
+      0.56,
+      -0.14
+     ],
+     "b": [
+      0.07,
+      0.42,
+      -0.17
+     ],
+     "r0": 0.028,
+     "r1": 0.022,
+     "k": 0.01,
+     "region": "acc"
+    }
+   ]
+  },
+  "earrings": {
+   "id": "earrings",
+   "name": "Küpe",
+   "color": "#e3be73",
+   "tier": "standard",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "earring.L",
+     "type": "sphere",
+     "c": [
+      -0.207,
+      0.735,
+      0.0
+     ],
+     "r": 0.012,
+     "k": 0.003,
+     "region": "acc"
+    },
+    {
+     "id": "earring.R",
+     "type": "sphere",
+     "c": [
+      0.207,
+      0.735,
+      0.0
+     ],
+     "r": 0.012,
+     "k": 0.003,
+     "region": "acc"
+    }
+   ]
+  },
+  "collar": {
+   "id": "collar",
+   "name": "Gömlek yakası",
+   "color": "#eee1c7",
+   "tier": "low",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "collar.L",
+     "type": "capsule",
+     "a": [
+      -0.03,
+      0.585,
+      -0.09
+     ],
+     "b": [
+      -0.1,
+      0.52,
+      -0.14
+     ],
+     "r0": 0.014,
+     "r1": 0.012,
+     "k": 0.006,
+     "region": "acc"
+    },
+    {
+     "id": "collar.R",
+     "type": "capsule",
+     "a": [
+      0.03,
+      0.585,
+      -0.09
+     ],
+     "b": [
+      0.1,
+      0.52,
+      -0.14
+     ],
+     "r0": 0.014,
+     "r1": 0.012,
+     "k": 0.006,
+     "region": "acc"
+    }
+   ]
+  },
+  "buttons-brass": {
+   "id": "buttons-brass",
+   "name": "Pirinç düğmeler",
+   "color": "#b49359",
+   "tier": "standard",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "button.0",
+     "type": "sphere",
+     "c": [
+      0,
+      0.28,
+      -0.158
+     ],
+     "r": 0.012,
+     "k": 0.003,
+     "region": "acc"
+    },
+    {
+     "id": "button.1",
+     "type": "sphere",
+     "c": [
+      0,
+      0.34,
+      -0.158
+     ],
+     "r": 0.012,
+     "k": 0.003,
+     "region": "acc"
+    },
+    {
+     "id": "button.2",
+     "type": "sphere",
+     "c": [
+      0,
+      0.4,
+      -0.158
+     ],
+     "r": 0.012,
+     "k": 0.003,
+     "region": "acc"
+    }
+   ]
+  },
+  "buttons-cream": {
+   "id": "buttons-cream",
+   "name": "Krem düğmeler (hırka, tek taraf)",
+   "color": "#e4d6b8",
+   "tier": "standard",
+   "labelLift": 0.0,
+   "mouthOffset": 0.0,
+   "primitives": [
+    {
+     "id": "button.0",
+     "type": "sphere",
+     "c": [
+      0.045,
+      0.24,
+      -0.158
+     ],
+     "r": 0.012,
+     "k": 0.003,
+     "region": "acc"
+    },
+    {
+     "id": "button.1",
+     "type": "sphere",
+     "c": [
+      0.045,
+      0.32,
+      -0.158
+     ],
+     "r": 0.012,
+     "k": 0.003,
+     "region": "acc"
+    },
+    {
+     "id": "button.2",
+     "type": "sphere",
+     "c": [
+      0.045,
+      0.4,
+      -0.158
+     ],
+     "r": 0.012,
+     "k": 0.003,
+     "region": "acc"
+    }
+   ]
+  }
+ },
+ "outfits": {
+  "vest": {
+   "name": "Yelek",
+   "torso": "outfit",
+   "shoulders": "shirt",
+   "upperArm": "shirt",
+   "forearm": "shirt",
+   "cuff": "shirt",
+   "neckRing": null,
+   "front": [
+    {
+     "shape": "V",
+     "color": "shirt",
+     "y": [
+      0.38,
+      0.56
+     ],
+     "halfWidthAt": [
+      0.0,
+      0.11
+     ],
+     "note": "|x| < 0,11·(y−0,38)/0,18, z < −0,05"
+    }
+   ],
+   "shirt": "#eee1c7",
+   "buttons": "buttons-brass"
+  },
+  "sweater": {
+   "name": "Kazak",
+   "torso": "outfit",
+   "shoulders": "outfit",
+   "upperArm": "outfit",
+   "forearm": "outfit",
+   "cuff": "outfitDark",
+   "neckRing": 0.575,
+   "front": [],
+   "shirt": null,
+   "buttons": null
+  },
+  "jacket": {
+   "name": "Ceket",
+   "torso": "outfit",
+   "shoulders": "outfit",
+   "upperArm": "outfit",
+   "forearm": "outfit",
+   "cuff": "shirt",
+   "neckRing": null,
+   "front": [
+    {
+     "shape": "V",
+     "color": "shirt",
+     "y": [
+      0.36,
+      0.56
+     ],
+     "halfWidthAt": [
+      0.0,
+      0.12
+     ],
+     "note": "|x| < 0,12·(y−0,36)/0,20, z < −0,05"
+    },
+    {
+     "shape": "Vband",
+     "color": "outfitDark",
+     "y": [
+      0.36,
+      0.56
+     ],
+     "halfWidthAt": [
+      0.0,
+      0.12
+     ],
+     "band": 0.035,
+     "note": "V kenarında 35 mm yaka bandı, −12 % L"
+    }
+   ],
+   "shirt": "#eee1c7",
+   "buttons": null
+  },
+  "cardigan": {
+   "name": "Hırka",
+   "torso": "outfit",
+   "shoulders": "outfit",
+   "upperArm": "outfit",
+   "forearm": "outfit",
+   "cuff": "outfit",
+   "neckRing": null,
+   "front": [
+    {
+     "shape": "strip",
+     "color": "shirt",
+     "y": [
+      0.2,
+      0.56
+     ],
+     "halfWidth": 0.05,
+     "note": "|x| < 0,05, z < −0,05 (iç bluz)"
+    },
+    {
+     "shape": "V",
+     "color": "shirt",
+     "y": [
+      0.4,
+      0.56
+     ],
+     "halfWidthAt": [
+      0.05,
+      0.15
+     ],
+     "note": "|x| < 0,05 + 0,10·(y−0,40)/0,16"
+    }
+   ],
+   "shirt": "#eee1c7",
+   "buttons": "buttons-cream"
+  },
+  "tshirt": {
+   "name": "Tişört",
+   "torso": "outfit",
+   "shoulders": "outfit",
+   "upperArm": "outfit",
+   "forearm": "skin",
+   "cuff": null,
+   "neckRing": 0.575,
+   "front": [],
+   "shirt": null,
+   "buttons": null,
+   "note": "cuff ilkeli çıkarılır (kısa kol); önkol ten; bilek r 0,036 ten"
+  }
+ },
+ "legColor": "#3b3833",
+ "skins": [
+  {
+   "id": "acik",
+   "base": "#f1c9a3",
+   "shadow": "#d8a074"
+  },
+  {
+   "id": "orta",
+   "base": "#c98f62",
+   "shadow": "#a56f46"
+  },
+  {
+   "id": "koyu",
+   "base": "#7d4b30",
+   "shadow": "#5c3521"
+  }
+ ],
+ "characters": [
+  {
+   "id": "biyikli-amca",
+   "name": "Bıyıklı Amca",
+   "accessories": [
+    {
+     "id": "hair-side"
+    },
+    {
+     "id": "mustache-thick"
+    },
+    {
+     "id": "collar"
+    },
+    {
+     "id": "buttons-brass"
+    }
+   ],
+   "bodyScale": {
+    "belly": 1.15,
+    "shoulders": 1.05,
+    "head": 1.0
+   },
+   "accent": "#7a2a3a",
+   "outfit": "vest",
+   "outfitColor": "#7a2a3a",
+   "skins": [
+    "#f1c9a3",
+    "#c98f62",
+    "#7d4b30"
+   ],
+   "face": {
+    "brows": {
+     "color": "#8f877c",
+     "weight": 1.4,
+     "asym": 0.0
+    },
+    "cheeks": {
+     "color": "#e07c7c",
+     "alphaScale": 1.0
+    },
+    "freckles": false,
+    "mouthStyle": "default",
+    "defaultExpression": "smile"
+   },
+   "tagline": "BORDO YELEK · KEL · KALIN BIYIK"
+  },
+  {
+   "id": "gozluklu",
+   "name": "Gözlüklü",
+   "accessories": [
+    {
+     "id": "hair-flat",
+     "color": "#3a2419"
+    },
+    {
+     "id": "glasses"
+    }
+   ],
+   "bodyScale": {
+    "belly": 1.0,
+    "shoulders": 1.0,
+    "head": 1.0
+   },
+   "accent": "#c9973a",
+   "outfit": "sweater",
+   "outfitColor": "#c9973a",
+   "skins": [
+    "#f1c9a3",
+    "#c98f62",
+    "#7d4b30"
+   ],
+   "face": {
+    "brows": {
+     "color": "#3a2419",
+     "weight": 1.0,
+     "asym": 0.0
+    },
+    "cheeks": {
+     "color": "#e07c7c",
+     "alphaScale": 1.0
+    },
+    "freckles": false,
+    "mouthStyle": "default",
+    "defaultExpression": "smile"
+   },
+   "tagline": "HARDAL KAZAK · YUVARLAK GÖZLÜK · DÜZ SAÇ"
+  },
+  {
+   "id": "topuzlu",
+   "name": "Topuzlu",
+   "accessories": [
+    {
+     "id": "hair-bun",
+     "color": "#2b2220",
+     "colors": {
+      "bunTie": "#2e7a5a"
+     }
+    },
+    {
+     "id": "earrings"
+    },
+    {
+     "id": "collar"
+    }
+   ],
+   "bodyScale": {
+    "belly": 0.95,
+    "shoulders": 0.95,
+    "head": 1.0
+   },
+   "accent": "#2e7a5a",
+   "outfit": "jacket",
+   "outfitColor": "#2e7a5a",
+   "skins": [
+    "#f1c9a3",
+    "#c98f62",
+    "#7d4b30"
+   ],
+   "face": {
+    "brows": {
+     "color": "#2b2220",
+     "weight": 0.9,
+     "asym": 0.0
+    },
+    "cheeks": {
+     "color": "#e07c7c",
+     "alphaScale": 1.0
+    },
+    "freckles": false,
+    "mouthStyle": "default",
+    "defaultExpression": "smile"
+   },
+   "tagline": "ZÜMRÜT CEKET · TOPUZ · KÜPE"
+  },
+  {
+   "id": "fotr",
+   "name": "Fötr",
+   "accessories": [
+    {
+     "id": "fedora",
+     "color": "#25355a"
+    },
+    {
+     "id": "hair-sideburns"
+    },
+    {
+     "id": "mustache-thin"
+    },
+    {
+     "id": "bowtie"
+    },
+    {
+     "id": "collar"
+    }
+   ],
+   "bodyScale": {
+    "belly": 1.0,
+    "shoulders": 1.0,
+    "head": 1.0
+   },
+   "accent": "#25355a",
+   "outfit": "jacket",
+   "outfitColor": "#25355a",
+   "skins": [
+    "#f1c9a3",
+    "#c98f62",
+    "#7d4b30"
+   ],
+   "face": {
+    "brows": {
+     "color": "#2b2220",
+     "weight": 1.0,
+     "asym": 0.012
+    },
+    "cheeks": {
+     "color": "#e07c7c",
+     "alphaScale": 1.0
+    },
+    "freckles": false,
+    "mouthStyle": "default",
+    "defaultExpression": "smile"
+   },
+   "tagline": "LACİVERT · FÖTR · PAPYON · İNCE BIYIK"
+  },
+  {
+   "id": "sakalli",
+   "name": "Sakallı",
+   "accessories": [
+    {
+     "id": "beanie",
+     "color": "#d97b2f"
+    },
+    {
+     "id": "beard-full",
+     "color": "#4a3a30"
+    }
+   ],
+   "bodyScale": {
+    "belly": 1.1,
+    "shoulders": 1.08,
+    "head": 1.0
+   },
+   "accent": "#d97b2f",
+   "outfit": "sweater",
+   "outfitColor": "#4f5a3c",
+   "skins": [
+    "#f1c9a3",
+    "#c98f62",
+    "#7d4b30"
+   ],
+   "face": {
+    "brows": {
+     "color": "#4a3a30",
+     "weight": 1.3,
+     "asym": 0.0
+    },
+    "cheeks": {
+     "color": "#e07c7c",
+     "alphaScale": 1.0
+    },
+    "freckles": false,
+    "mouthStyle": "default",
+    "defaultExpression": "smile"
+   },
+   "tagline": "TURUNCU BERE · DOLGUN SAKAL · ZEYTİN KAZAK"
+  },
+  {
+   "id": "kivircik",
+   "name": "Kıvırcık",
+   "accessories": [
+    {
+     "id": "hair-curly",
+     "color": "#2a1d18"
+    },
+    {
+     "id": "scarf",
+     "color": "#7a4f9e"
+    }
+   ],
+   "bodyScale": {
+    "belly": 0.97,
+    "shoulders": 0.97,
+    "head": 1.0
+   },
+   "accent": "#7a4f9e",
+   "outfit": "sweater",
+   "outfitColor": "#c9b9a0",
+   "skins": [
+    "#f1c9a3",
+    "#c98f62",
+    "#7d4b30"
+   ],
+   "face": {
+    "brows": {
+     "color": "#2a1d18",
+     "weight": 1.0,
+     "asym": 0.0
+    },
+    "cheeks": {
+     "color": "#e07c7c",
+     "alphaScale": 1.0
+    },
+    "freckles": false,
+    "mouthStyle": "default",
+    "defaultExpression": "smile"
+   },
+   "tagline": "MOR FULAR · KABARIK KIVIRCIK · BEJ KAZAK"
+  },
+  {
+   "id": "bereli-teyze",
+   "name": "Bereli Teyze",
+   "accessories": [
+    {
+     "id": "beret"
+    },
+    {
+     "id": "hair-side-curls"
+    },
+    {
+     "id": "glasses"
+    },
+    {
+     "id": "glasses-chain"
+    },
+    {
+     "id": "buttons-cream"
+    }
+   ],
+   "bodyScale": {
+    "belly": 1.05,
+    "shoulders": 0.95,
+    "head": 1.0
+   },
+   "accent": "#e6a0b8",
+   "outfit": "cardigan",
+   "outfitColor": "#e6a0b8",
+   "skins": [
+    "#f1c9a3",
+    "#c98f62",
+    "#7d4b30"
+   ],
+   "face": {
+    "brows": {
+     "color": "#9c948a",
+     "weight": 1.0,
+     "asym": 0.0
+    },
+    "cheeks": {
+     "color": "#e07c7c",
+     "alphaScale": 1.0
+    },
+    "freckles": false,
+    "mouthStyle": "default",
+    "defaultExpression": "smile"
+   },
+   "tagline": "PEMBE HIRKA · BERE · GÖZLÜK ZİNCİRİ"
+  },
+  {
+   "id": "kepli-cocuk",
+   "name": "Kepli Çocuk Kalpli",
+   "accessories": [
+    {
+     "id": "cap"
+    },
+    {
+     "id": "hair-tufts"
+    }
+   ],
+   "bodyScale": {
+    "belly": 0.95,
+    "shoulders": 0.9,
+    "head": 1.0
+   },
+   "accent": "#8ec5df",
+   "outfit": "tshirt",
+   "outfitColor": "#8ec5df",
+   "skins": [
+    "#f1c9a3",
+    "#c98f62",
+    "#7d4b30"
+   ],
+   "face": {
+    "brows": {
+     "color": "#241c19",
+     "weight": 0.9,
+     "asym": 0.0
+    },
+    "cheeks": {
+     "color": "#ff9a8a",
+     "alphaScale": 1.6
+    },
+    "freckles": true,
+    "mouthStyle": "grin",
+    "defaultExpression": "smile"
+   },
+   "tagline": "AÇIK MAVİ TİŞÖRT · KEP · ÇİLLER"
+  }
+ ],
+ "faces": {
+  "canvas": {
+   "w": 512,
+   "h": 256
+  },
+  "window": {
+   "x": [
+    -0.2,
+    0.2
+   ],
+   "y": [
+    0.62,
+    0.94
+   ],
+   "note": "planar Z projeksiyonu; u=(x+0,20)/0,40, v=(y−0,62)/0,32; px/mm: x 1,28 · y 0,80; baş merkezi tuvalde (256, 120)"
+  },
+  "membership": {
+   "regions": [
+    "head"
+   ],
+   "normalZmax": -0.25,
+   "note": "üçgenin 3 köşesi de üyeyse yüz grubuna (material index 1)"
+  },
+  "layers": [
+   "skin",
+   "cheeks",
+   "freckles",
+   "eyeWhites",
+   "pupils+highlights",
+   "blinkLid",
+   "brows",
+   "mouth(+teeth/tongue/lip)",
+   "lensHighlight"
+  ],
+  "features_mm": {
+   "eye": {
+    "c": [
+     80,
+     -16
+    ],
+    "rx": 42,
+    "ry": 50,
+    "pupil": {
+     "dy": -6,
+     "r": 24
+    },
+    "highlight": {
+     "d": [
+      -10,
+      6
+     ],
+     "r": 9
+    },
+    "highlight2": {
+     "d": [
+      8,
+      -14
+     ],
+     "r": 4
+    },
+    "white": "#fbf7ee",
+    "ink": "#252b2c"
+   },
+   "browWidth": 16,
+   "browColorDefault": "#2b2220",
+   "cheek": {
+    "c": [
+     128,
+     -92
+    ],
+    "r": 30,
+    "rxScale": 0.9
+   },
+   "mouthWidth": 12,
+   "freckles": [
+    [
+     -140,
+     -80
+    ],
+    [
+     -116,
+     -104
+    ],
+    [
+     -96,
+     -88
+    ],
+    [
+     -124,
+     -124
+    ],
+    [
+     140,
+     -80
+    ],
+    [
+     116,
+     -104
+    ],
+    [
+     96,
+     -88
+    ],
+    [
+     124,
+     -124
+    ],
+    [
+     -28,
+     -60
+    ],
+    [
+     32,
+     -64
+    ]
+   ],
+   "freckle": {
+    "r": 6,
+    "color": "#3e2214",
+    "alpha": 0.75
+   },
+   "teeth": {
+    "rect": [
+     -56,
+     -122,
+     112,
+     22
+    ],
+    "gap": [
+     -8,
+     -122,
+     10,
+     22
+    ],
+    "color": "#fbf7ee"
+   },
+   "lensHighlight": {
+    "r": 50,
+    "color": "#ffffff",
+    "alpha": 0.08
+   }
+  },
+  "expressions": {
+   "neutral": {
+    "brow": [
+     [
+      44,
+      68
+     ],
+     [
+      80,
+      74
+     ],
+     [
+      116,
+      72
+     ]
+    ],
+    "eyeScale": 1.0,
+    "pupilDy": 0,
+    "lid": 0.0,
+    "cheekAlpha": 0.14,
+    "cheekR": 30,
+    "mouth": {
+     "type": "arc",
+     "p": [
+      [
+       -36,
+       -132
+      ],
+      [
+       0,
+       -144
+      ],
+      [
+       36,
+       -132
+      ]
+     ]
+    }
+   },
+   "smile": {
+    "brow": [
+     [
+      44,
+      60
+     ],
+     [
+      80,
+      80
+     ],
+     [
+      116,
+      76
+     ]
+    ],
+    "eyeScale": 1.0,
+    "pupilDy": 0,
+    "lid": 0.0,
+    "cheekAlpha": 0.34,
+    "cheekR": 34,
+    "mouth": {
+     "type": "arc",
+     "p": [
+      [
+       -56,
+       -120
+      ],
+      [
+       0,
+       -172
+      ],
+      [
+       56,
+       -120
+      ]
+     ]
+    }
+   },
+   "surprised": {
+    "brow": [
+     [
+      44,
+      104
+     ],
+     [
+      80,
+      122
+     ],
+     [
+      116,
+      100
+     ]
+    ],
+    "eyeScale": 1.18,
+    "pupilDy": 0,
+    "pupilR": 20,
+    "lid": 0.0,
+    "cheekAlpha": 0.12,
+    "cheekR": 30,
+    "mouth": {
+     "type": "o",
+     "c": [
+      0,
+      -148
+     ],
+     "rx": 26,
+     "ry": 32,
+     "tongue": {
+      "c": [
+       0,
+       -158
+      ],
+      "r": 14,
+      "color": "#b0524f"
+     }
+    }
+   },
+   "grumpy": {
+    "brow": [
+     [
+      44,
+      56
+     ],
+     [
+      80,
+      70
+     ],
+     [
+      116,
+      84
+     ]
+    ],
+    "eyeScale": 1.0,
+    "pupilDy": -8,
+    "lid": 0.35,
+    "cheekAlpha": 0.2,
+    "cheekR": 30,
+    "mouth": {
+     "type": "arc",
+     "p": [
+      [
+       -48,
+       -152
+      ],
+      [
+       0,
+       -116
+      ],
+      [
+       48,
+       -152
+      ]
+     ],
+     "lowerLip": {
+      "c": [
+       0,
+       -168
+      ],
+      "rx": 20,
+      "ry": 10,
+      "alpha": 0.7
+     }
+    }
+   },
+   "ko": {
+    "brow": [
+     [
+      44,
+      86
+     ],
+     [
+      80,
+      80
+     ],
+     [
+      116,
+      90
+     ]
+    ],
+    "eyeScale": 1.0,
+    "pupilDy": 0,
+    "lid": 0.0,
+    "cheekAlpha": 0.05,
+    "cheekR": 30,
+    "eyes": {
+     "type": "x",
+     "weight": 10,
+     "span": 0.7
+    },
+    "mouth": {
+     "type": "o",
+     "c": [
+      0,
+      -148
+     ],
+     "rx": 12,
+     "ry": 9,
+     "tongue": {
+      "c": [
+       0,
+       -158
+      ],
+      "r": 9,
+      "color": "#b0524f"
+     }
+    }
+   }
+  },
+  "grinMouth": {
+   "type": "grin",
+   "p": [
+    [
+     -68,
+     -116
+    ],
+    [
+     0,
+     -200
+    ],
+    [
+     68,
+     -116
+    ]
+   ],
+   "note": "kepli çocuk: dolu yay + dişler + diş boşluğu"
+  },
+  "blink": {
+   "downMs": 120,
+   "upMs": 100,
+   "intervalS": [
+    3,
+    6
+   ],
+   "frames": [
+    "open",
+    "half",
+    "closed",
+    "half",
+    "open"
+   ],
+   "reducedMotion": "kapalı"
+  }
+ },
+ "budget": {
+  "tiers": {
+   "standard": {
+    "voxel": 0.006,
+    "triangles": 6000,
+    "rawTrianglesEstimate": 70000,
+    "castShadow": true,
+    "faceCanvas": [
+     512,
+     256
+    ]
+   },
+   "low": {
+    "voxel": 0.009,
+    "triangles": 2500,
+    "rawTrianglesEstimate": 31000,
+    "castShadow": false,
+    "faceCanvas": [
+     256,
+     128
+    ]
+   }
+  },
+  "drawCallsPerPlayer": {
+   "body": 1,
+   "face": 1,
+   "hands": "PublicArms InstancedMesh (tüm oyuncular 1)"
+  },
+  "generationMs": 120,
+  "cacheKey": "karakter:ten (geometri karakter:kademe, renk özniteliği ten başına)"
+ },
+ "camera": {
+  "eyeLocalY": 0.774,
+  "eyeWorldY": 0.469,
+  "seatPrivate": {
+   "was": 0.56,
+   "now": 0.47
+  },
+  "seatFree": {
+   "was": 0.6,
+   "now": 0.51
+  },
+  "overviewTarget": "değişmez"
+ },
+ "label": {
+  "headTopLocal": 1.0,
+  "headTopWorld": 0.695,
+  "gap": 0.05,
+  "baseWorldY": 0.745,
+  "was": 0.48,
+  "perCharacter": {
+   "biyikli-amca": 0.745,
+   "gozluklu": 0.745,
+   "topuzlu": 0.745,
+   "fotr": 0.865,
+   "sakalli": 0.835,
+   "kivircik": 0.825,
+   "bereli-teyze": 0.805,
+   "kepli-cocuk": 0.765
+  }
+ }
+}
